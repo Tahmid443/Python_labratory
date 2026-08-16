@@ -1,0 +1,884 @@
+[
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.01.output_comment",
+        "description": "01.Python basics.01.Basics.01.output_comment",
+        "peekOfCode": "name = \"Taqi Tahmid\"\nprint(f\"My name is {name}\")\n\"\"\"\nThis is a multi line comment\nwhich will never execute\nWe use comment to clarify a section of a code\nso others developers can understand and modify it\n\"\"\"\nprint(\"My country is Bangladesh.\", end=\" \")#by using end = \" \" , we are basically removing new line and replace it with a space\nprint(\"This is very beautiful country\")",
+        "detail": "01.Python basics.01.Basics.01.output_comment",
+        "documentation": {}
+    },
+    {
+        "label": "myfunc",
+        "kind": 2,
+        "importPath": "01.Python basics.01.Basics.02.variables",
+        "description": "01.Python basics.01.Basics.02.variables",
+        "peekOfCode": "def myfunc():\n    print(\"Python is \" + x)\nmyfunc()\n# using global keyword\nx = \"awesome\"\ndef myfunc():\n    x = \"fantastic\"\n    print(\"Python is \" + x)\nmyfunc()\nprint(\"Python is \" + x)",
+        "detail": "01.Python basics.01.Basics.02.variables",
+        "documentation": {}
+    },
+    {
+        "label": "myfunc",
+        "kind": 2,
+        "importPath": "01.Python basics.01.Basics.02.variables",
+        "description": "01.Python basics.01.Basics.02.variables",
+        "peekOfCode": "def myfunc():\n    x = \"fantastic\"\n    print(\"Python is \" + x)\nmyfunc()\nprint(\"Python is \" + x)",
+        "detail": "01.Python basics.01.Basics.02.variables",
+        "documentation": {}
+    },
+    {
+        "label": "fruit",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.02.variables",
+        "description": "01.Python basics.01.Basics.02.variables",
+        "peekOfCode": "fruit = \"banana\"\nweight = 40\nheight = 5.6\nprint(fruit,\" \",weight,\" \",height)\n# multiple variables\nx,y,z = \"apple\",\"orange\",\"mango\"\nprint(x)\nprint(y)\nprint(z)\n# we can also unpack from any collection",
+        "detail": "01.Python basics.01.Basics.02.variables",
+        "documentation": {}
+    },
+    {
+        "label": "weight",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.02.variables",
+        "description": "01.Python basics.01.Basics.02.variables",
+        "peekOfCode": "weight = 40\nheight = 5.6\nprint(fruit,\" \",weight,\" \",height)\n# multiple variables\nx,y,z = \"apple\",\"orange\",\"mango\"\nprint(x)\nprint(y)\nprint(z)\n# we can also unpack from any collection\nmarks = [90,89,85]",
+        "detail": "01.Python basics.01.Basics.02.variables",
+        "documentation": {}
+    },
+    {
+        "label": "height",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.02.variables",
+        "description": "01.Python basics.01.Basics.02.variables",
+        "peekOfCode": "height = 5.6\nprint(fruit,\" \",weight,\" \",height)\n# multiple variables\nx,y,z = \"apple\",\"orange\",\"mango\"\nprint(x)\nprint(y)\nprint(z)\n# we can also unpack from any collection\nmarks = [90,89,85]\na,b,c = marks",
+        "detail": "01.Python basics.01.Basics.02.variables",
+        "documentation": {}
+    },
+    {
+        "label": "x,y,z",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.02.variables",
+        "description": "01.Python basics.01.Basics.02.variables",
+        "peekOfCode": "x,y,z = \"apple\",\"orange\",\"mango\"\nprint(x)\nprint(y)\nprint(z)\n# we can also unpack from any collection\nmarks = [90,89,85]\na,b,c = marks\nprint(a)\nprint(b)\nprint(c)",
+        "detail": "01.Python basics.01.Basics.02.variables",
+        "documentation": {}
+    },
+    {
+        "label": "marks",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.02.variables",
+        "description": "01.Python basics.01.Basics.02.variables",
+        "peekOfCode": "marks = [90,89,85]\na,b,c = marks\nprint(a)\nprint(b)\nprint(c)\n# global and local\n# Variables that are created outside of a function (as in all of the examples in the previous pages) are known as global variables.\nx = \"awesome\" #its global\ndef myfunc():\n    print(\"Python is \" + x)",
+        "detail": "01.Python basics.01.Basics.02.variables",
+        "documentation": {}
+    },
+    {
+        "label": "a,b,c",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.02.variables",
+        "description": "01.Python basics.01.Basics.02.variables",
+        "peekOfCode": "a,b,c = marks\nprint(a)\nprint(b)\nprint(c)\n# global and local\n# Variables that are created outside of a function (as in all of the examples in the previous pages) are known as global variables.\nx = \"awesome\" #its global\ndef myfunc():\n    print(\"Python is \" + x)\nmyfunc()",
+        "detail": "01.Python basics.01.Basics.02.variables",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.02.variables",
+        "description": "01.Python basics.01.Basics.02.variables",
+        "peekOfCode": "x = \"awesome\" #its global\ndef myfunc():\n    print(\"Python is \" + x)\nmyfunc()\n# using global keyword\nx = \"awesome\"\ndef myfunc():\n    x = \"fantastic\"\n    print(\"Python is \" + x)\nmyfunc()",
+        "detail": "01.Python basics.01.Basics.02.variables",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.02.variables",
+        "description": "01.Python basics.01.Basics.02.variables",
+        "peekOfCode": "x = \"awesome\"\ndef myfunc():\n    x = \"fantastic\"\n    print(\"Python is \" + x)\nmyfunc()\nprint(\"Python is \" + x)",
+        "detail": "01.Python basics.01.Basics.02.variables",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.03.datatype",
+        "description": "01.Python basics.01.Basics.03.datatype",
+        "peekOfCode": "x = 5\nprint(type(x))\n\"\"\"\nx = str(\"Hello World\")\tstr\t\nx = int(20)\tint\t\nx = float(20.5)\tfloat\t\nx = complex(1j)\tcomplex\t\nx = list((\"apple\", \"banana\", \"cherry\"))\tlist\t\nx = tuple((\"apple\", \"banana\", \"cherry\"))\ttuple\t\nx = range(6)\trange\t",
+        "detail": "01.Python basics.01.Basics.03.datatype",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.03.datatype",
+        "description": "01.Python basics.01.Basics.03.datatype",
+        "peekOfCode": "x = str(\"Hello World\")\tstr\t\nx = int(20)\tint\t\nx = float(20.5)\tfloat\t\nx = complex(1j)\tcomplex\t\nx = list((\"apple\", \"banana\", \"cherry\"))\tlist\t\nx = tuple((\"apple\", \"banana\", \"cherry\"))\ttuple\t\nx = range(6)\trange\t\nx = dict(name=\"John\", age=36)\tdict\t\nx = set((\"apple\", \"banana\", \"cherry\"))\tset\t\nx = frozenset((\"apple\", \"banana\", \"cherry\"))\tfrozenset\t",
+        "detail": "01.Python basics.01.Basics.03.datatype",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.03.datatype",
+        "description": "01.Python basics.01.Basics.03.datatype",
+        "peekOfCode": "x = int(20)\tint\t\nx = float(20.5)\tfloat\t\nx = complex(1j)\tcomplex\t\nx = list((\"apple\", \"banana\", \"cherry\"))\tlist\t\nx = tuple((\"apple\", \"banana\", \"cherry\"))\ttuple\t\nx = range(6)\trange\t\nx = dict(name=\"John\", age=36)\tdict\t\nx = set((\"apple\", \"banana\", \"cherry\"))\tset\t\nx = frozenset((\"apple\", \"banana\", \"cherry\"))\tfrozenset\t\nx = bool(5)\tbool\t",
+        "detail": "01.Python basics.01.Basics.03.datatype",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.03.datatype",
+        "description": "01.Python basics.01.Basics.03.datatype",
+        "peekOfCode": "x = float(20.5)\tfloat\t\nx = complex(1j)\tcomplex\t\nx = list((\"apple\", \"banana\", \"cherry\"))\tlist\t\nx = tuple((\"apple\", \"banana\", \"cherry\"))\ttuple\t\nx = range(6)\trange\t\nx = dict(name=\"John\", age=36)\tdict\t\nx = set((\"apple\", \"banana\", \"cherry\"))\tset\t\nx = frozenset((\"apple\", \"banana\", \"cherry\"))\tfrozenset\t\nx = bool(5)\tbool\t\nx = bytes(5)\tbytes\t",
+        "detail": "01.Python basics.01.Basics.03.datatype",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.03.datatype",
+        "description": "01.Python basics.01.Basics.03.datatype",
+        "peekOfCode": "x = complex(1j)\tcomplex\t\nx = list((\"apple\", \"banana\", \"cherry\"))\tlist\t\nx = tuple((\"apple\", \"banana\", \"cherry\"))\ttuple\t\nx = range(6)\trange\t\nx = dict(name=\"John\", age=36)\tdict\t\nx = set((\"apple\", \"banana\", \"cherry\"))\tset\t\nx = frozenset((\"apple\", \"banana\", \"cherry\"))\tfrozenset\t\nx = bool(5)\tbool\t\nx = bytes(5)\tbytes\t\nx = bytearray(5)\tbytearray\t",
+        "detail": "01.Python basics.01.Basics.03.datatype",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.03.datatype",
+        "description": "01.Python basics.01.Basics.03.datatype",
+        "peekOfCode": "x = list((\"apple\", \"banana\", \"cherry\"))\tlist\t\nx = tuple((\"apple\", \"banana\", \"cherry\"))\ttuple\t\nx = range(6)\trange\t\nx = dict(name=\"John\", age=36)\tdict\t\nx = set((\"apple\", \"banana\", \"cherry\"))\tset\t\nx = frozenset((\"apple\", \"banana\", \"cherry\"))\tfrozenset\t\nx = bool(5)\tbool\t\nx = bytes(5)\tbytes\t\nx = bytearray(5)\tbytearray\t\nx = memoryview(bytes(5))\tmemoryview\t",
+        "detail": "01.Python basics.01.Basics.03.datatype",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.03.datatype",
+        "description": "01.Python basics.01.Basics.03.datatype",
+        "peekOfCode": "x = tuple((\"apple\", \"banana\", \"cherry\"))\ttuple\t\nx = range(6)\trange\t\nx = dict(name=\"John\", age=36)\tdict\t\nx = set((\"apple\", \"banana\", \"cherry\"))\tset\t\nx = frozenset((\"apple\", \"banana\", \"cherry\"))\tfrozenset\t\nx = bool(5)\tbool\t\nx = bytes(5)\tbytes\t\nx = bytearray(5)\tbytearray\t\nx = memoryview(bytes(5))\tmemoryview\t\n\"\"\"",
+        "detail": "01.Python basics.01.Basics.03.datatype",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.03.datatype",
+        "description": "01.Python basics.01.Basics.03.datatype",
+        "peekOfCode": "x = range(6)\trange\t\nx = dict(name=\"John\", age=36)\tdict\t\nx = set((\"apple\", \"banana\", \"cherry\"))\tset\t\nx = frozenset((\"apple\", \"banana\", \"cherry\"))\tfrozenset\t\nx = bool(5)\tbool\t\nx = bytes(5)\tbytes\t\nx = bytearray(5)\tbytearray\t\nx = memoryview(bytes(5))\tmemoryview\t\n\"\"\"",
+        "detail": "01.Python basics.01.Basics.03.datatype",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.03.datatype",
+        "description": "01.Python basics.01.Basics.03.datatype",
+        "peekOfCode": "x = dict(name=\"John\", age=36)\tdict\t\nx = set((\"apple\", \"banana\", \"cherry\"))\tset\t\nx = frozenset((\"apple\", \"banana\", \"cherry\"))\tfrozenset\t\nx = bool(5)\tbool\t\nx = bytes(5)\tbytes\t\nx = bytearray(5)\tbytearray\t\nx = memoryview(bytes(5))\tmemoryview\t\n\"\"\"",
+        "detail": "01.Python basics.01.Basics.03.datatype",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.03.datatype",
+        "description": "01.Python basics.01.Basics.03.datatype",
+        "peekOfCode": "x = set((\"apple\", \"banana\", \"cherry\"))\tset\t\nx = frozenset((\"apple\", \"banana\", \"cherry\"))\tfrozenset\t\nx = bool(5)\tbool\t\nx = bytes(5)\tbytes\t\nx = bytearray(5)\tbytearray\t\nx = memoryview(bytes(5))\tmemoryview\t\n\"\"\"",
+        "detail": "01.Python basics.01.Basics.03.datatype",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.03.datatype",
+        "description": "01.Python basics.01.Basics.03.datatype",
+        "peekOfCode": "x = frozenset((\"apple\", \"banana\", \"cherry\"))\tfrozenset\t\nx = bool(5)\tbool\t\nx = bytes(5)\tbytes\t\nx = bytearray(5)\tbytearray\t\nx = memoryview(bytes(5))\tmemoryview\t\n\"\"\"",
+        "detail": "01.Python basics.01.Basics.03.datatype",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.03.datatype",
+        "description": "01.Python basics.01.Basics.03.datatype",
+        "peekOfCode": "x = bool(5)\tbool\t\nx = bytes(5)\tbytes\t\nx = bytearray(5)\tbytearray\t\nx = memoryview(bytes(5))\tmemoryview\t\n\"\"\"",
+        "detail": "01.Python basics.01.Basics.03.datatype",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.03.datatype",
+        "description": "01.Python basics.01.Basics.03.datatype",
+        "peekOfCode": "x = bytes(5)\tbytes\t\nx = bytearray(5)\tbytearray\t\nx = memoryview(bytes(5))\tmemoryview\t\n\"\"\"",
+        "detail": "01.Python basics.01.Basics.03.datatype",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.03.datatype",
+        "description": "01.Python basics.01.Basics.03.datatype",
+        "peekOfCode": "x = bytearray(5)\tbytearray\t\nx = memoryview(bytes(5))\tmemoryview\t\n\"\"\"",
+        "detail": "01.Python basics.01.Basics.03.datatype",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.03.datatype",
+        "description": "01.Python basics.01.Basics.03.datatype",
+        "peekOfCode": "x = memoryview(bytes(5))\tmemoryview\t\n\"\"\"",
+        "detail": "01.Python basics.01.Basics.03.datatype",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.04.numbers",
+        "description": "01.Python basics.01.Basics.04.numbers",
+        "peekOfCode": "a = 1\nb = 1.4\nc = 2j\n# int\nx = 1\ny = 35656222554887711\nz = -3255522\nprint(type(x))\nprint(type(y))\nprint(type(z))",
+        "detail": "01.Python basics.01.Basics.04.numbers",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.04.numbers",
+        "description": "01.Python basics.01.Basics.04.numbers",
+        "peekOfCode": "b = 1.4\nc = 2j\n# int\nx = 1\ny = 35656222554887711\nz = -3255522\nprint(type(x))\nprint(type(y))\nprint(type(z))\n# float",
+        "detail": "01.Python basics.01.Basics.04.numbers",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.04.numbers",
+        "description": "01.Python basics.01.Basics.04.numbers",
+        "peekOfCode": "c = 2j\n# int\nx = 1\ny = 35656222554887711\nz = -3255522\nprint(type(x))\nprint(type(y))\nprint(type(z))\n# float\nx = 1.10",
+        "detail": "01.Python basics.01.Basics.04.numbers",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.04.numbers",
+        "description": "01.Python basics.01.Basics.04.numbers",
+        "peekOfCode": "x = 1\ny = 35656222554887711\nz = -3255522\nprint(type(x))\nprint(type(y))\nprint(type(z))\n# float\nx = 1.10\ny = 1.0\nz = -35.59",
+        "detail": "01.Python basics.01.Basics.04.numbers",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.04.numbers",
+        "description": "01.Python basics.01.Basics.04.numbers",
+        "peekOfCode": "y = 35656222554887711\nz = -3255522\nprint(type(x))\nprint(type(y))\nprint(type(z))\n# float\nx = 1.10\ny = 1.0\nz = -35.59\nprint(type(x))",
+        "detail": "01.Python basics.01.Basics.04.numbers",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.04.numbers",
+        "description": "01.Python basics.01.Basics.04.numbers",
+        "peekOfCode": "z = -3255522\nprint(type(x))\nprint(type(y))\nprint(type(z))\n# float\nx = 1.10\ny = 1.0\nz = -35.59\nprint(type(x))\nprint(type(y))",
+        "detail": "01.Python basics.01.Basics.04.numbers",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.04.numbers",
+        "description": "01.Python basics.01.Basics.04.numbers",
+        "peekOfCode": "x = 1.10\ny = 1.0\nz = -35.59\nprint(type(x))\nprint(type(y))\nprint(type(z))\n# complex\nx = 35e3\ny = 12e4\nz = -87.7e100",
+        "detail": "01.Python basics.01.Basics.04.numbers",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.04.numbers",
+        "description": "01.Python basics.01.Basics.04.numbers",
+        "peekOfCode": "y = 1.0\nz = -35.59\nprint(type(x))\nprint(type(y))\nprint(type(z))\n# complex\nx = 35e3\ny = 12e4\nz = -87.7e100\nprint(type(x))",
+        "detail": "01.Python basics.01.Basics.04.numbers",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.04.numbers",
+        "description": "01.Python basics.01.Basics.04.numbers",
+        "peekOfCode": "z = -35.59\nprint(type(x))\nprint(type(y))\nprint(type(z))\n# complex\nx = 35e3\ny = 12e4\nz = -87.7e100\nprint(type(x))\nprint(type(y))",
+        "detail": "01.Python basics.01.Basics.04.numbers",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.04.numbers",
+        "description": "01.Python basics.01.Basics.04.numbers",
+        "peekOfCode": "x = 35e3\ny = 12e4\nz = -87.7e100\nprint(type(x))\nprint(type(y))\nprint(type(z))\n# type conversion\nx = 1  # int\ny = 2.8  # float\nz = 1j  # complex",
+        "detail": "01.Python basics.01.Basics.04.numbers",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.04.numbers",
+        "description": "01.Python basics.01.Basics.04.numbers",
+        "peekOfCode": "y = 12e4\nz = -87.7e100\nprint(type(x))\nprint(type(y))\nprint(type(z))\n# type conversion\nx = 1  # int\ny = 2.8  # float\nz = 1j  # complex\n# convert from int to float:",
+        "detail": "01.Python basics.01.Basics.04.numbers",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.04.numbers",
+        "description": "01.Python basics.01.Basics.04.numbers",
+        "peekOfCode": "z = -87.7e100\nprint(type(x))\nprint(type(y))\nprint(type(z))\n# type conversion\nx = 1  # int\ny = 2.8  # float\nz = 1j  # complex\n# convert from int to float:\na = float(x)",
+        "detail": "01.Python basics.01.Basics.04.numbers",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.04.numbers",
+        "description": "01.Python basics.01.Basics.04.numbers",
+        "peekOfCode": "x = 1  # int\ny = 2.8  # float\nz = 1j  # complex\n# convert from int to float:\na = float(x)\n# convert from float to int:\nb = int(y)\n# convert from int to complex:\nc = complex(x)\nprint(a)",
+        "detail": "01.Python basics.01.Basics.04.numbers",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.04.numbers",
+        "description": "01.Python basics.01.Basics.04.numbers",
+        "peekOfCode": "y = 2.8  # float\nz = 1j  # complex\n# convert from int to float:\na = float(x)\n# convert from float to int:\nb = int(y)\n# convert from int to complex:\nc = complex(x)\nprint(a)\nprint(b)",
+        "detail": "01.Python basics.01.Basics.04.numbers",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.04.numbers",
+        "description": "01.Python basics.01.Basics.04.numbers",
+        "peekOfCode": "z = 1j  # complex\n# convert from int to float:\na = float(x)\n# convert from float to int:\nb = int(y)\n# convert from int to complex:\nc = complex(x)\nprint(a)\nprint(b)\nprint(c)",
+        "detail": "01.Python basics.01.Basics.04.numbers",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.04.numbers",
+        "description": "01.Python basics.01.Basics.04.numbers",
+        "peekOfCode": "a = float(x)\n# convert from float to int:\nb = int(y)\n# convert from int to complex:\nc = complex(x)\nprint(a)\nprint(b)\nprint(c)\nprint(type(a))\nprint(type(b))",
+        "detail": "01.Python basics.01.Basics.04.numbers",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.04.numbers",
+        "description": "01.Python basics.01.Basics.04.numbers",
+        "peekOfCode": "b = int(y)\n# convert from int to complex:\nc = complex(x)\nprint(a)\nprint(b)\nprint(c)\nprint(type(a))\nprint(type(b))\nprint(type(c))",
+        "detail": "01.Python basics.01.Basics.04.numbers",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.04.numbers",
+        "description": "01.Python basics.01.Basics.04.numbers",
+        "peekOfCode": "c = complex(x)\nprint(a)\nprint(b)\nprint(c)\nprint(type(a))\nprint(type(b))\nprint(type(c))",
+        "detail": "01.Python basics.01.Basics.04.numbers",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.05.random_number",
+        "description": "01.Python basics.01.Basics.05.random_number",
+        "peekOfCode": "num =  random.random()\nprint(num)\n# ----------------------------------------------#\n# Python random.choice() is an inbuilt function in the Python programming language that returns a random item from a list, tuple, or string.\n# prints a random value from the list\nlist1 = [1, 2, 3, 4, 5, 6]\nprint(random.choice(list1))\n# prints a random item from the string\ntext = \"striver\"\nprint(random.choice(text))",
+        "detail": "01.Python basics.01.Basics.05.random_number",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.05.random_number",
+        "description": "01.Python basics.01.Basics.05.random_number",
+        "peekOfCode": "list1 = [1, 2, 3, 4, 5, 6]\nprint(random.choice(list1))\n# prints a random item from the string\ntext = \"striver\"\nprint(random.choice(text))\n# ----------------------------------------------#\n# The random module offers a function that can generate Python random numbers from a specified range and also allows room for steps to be included, called randrange().\n# using choice() to generate a random number from a given list of numbers.\nprint(\"A random number from list is : \", end=\"\")\nprint(random.choice([1, 4, 8, 10, 3]))",
+        "detail": "01.Python basics.01.Basics.05.random_number",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.05.random_number",
+        "description": "01.Python basics.01.Basics.05.random_number",
+        "peekOfCode": "text = \"striver\"\nprint(random.choice(text))\n# ----------------------------------------------#\n# The random module offers a function that can generate Python random numbers from a specified range and also allows room for steps to be included, called randrange().\n# using choice() to generate a random number from a given list of numbers.\nprint(\"A random number from list is : \", end=\"\")\nprint(random.choice([1, 4, 8, 10, 3]))\n# using randrange() to generate in range from 20 to 50. The last parameter 3 is step size to skip three numbers when selecting.\nprint(\"A random number from range is : \", end=\"\")\nprint(random.randrange(20, 50, 3))",
+        "detail": "01.Python basics.01.Basics.05.random_number",
+        "documentation": {}
+    },
+    {
+        "label": "sample_list",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.05.random_number",
+        "description": "01.Python basics.01.Basics.05.random_number",
+        "peekOfCode": "sample_list = [\"A\", \"B\", \"C\", \"D\", \"E\"]\nprint(\"Original list : \")\nprint(sample_list)\n# first shuffle\nrandom.shuffle(sample_list)\nprint(\"\\nAfter the first shuffle : \")\nprint(sample_list)\n# second shuffle\nrandom.shuffle(sample_list)\nprint(\"\\nAfter the second shuffle : \")",
+        "detail": "01.Python basics.01.Basics.05.random_number",
+        "documentation": {}
+    },
+    {
+        "label": "li",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.05.random_number",
+        "description": "01.Python basics.01.Basics.05.random_number",
+        "peekOfCode": "li = [1, 4, 5, 10, 2]\n# Printing list before shuffling\nprint(\"The list before shuffling is : \", end=\"\")\nfor i in range(0, len(li)):\n    print(li[i], end=\" \")\nprint(\"\\r\")\n# using shuffle() to shuffle the list\nrandom.shuffle(li)\n# Printing list after shuffling\nprint(\"The list after shuffling is : \", end=\"\")",
+        "detail": "01.Python basics.01.Basics.05.random_number",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.06.casting",
+        "description": "01.Python basics.01.Basics.06.casting",
+        "peekOfCode": "x = int(1)  # x will be 1\ny = int(2.8)  # y will be 2\nz = int(\"3\")  # z will be 3\nx = float(1)  # x will be 1.0\ny = float(2.8)  # y will be 2.8\nz = float(\"3\")  # z will be 3.0\nw = float(\"4.2\")  # w will be 4.2\nx = str(\"s1\")  # x will be 's1'\ny = str(2)  # y will be '2'\nz = str(3.0)  # z will be '3.0'",
+        "detail": "01.Python basics.01.Basics.06.casting",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.06.casting",
+        "description": "01.Python basics.01.Basics.06.casting",
+        "peekOfCode": "y = int(2.8)  # y will be 2\nz = int(\"3\")  # z will be 3\nx = float(1)  # x will be 1.0\ny = float(2.8)  # y will be 2.8\nz = float(\"3\")  # z will be 3.0\nw = float(\"4.2\")  # w will be 4.2\nx = str(\"s1\")  # x will be 's1'\ny = str(2)  # y will be '2'\nz = str(3.0)  # z will be '3.0'",
+        "detail": "01.Python basics.01.Basics.06.casting",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.06.casting",
+        "description": "01.Python basics.01.Basics.06.casting",
+        "peekOfCode": "z = int(\"3\")  # z will be 3\nx = float(1)  # x will be 1.0\ny = float(2.8)  # y will be 2.8\nz = float(\"3\")  # z will be 3.0\nw = float(\"4.2\")  # w will be 4.2\nx = str(\"s1\")  # x will be 's1'\ny = str(2)  # y will be '2'\nz = str(3.0)  # z will be '3.0'",
+        "detail": "01.Python basics.01.Basics.06.casting",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.06.casting",
+        "description": "01.Python basics.01.Basics.06.casting",
+        "peekOfCode": "x = float(1)  # x will be 1.0\ny = float(2.8)  # y will be 2.8\nz = float(\"3\")  # z will be 3.0\nw = float(\"4.2\")  # w will be 4.2\nx = str(\"s1\")  # x will be 's1'\ny = str(2)  # y will be '2'\nz = str(3.0)  # z will be '3.0'",
+        "detail": "01.Python basics.01.Basics.06.casting",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.06.casting",
+        "description": "01.Python basics.01.Basics.06.casting",
+        "peekOfCode": "y = float(2.8)  # y will be 2.8\nz = float(\"3\")  # z will be 3.0\nw = float(\"4.2\")  # w will be 4.2\nx = str(\"s1\")  # x will be 's1'\ny = str(2)  # y will be '2'\nz = str(3.0)  # z will be '3.0'",
+        "detail": "01.Python basics.01.Basics.06.casting",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.06.casting",
+        "description": "01.Python basics.01.Basics.06.casting",
+        "peekOfCode": "z = float(\"3\")  # z will be 3.0\nw = float(\"4.2\")  # w will be 4.2\nx = str(\"s1\")  # x will be 's1'\ny = str(2)  # y will be '2'\nz = str(3.0)  # z will be '3.0'",
+        "detail": "01.Python basics.01.Basics.06.casting",
+        "documentation": {}
+    },
+    {
+        "label": "w",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.06.casting",
+        "description": "01.Python basics.01.Basics.06.casting",
+        "peekOfCode": "w = float(\"4.2\")  # w will be 4.2\nx = str(\"s1\")  # x will be 's1'\ny = str(2)  # y will be '2'\nz = str(3.0)  # z will be '3.0'",
+        "detail": "01.Python basics.01.Basics.06.casting",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.06.casting",
+        "description": "01.Python basics.01.Basics.06.casting",
+        "peekOfCode": "x = str(\"s1\")  # x will be 's1'\ny = str(2)  # y will be '2'\nz = str(3.0)  # z will be '3.0'",
+        "detail": "01.Python basics.01.Basics.06.casting",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.06.casting",
+        "description": "01.Python basics.01.Basics.06.casting",
+        "peekOfCode": "y = str(2)  # y will be '2'\nz = str(3.0)  # z will be '3.0'",
+        "detail": "01.Python basics.01.Basics.06.casting",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.06.casting",
+        "description": "01.Python basics.01.Basics.06.casting",
+        "peekOfCode": "z = str(3.0)  # z will be '3.0'",
+        "detail": "01.Python basics.01.Basics.06.casting",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.07.conditional_statement",
+        "description": "01.Python basics.01.Basics.07.conditional_statement",
+        "peekOfCode": "a = 33\nb = 21\nif a>b:\n    print(f\"'{a} is greater\")\nelif a == b:\n    print(f\"{a} is equal to {b}\")\nelse:\n    print(f\"{b} is greater\")\n# another way\nx = 15",
+        "detail": "01.Python basics.01.Basics.07.conditional_statement",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.07.conditional_statement",
+        "description": "01.Python basics.01.Basics.07.conditional_statement",
+        "peekOfCode": "b = 21\nif a>b:\n    print(f\"'{a} is greater\")\nelif a == b:\n    print(f\"{a} is equal to {b}\")\nelse:\n    print(f\"{b} is greater\")\n# another way\nx = 15\ny = 20",
+        "detail": "01.Python basics.01.Basics.07.conditional_statement",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.07.conditional_statement",
+        "description": "01.Python basics.01.Basics.07.conditional_statement",
+        "peekOfCode": "x = 15\ny = 20\nmax_value = x if x > y else y\nprint(\"Maximum value:\", max_value)\n# default\nusername = \"\"\ndisplay_name = username if username else \"Guest\"\nprint(\"Welcome,\", display_name)\n# During development, you might want to sketch out your program structure before implementing the details. The pass statement allows you to do this without syntax errors.\nage = 20",
+        "detail": "01.Python basics.01.Basics.07.conditional_statement",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.07.conditional_statement",
+        "description": "01.Python basics.01.Basics.07.conditional_statement",
+        "peekOfCode": "y = 20\nmax_value = x if x > y else y\nprint(\"Maximum value:\", max_value)\n# default\nusername = \"\"\ndisplay_name = username if username else \"Guest\"\nprint(\"Welcome,\", display_name)\n# During development, you might want to sketch out your program structure before implementing the details. The pass statement allows you to do this without syntax errors.\nage = 20\nif age < 18:",
+        "detail": "01.Python basics.01.Basics.07.conditional_statement",
+        "documentation": {}
+    },
+    {
+        "label": "max_value",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.07.conditional_statement",
+        "description": "01.Python basics.01.Basics.07.conditional_statement",
+        "peekOfCode": "max_value = x if x > y else y\nprint(\"Maximum value:\", max_value)\n# default\nusername = \"\"\ndisplay_name = username if username else \"Guest\"\nprint(\"Welcome,\", display_name)\n# During development, you might want to sketch out your program structure before implementing the details. The pass statement allows you to do this without syntax errors.\nage = 20\nif age < 18:\n    pass  ",
+        "detail": "01.Python basics.01.Basics.07.conditional_statement",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.07.conditional_statement",
+        "description": "01.Python basics.01.Basics.07.conditional_statement",
+        "peekOfCode": "username = \"\"\ndisplay_name = username if username else \"Guest\"\nprint(\"Welcome,\", display_name)\n# During development, you might want to sketch out your program structure before implementing the details. The pass statement allows you to do this without syntax errors.\nage = 20\nif age < 18:\n    pass  \nelse:\n    print(\"Access granted\")\n# -----------------------match-------------------------#",
+        "detail": "01.Python basics.01.Basics.07.conditional_statement",
+        "documentation": {}
+    },
+    {
+        "label": "display_name",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.07.conditional_statement",
+        "description": "01.Python basics.01.Basics.07.conditional_statement",
+        "peekOfCode": "display_name = username if username else \"Guest\"\nprint(\"Welcome,\", display_name)\n# During development, you might want to sketch out your program structure before implementing the details. The pass statement allows you to do this without syntax errors.\nage = 20\nif age < 18:\n    pass  \nelse:\n    print(\"Access granted\")\n# -----------------------match-------------------------#\nday = 4",
+        "detail": "01.Python basics.01.Basics.07.conditional_statement",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.07.conditional_statement",
+        "description": "01.Python basics.01.Basics.07.conditional_statement",
+        "peekOfCode": "age = 20\nif age < 18:\n    pass  \nelse:\n    print(\"Access granted\")\n# -----------------------match-------------------------#\nday = 4\nmatch day:\n    case 1:\n        print(\"Monday\")",
+        "detail": "01.Python basics.01.Basics.07.conditional_statement",
+        "documentation": {}
+    },
+    {
+        "label": "day",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.07.conditional_statement",
+        "description": "01.Python basics.01.Basics.07.conditional_statement",
+        "peekOfCode": "day = 4\nmatch day:\n    case 1:\n        print(\"Monday\")\n    case 2:\n        print(\"Tuesday\")\n    case 3:\n        print(\"Wednesday\")\n    case 4:\n        print(\"Thursday\")",
+        "detail": "01.Python basics.01.Basics.07.conditional_statement",
+        "documentation": {}
+    },
+    {
+        "label": "day",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.07.conditional_statement",
+        "description": "01.Python basics.01.Basics.07.conditional_statement",
+        "peekOfCode": "day = 4\nmatch day:\n    case 6:\n        print(\"Today is Saturday\")\n    case 7:\n        print(\"Today is Sunday\")\n    case _:\n        print(\"Looking forward to the Weekend\")\n# Combine Values\n# Use the pipe character | as an or operator in the case evaluation to check for more than one value match in one case:",
+        "detail": "01.Python basics.01.Basics.07.conditional_statement",
+        "documentation": {}
+    },
+    {
+        "label": "day",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.07.conditional_statement",
+        "description": "01.Python basics.01.Basics.07.conditional_statement",
+        "peekOfCode": "day = 4\nmatch day:\n    case 1 | 2 | 3 | 4 | 5:\n        print(\"Today is a weekday\")\n    case 6 | 7:\n        print(\"I love weekends!\")",
+        "detail": "01.Python basics.01.Basics.07.conditional_statement",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.08.loops",
+        "description": "01.Python basics.01.Basics.08.loops",
+        "peekOfCode": "fruits = [\"apple\", \"banana\", \"cherry\"]\nfor x in fruits:\n    print(x)\n# looping through a string\nfor x in \"banana\":\n    print(x)\n# break\nfruits = [\"apple\", \"banana\", \"cherry\"]\nfor x in fruits:\n    print(x)",
+        "detail": "01.Python basics.01.Basics.08.loops",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.08.loops",
+        "description": "01.Python basics.01.Basics.08.loops",
+        "peekOfCode": "fruits = [\"apple\", \"banana\", \"cherry\"]\nfor x in fruits:\n    print(x)\n    if x == \"banana\":\n        break\n# continue\nfruits = [\"apple\", \"banana\", \"cherry\"]\nfor x in fruits:\n    if x == \"banana\":\n        continue",
+        "detail": "01.Python basics.01.Basics.08.loops",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.08.loops",
+        "description": "01.Python basics.01.Basics.08.loops",
+        "peekOfCode": "fruits = [\"apple\", \"banana\", \"cherry\"]\nfor x in fruits:\n    if x == \"banana\":\n        continue\n    print(x)\n# The range() Function\n# The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.\nfor x in range(6):\n    print(x)  # Note that range(6) is not the values of 0 to 6, but the values 0 to 5.\n# The range() function defaults to 0 as a starting value, however it is possible to specify the starting value by adding a parameter: range(2, 6), which means values from 2 to 6 (but not including 6):",
+        "detail": "01.Python basics.01.Basics.08.loops",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.08.loops",
+        "description": "01.Python basics.01.Basics.08.loops",
+        "peekOfCode": "i = 1\nwhile i < 6:\n    print(i)\n    i += 1",
+        "detail": "01.Python basics.01.Basics.08.loops",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "01.Python basics.02.Function.01.functions",
+        "description": "01.Python basics.02.Function.01.functions",
+        "peekOfCode": "def my_function():\n    print(\"Hello from a function\")\nmy_function()#way to call a function/ we can call it multiple time\n\"\"\"\nFunction names follow the same rules as variable names in Python:\n1.A function name must start with a letter or underscore\n2.A function name can only contain letters, numbers, and underscores\n3.Function names are case-sensitive (myFunction and myfunction are different)\n\"\"\"\n# Return Values",
+        "detail": "01.Python basics.02.Function.01.functions",
+        "documentation": {}
+    },
+    {
+        "label": "get_greeting",
+        "kind": 2,
+        "importPath": "01.Python basics.02.Function.01.functions",
+        "description": "01.Python basics.02.Function.01.functions",
+        "peekOfCode": "def get_greeting():\n    return \"Hello from a function\"\nmessage = get_greeting()\nprint(message)\n# If a function doesn't have a return statement, it returns None by default.\n# Function definitions cannot be empty. If you need to create a function placeholder without any code, use the pass statement:\ndef my_function():\n    pass",
+        "detail": "01.Python basics.02.Function.01.functions",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "01.Python basics.02.Function.01.functions",
+        "description": "01.Python basics.02.Function.01.functions",
+        "peekOfCode": "def my_function():\n    pass",
+        "detail": "01.Python basics.02.Function.01.functions",
+        "documentation": {}
+    },
+    {
+        "label": "message",
+        "kind": 5,
+        "importPath": "01.Python basics.02.Function.01.functions",
+        "description": "01.Python basics.02.Function.01.functions",
+        "peekOfCode": "message = get_greeting()\nprint(message)\n# If a function doesn't have a return statement, it returns None by default.\n# Function definitions cannot be empty. If you need to create a function placeholder without any code, use the pass statement:\ndef my_function():\n    pass",
+        "detail": "01.Python basics.02.Function.01.functions",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "01.Python basics.02.Function.02.arguments",
+        "description": "01.Python basics.02.Function.02.arguments",
+        "peekOfCode": "def my_function(fname):\n    print(fname + \" Refsnes\")\nmy_function(\"Emil\")\nmy_function(\"Tobias\")\nmy_function(\"Linus\")\n\"\"\"\nParameters vs Arguments\nThe terms parameter and argument can be used for the same thing: information that are passed into a function.\nFrom a function's perspective:\nA parameter is the variable listed inside the parentheses in the function definition.",
+        "detail": "01.Python basics.02.Function.02.arguments",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "01.Python basics.02.Function.02.arguments",
+        "description": "01.Python basics.02.Function.02.arguments",
+        "peekOfCode": "def my_function(name):  # name is a parameter\n    print(\"Hello\", name)\nmy_function(\"Emil\")  # \"Emil\" is an argument\n\"\"\"\nNumber of Arguments\nBy default, a function must be called with the correct number of arguments.\nIf your function expects 2 arguments, you must call it with exactly 2 arguments.\n\"\"\"\ndef my_function(fname, lname):\n    print(fname + \" \" + lname)",
+        "detail": "01.Python basics.02.Function.02.arguments",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "01.Python basics.02.Function.02.arguments",
+        "description": "01.Python basics.02.Function.02.arguments",
+        "peekOfCode": "def my_function(fname, lname):\n    print(fname + \" \" + lname)\nmy_function(\"Emil\", \"Refsnes\")\n\"\"\"\nDefault Parameter Values\nYou can assign default values to parameters. If the function is called without an argument, it uses the default value:\n\"\"\"\ndef my_function(name=\"friend\"):\n    print(\"Hello\", name)\nmy_function(\"Emil\")",
+        "detail": "01.Python basics.02.Function.02.arguments",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "01.Python basics.02.Function.02.arguments",
+        "description": "01.Python basics.02.Function.02.arguments",
+        "peekOfCode": "def my_function(name=\"friend\"):\n    print(\"Hello\", name)\nmy_function(\"Emil\")\nmy_function(\"Tobias\")\nmy_function()\nmy_function(\"Linus\")\n\"\"\"\nKeyword Arguments\nYou can send arguments with the key = value syntax.\n\"\"\"",
+        "detail": "01.Python basics.02.Function.02.arguments",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "01.Python basics.02.Function.02.arguments",
+        "description": "01.Python basics.02.Function.02.arguments",
+        "peekOfCode": "def my_function(animal, name):\n    print(\"I have a\", animal)\n    print(\"My\", animal + \"'s name is\", name)\nmy_function(animal=\"dog\", name=\"Buddy\")\n\"\"\"\nPositional Arguments\nWhen you call a function with arguments without using keywords, they are called positional arguments.\nPositional arguments must be in the correct order:\n\"\"\"\ndef my_function(animal, name):",
+        "detail": "01.Python basics.02.Function.02.arguments",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "01.Python basics.02.Function.02.arguments",
+        "description": "01.Python basics.02.Function.02.arguments",
+        "peekOfCode": "def my_function(animal, name):\n    print(\"I have a\", animal)\n    print(\"My\", animal + \"'s name is\", name)\nmy_function(\"dog\", \"Buddy\")\n\"\"\"\nMixing Positional and Keyword Arguments\nYou can mix positional and keyword arguments in a function call.\nHowever, positional arguments must come before keyword arguments:\n\"\"\"\ndef my_function(animal, name, age):",
+        "detail": "01.Python basics.02.Function.02.arguments",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "01.Python basics.02.Function.02.arguments",
+        "description": "01.Python basics.02.Function.02.arguments",
+        "peekOfCode": "def my_function(animal, name, age):\n    print(\"I have a\", age, \"year old\", animal, \"named\", name)\nmy_function(\"dog\", name=\"Buddy\", age=5)\n\"\"\"\nPassing Different Data Types\nYou can send any data type as an argument to a function (string, number, list, dictionary, etc.).\nThe data type will be preserved inside the function:\n\"\"\"\ndef my_function(fruits):\n    for fruit in fruits:",
+        "detail": "01.Python basics.02.Function.02.arguments",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "01.Python basics.02.Function.02.arguments",
+        "description": "01.Python basics.02.Function.02.arguments",
+        "peekOfCode": "def my_function(fruits):\n    for fruit in fruits:\n        print(fruit)\nmy_fruits = [\"apple\", \"banana\", \"cherry\"]\nmy_function(my_fruits)\n\"\"\"\nReturn Values\nFunctions can return values using the return statement:\n\"\"\"\ndef my_function(x, y):",
+        "detail": "01.Python basics.02.Function.02.arguments",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "01.Python basics.02.Function.02.arguments",
+        "description": "01.Python basics.02.Function.02.arguments",
+        "peekOfCode": "def my_function(x, y):\n    return x + y\nresult = my_function(5, 3)\nprint(result)\n\"\"\"\nReturning Different Data Types\nFunctions can return any data type, including lists, tuples, dictionaries, and more.\n\"\"\"\ndef my_function():\n    return [\"apple\", \"banana\", \"cherry\"]",
+        "detail": "01.Python basics.02.Function.02.arguments",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "01.Python basics.02.Function.02.arguments",
+        "description": "01.Python basics.02.Function.02.arguments",
+        "peekOfCode": "def my_function():\n    return [\"apple\", \"banana\", \"cherry\"]\nfruits = my_function()\nprint(fruits[0])\nprint(fruits[1])\nprint(fruits[2])\n\"\"\"\nPositional-Only Arguments\nYou can specify that a function can have ONLY positional arguments.\nTo specify positional-only arguments, add , / after the arguments:",
+        "detail": "01.Python basics.02.Function.02.arguments",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "01.Python basics.02.Function.02.arguments",
+        "description": "01.Python basics.02.Function.02.arguments",
+        "peekOfCode": "def my_function(name, /):\n    print(\"Hello\", name)\nmy_function(\"Emil\")\n\"\"\"\nWithout the , / you are actually allowed to use keyword arguments even if the function expects positional arguments:\n\"\"\"\ndef my_function(name):\n    print(\"Hello\", name)\nmy_function(name=\"Emil\")\n\"\"\"",
+        "detail": "01.Python basics.02.Function.02.arguments",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "01.Python basics.02.Function.02.arguments",
+        "description": "01.Python basics.02.Function.02.arguments",
+        "peekOfCode": "def my_function(name):\n    print(\"Hello\", name)\nmy_function(name=\"Emil\")\n\"\"\"\nKeyword-Only Arguments\nTo specify that a function can have only keyword arguments, add *, before the arguments:\n\"\"\"\ndef my_function(*, name):\n    print(\"Hello\", name)\nmy_function(name=\"Emil\")",
+        "detail": "01.Python basics.02.Function.02.arguments",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "01.Python basics.02.Function.02.arguments",
+        "description": "01.Python basics.02.Function.02.arguments",
+        "peekOfCode": "def my_function(*, name):\n    print(\"Hello\", name)\nmy_function(name=\"Emil\")\n\"\"\"\nWithout *,, you are allowed to use positional arguments even if the function expects keyword arguments:\n\"\"\"\ndef my_function(name):\n    print(\"Hello\", name)\nmy_function(\"Emil\")\n\"\"\"",
+        "detail": "01.Python basics.02.Function.02.arguments",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "01.Python basics.02.Function.02.arguments",
+        "description": "01.Python basics.02.Function.02.arguments",
+        "peekOfCode": "def my_function(name):\n    print(\"Hello\", name)\nmy_function(\"Emil\")\n\"\"\"\nCombining Positional-Only and Keyword-Only\nYou can combine both argument types in the same function.\nArguments before / are positional-only, and arguments after * are keyword-only:\n\"\"\"\ndef my_function(a, b, /, *, c, d):\n    return a + b + c + d",
+        "detail": "01.Python basics.02.Function.02.arguments",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "01.Python basics.02.Function.02.arguments",
+        "description": "01.Python basics.02.Function.02.arguments",
+        "peekOfCode": "def my_function(a, b, /, *, c, d):\n    return a + b + c + d\nresult = my_function(5, 10, c=15, d=20)\nprint(result)",
+        "detail": "01.Python basics.02.Function.02.arguments",
+        "documentation": {}
+    },
+    {
+        "label": "my_fruits",
+        "kind": 5,
+        "importPath": "01.Python basics.02.Function.02.arguments",
+        "description": "01.Python basics.02.Function.02.arguments",
+        "peekOfCode": "my_fruits = [\"apple\", \"banana\", \"cherry\"]\nmy_function(my_fruits)\n\"\"\"\nReturn Values\nFunctions can return values using the return statement:\n\"\"\"\ndef my_function(x, y):\n    return x + y\nresult = my_function(5, 3)\nprint(result)",
+        "detail": "01.Python basics.02.Function.02.arguments",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "01.Python basics.02.Function.02.arguments",
+        "description": "01.Python basics.02.Function.02.arguments",
+        "peekOfCode": "result = my_function(5, 3)\nprint(result)\n\"\"\"\nReturning Different Data Types\nFunctions can return any data type, including lists, tuples, dictionaries, and more.\n\"\"\"\ndef my_function():\n    return [\"apple\", \"banana\", \"cherry\"]\nfruits = my_function()\nprint(fruits[0])",
+        "detail": "01.Python basics.02.Function.02.arguments",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "01.Python basics.02.Function.02.arguments",
+        "description": "01.Python basics.02.Function.02.arguments",
+        "peekOfCode": "fruits = my_function()\nprint(fruits[0])\nprint(fruits[1])\nprint(fruits[2])\n\"\"\"\nPositional-Only Arguments\nYou can specify that a function can have ONLY positional arguments.\nTo specify positional-only arguments, add , / after the arguments:\n\"\"\"\ndef my_function(name, /):",
+        "detail": "01.Python basics.02.Function.02.arguments",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "01.Python basics.02.Function.02.arguments",
+        "description": "01.Python basics.02.Function.02.arguments",
+        "peekOfCode": "result = my_function(5, 10, c=15, d=20)\nprint(result)",
+        "detail": "01.Python basics.02.Function.02.arguments",
+        "documentation": {}
+    }
+]
