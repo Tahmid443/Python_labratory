@@ -675,6 +675,51 @@
         "documentation": {}
     },
     {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.09.operators",
+        "description": "01.Python basics.01.Basics.09.operators",
+        "peekOfCode": "numbers = [1, 2, 3, 4, 5]\nif (count := len(numbers)) > 3:\n    print(f\"List has {count} elements\")\n\"\"\"\n\"\"\"\nTernary Operator\nnum = 6\nx = \"WEEKEND!\" if num > 5 else \"Workday\"\nprint(x)\nnum = 6",
+        "detail": "01.Python basics.01.Basics.09.operators",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.09.operators",
+        "description": "01.Python basics.01.Basics.09.operators",
+        "peekOfCode": "num = 6\nx = \"WEEKEND!\" if num > 5 else \"Workday\"\nprint(x)\nnum = 6\nx = \"Fri\" if num == 5 else \"Sat\" if num == 6 else \"Sun\" if num == 7 else \"weekday\"\nprint(x)\n\"\"\"\n\"\"\"\nComparison Operators\n==\tEqual\t                    x == y\t",
+        "detail": "01.Python basics.01.Basics.09.operators",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.09.operators",
+        "description": "01.Python basics.01.Basics.09.operators",
+        "peekOfCode": "x = \"WEEKEND!\" if num > 5 else \"Workday\"\nprint(x)\nnum = 6\nx = \"Fri\" if num == 5 else \"Sat\" if num == 6 else \"Sun\" if num == 7 else \"weekday\"\nprint(x)\n\"\"\"\n\"\"\"\nComparison Operators\n==\tEqual\t                    x == y\t\n!=\tNot equal\t                x != y\t",
+        "detail": "01.Python basics.01.Basics.09.operators",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.09.operators",
+        "description": "01.Python basics.01.Basics.09.operators",
+        "peekOfCode": "num = 6\nx = \"Fri\" if num == 5 else \"Sat\" if num == 6 else \"Sun\" if num == 7 else \"weekday\"\nprint(x)\n\"\"\"\n\"\"\"\nComparison Operators\n==\tEqual\t                    x == y\t\n!=\tNot equal\t                x != y\t\n>\tGreater than\t            x > y\t\n<\tLess than\t                x < y\t",
+        "detail": "01.Python basics.01.Basics.09.operators",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.01.Basics.09.operators",
+        "description": "01.Python basics.01.Basics.09.operators",
+        "peekOfCode": "x = \"Fri\" if num == 5 else \"Sat\" if num == 6 else \"Sun\" if num == 7 else \"weekday\"\nprint(x)\n\"\"\"\n\"\"\"\nComparison Operators\n==\tEqual\t                    x == y\t\n!=\tNot equal\t                x != y\t\n>\tGreater than\t            x > y\t\n<\tLess than\t                x < y\t\n>=\tGreater than or equal to\tx >= y\t",
+        "detail": "01.Python basics.01.Basics.09.operators",
+        "documentation": {}
+    },
+    {
         "label": "my_function",
         "kind": 2,
         "importPath": "01.Python basics.02.Function.01.functions",
