@@ -1417,7 +1417,7 @@
         "kind": 5,
         "importPath": "01.Python basics.04.List.01.list",
         "description": "01.Python basics.04.List.01.list",
-        "peekOfCode": "l = [10,20,30,40]\nprint(l)\n# List items are ordered, changeable, and allow duplicate values.\nprint(len(l))\n# A list can contain different data types:\nlist1 = [\"abc\", 34, True, 40, \"male\"]\nprint(type(list1))\n#list using list constructor\nmarks = list((85,87,56))\nprint(marks)",
+        "peekOfCode": "l = [10,20,30,40]\nprint(l)\n# List items are ordered, changeable, and allow duplicate values.\nprint(len(l))\n# A list can contain different data types:\nlist1 = [\"abc\", 34, True, 40, \"male\"]\nprint(type(list1))\n# list using list constructor\nmarks = list((85,87,56))\nprint(marks)",
         "detail": "01.Python basics.04.List.01.list",
         "documentation": {}
     },
@@ -1426,7 +1426,7 @@
         "kind": 5,
         "importPath": "01.Python basics.04.List.01.list",
         "description": "01.Python basics.04.List.01.list",
-        "peekOfCode": "list1 = [\"abc\", 34, True, 40, \"male\"]\nprint(type(list1))\n#list using list constructor\nmarks = list((85,87,56))\nprint(marks)",
+        "peekOfCode": "list1 = [\"abc\", 34, True, 40, \"male\"]\nprint(type(list1))\n# list using list constructor\nmarks = list((85,87,56))\nprint(marks)",
         "detail": "01.Python basics.04.List.01.list",
         "documentation": {}
     },
@@ -2175,6 +2175,546 @@
         "description": "01.Python basics.04.List.11.methods",
         "peekOfCode": "people = [(\"Alice\", 25), (\"Bob\", 30), (\"Charlie\", 20), (\"David\", 35)]\nprint(f\"\\nPeople list: {people}\")\npeople.sort(key=lambda x: x[1])  # Sort by age\nprint(f\"Sorted by age: {people}\")\npeople.sort(key=lambda x: x[0])  # Sort by name\nprint(f\"Sorted by name: {people}\")\nprint(\"\\n\" + \"=\" * 80)\nprint(\"END OF LIST METHODS DEMONSTRATION\")\nprint(\"=\" * 80)\n# BONUS: Quick Reference Summary",
         "detail": "01.Python basics.04.List.11.methods",
+        "documentation": {}
+    },
+    {
+        "label": "thistuple",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.01.tuple",
+        "description": "01.Python basics.05.Tuple.01.tuple",
+        "peekOfCode": "thistuple = (\"apple\", \"banana\", \"cherry\")\nprint(thistuple)\n# Tuples can also be created without the parentheses:\nthistuple = \"apple\", \"banana\", \"cherry\"\nprint(thistuple)\n# Tuples allow duplicate values:\nthistuple = (\"apple\", \"banana\", \"cherry\", \"apple\", \"cherry\")\nprint(thistuple)\n# length of tuple\nthistuple = (\"apple\", \"banana\", \"cherry\")",
+        "detail": "01.Python basics.05.Tuple.01.tuple",
+        "documentation": {}
+    },
+    {
+        "label": "thistuple",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.01.tuple",
+        "description": "01.Python basics.05.Tuple.01.tuple",
+        "peekOfCode": "thistuple = \"apple\", \"banana\", \"cherry\"\nprint(thistuple)\n# Tuples allow duplicate values:\nthistuple = (\"apple\", \"banana\", \"cherry\", \"apple\", \"cherry\")\nprint(thistuple)\n# length of tuple\nthistuple = (\"apple\", \"banana\", \"cherry\")\nprint(len(thistuple))\n# One item tuple, remember the comma:\nthistuple = (\"apple\",)",
+        "detail": "01.Python basics.05.Tuple.01.tuple",
+        "documentation": {}
+    },
+    {
+        "label": "thistuple",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.01.tuple",
+        "description": "01.Python basics.05.Tuple.01.tuple",
+        "peekOfCode": "thistuple = (\"apple\", \"banana\", \"cherry\", \"apple\", \"cherry\")\nprint(thistuple)\n# length of tuple\nthistuple = (\"apple\", \"banana\", \"cherry\")\nprint(len(thistuple))\n# One item tuple, remember the comma:\nthistuple = (\"apple\",)\nprint(type(thistuple))\n# NOT a tuple\nthistuple = (\"apple\")",
+        "detail": "01.Python basics.05.Tuple.01.tuple",
+        "documentation": {}
+    },
+    {
+        "label": "thistuple",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.01.tuple",
+        "description": "01.Python basics.05.Tuple.01.tuple",
+        "peekOfCode": "thistuple = (\"apple\", \"banana\", \"cherry\")\nprint(len(thistuple))\n# One item tuple, remember the comma:\nthistuple = (\"apple\",)\nprint(type(thistuple))\n# NOT a tuple\nthistuple = (\"apple\")\nprint(type(thistuple))\n# Create an empty tuple:\nthistuple = ()",
+        "detail": "01.Python basics.05.Tuple.01.tuple",
+        "documentation": {}
+    },
+    {
+        "label": "thistuple",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.01.tuple",
+        "description": "01.Python basics.05.Tuple.01.tuple",
+        "peekOfCode": "thistuple = (\"apple\",)\nprint(type(thistuple))\n# NOT a tuple\nthistuple = (\"apple\")\nprint(type(thistuple))\n# Create an empty tuple:\nthistuple = ()\nprint(type(thistuple))\n# A tuple with strings, integers and boolean values:\ntuple1 = (\"abc\", 34, True, 40, \"male\")",
+        "detail": "01.Python basics.05.Tuple.01.tuple",
+        "documentation": {}
+    },
+    {
+        "label": "thistuple",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.01.tuple",
+        "description": "01.Python basics.05.Tuple.01.tuple",
+        "peekOfCode": "thistuple = (\"apple\")\nprint(type(thistuple))\n# Create an empty tuple:\nthistuple = ()\nprint(type(thistuple))\n# A tuple with strings, integers and boolean values:\ntuple1 = (\"abc\", 34, True, 40, \"male\")\n# Using the tuple() method to make a tuple:\nthistuple = tuple((\"apple\", \"banana\", \"cherry\"))  # note the double round-brackets\nprint(thistuple)",
+        "detail": "01.Python basics.05.Tuple.01.tuple",
+        "documentation": {}
+    },
+    {
+        "label": "thistuple",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.01.tuple",
+        "description": "01.Python basics.05.Tuple.01.tuple",
+        "peekOfCode": "thistuple = ()\nprint(type(thistuple))\n# A tuple with strings, integers and boolean values:\ntuple1 = (\"abc\", 34, True, 40, \"male\")\n# Using the tuple() method to make a tuple:\nthistuple = tuple((\"apple\", \"banana\", \"cherry\"))  # note the double round-brackets\nprint(thistuple)",
+        "detail": "01.Python basics.05.Tuple.01.tuple",
+        "documentation": {}
+    },
+    {
+        "label": "tuple1",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.01.tuple",
+        "description": "01.Python basics.05.Tuple.01.tuple",
+        "peekOfCode": "tuple1 = (\"abc\", 34, True, 40, \"male\")\n# Using the tuple() method to make a tuple:\nthistuple = tuple((\"apple\", \"banana\", \"cherry\"))  # note the double round-brackets\nprint(thistuple)",
+        "detail": "01.Python basics.05.Tuple.01.tuple",
+        "documentation": {}
+    },
+    {
+        "label": "thistuple",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.01.tuple",
+        "description": "01.Python basics.05.Tuple.01.tuple",
+        "peekOfCode": "thistuple = tuple((\"apple\", \"banana\", \"cherry\"))  # note the double round-brackets\nprint(thistuple)",
+        "detail": "01.Python basics.05.Tuple.01.tuple",
+        "documentation": {}
+    },
+    {
+        "label": "thistuple",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.02.access_items",
+        "description": "01.Python basics.05.Tuple.02.access_items",
+        "peekOfCode": "thistuple = (\"apple\", \"banana\", \"cherry\")\nprint(thistuple[1])\n# Print the last item of the tuple:\nthistuple = (\"apple\", \"banana\", \"cherry\")\nprint(thistuple[-1])\n# Return the third, fourth, and fifth item:\nthistuple = (\"apple\", \"banana\", \"cherry\", \"orange\", \"kiwi\", \"melon\", \"mango\")\nprint(thistuple[2:5])\n# Check if \"apple\" is present in the tuple:\nthistuple = (\"apple\", \"banana\", \"cherry\")",
+        "detail": "01.Python basics.05.Tuple.02.access_items",
+        "documentation": {}
+    },
+    {
+        "label": "thistuple",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.02.access_items",
+        "description": "01.Python basics.05.Tuple.02.access_items",
+        "peekOfCode": "thistuple = (\"apple\", \"banana\", \"cherry\")\nprint(thistuple[-1])\n# Return the third, fourth, and fifth item:\nthistuple = (\"apple\", \"banana\", \"cherry\", \"orange\", \"kiwi\", \"melon\", \"mango\")\nprint(thistuple[2:5])\n# Check if \"apple\" is present in the tuple:\nthistuple = (\"apple\", \"banana\", \"cherry\")\nif \"apple\" in thistuple:\n    print(\"Yes, 'apple' is in the fruits tuple\")",
+        "detail": "01.Python basics.05.Tuple.02.access_items",
+        "documentation": {}
+    },
+    {
+        "label": "thistuple",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.02.access_items",
+        "description": "01.Python basics.05.Tuple.02.access_items",
+        "peekOfCode": "thistuple = (\"apple\", \"banana\", \"cherry\", \"orange\", \"kiwi\", \"melon\", \"mango\")\nprint(thistuple[2:5])\n# Check if \"apple\" is present in the tuple:\nthistuple = (\"apple\", \"banana\", \"cherry\")\nif \"apple\" in thistuple:\n    print(\"Yes, 'apple' is in the fruits tuple\")",
+        "detail": "01.Python basics.05.Tuple.02.access_items",
+        "documentation": {}
+    },
+    {
+        "label": "thistuple",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.02.access_items",
+        "description": "01.Python basics.05.Tuple.02.access_items",
+        "peekOfCode": "thistuple = (\"apple\", \"banana\", \"cherry\")\nif \"apple\" in thistuple:\n    print(\"Yes, 'apple' is in the fruits tuple\")",
+        "detail": "01.Python basics.05.Tuple.02.access_items",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.03.update_tuples",
+        "description": "01.Python basics.05.Tuple.03.update_tuples",
+        "peekOfCode": "x = (\"apple\", \"banana\", \"cherry\")\ny = list(x)\ny[1] = \"kiwi\"\nx = tuple(y)\nprint(x)\n# Convert the tuple into a list, add \"orange\", and convert it back into a tuple:\nthistuple = (\"apple\", \"banana\", \"cherry\")\ny = list(thistuple)\ny.append(\"orange\")\nthistuple = tuple(y)",
+        "detail": "01.Python basics.05.Tuple.03.update_tuples",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.03.update_tuples",
+        "description": "01.Python basics.05.Tuple.03.update_tuples",
+        "peekOfCode": "y = list(x)\ny[1] = \"kiwi\"\nx = tuple(y)\nprint(x)\n# Convert the tuple into a list, add \"orange\", and convert it back into a tuple:\nthistuple = (\"apple\", \"banana\", \"cherry\")\ny = list(thistuple)\ny.append(\"orange\")\nthistuple = tuple(y)\n# Add tuple to a tuple. You are allowed to add tuples to tuples, so if you want to add one item, (or many), create a new tuple with the item(s), and add it to the existing tuple:",
+        "detail": "01.Python basics.05.Tuple.03.update_tuples",
+        "documentation": {}
+    },
+    {
+        "label": "y[1]",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.03.update_tuples",
+        "description": "01.Python basics.05.Tuple.03.update_tuples",
+        "peekOfCode": "y[1] = \"kiwi\"\nx = tuple(y)\nprint(x)\n# Convert the tuple into a list, add \"orange\", and convert it back into a tuple:\nthistuple = (\"apple\", \"banana\", \"cherry\")\ny = list(thistuple)\ny.append(\"orange\")\nthistuple = tuple(y)\n# Add tuple to a tuple. You are allowed to add tuples to tuples, so if you want to add one item, (or many), create a new tuple with the item(s), and add it to the existing tuple:\nthistuple = (\"apple\", \"banana\", \"cherry\")",
+        "detail": "01.Python basics.05.Tuple.03.update_tuples",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.03.update_tuples",
+        "description": "01.Python basics.05.Tuple.03.update_tuples",
+        "peekOfCode": "x = tuple(y)\nprint(x)\n# Convert the tuple into a list, add \"orange\", and convert it back into a tuple:\nthistuple = (\"apple\", \"banana\", \"cherry\")\ny = list(thistuple)\ny.append(\"orange\")\nthistuple = tuple(y)\n# Add tuple to a tuple. You are allowed to add tuples to tuples, so if you want to add one item, (or many), create a new tuple with the item(s), and add it to the existing tuple:\nthistuple = (\"apple\", \"banana\", \"cherry\")\ny = (\"orange\",)",
+        "detail": "01.Python basics.05.Tuple.03.update_tuples",
+        "documentation": {}
+    },
+    {
+        "label": "thistuple",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.03.update_tuples",
+        "description": "01.Python basics.05.Tuple.03.update_tuples",
+        "peekOfCode": "thistuple = (\"apple\", \"banana\", \"cherry\")\ny = list(thistuple)\ny.append(\"orange\")\nthistuple = tuple(y)\n# Add tuple to a tuple. You are allowed to add tuples to tuples, so if you want to add one item, (or many), create a new tuple with the item(s), and add it to the existing tuple:\nthistuple = (\"apple\", \"banana\", \"cherry\")\ny = (\"orange\",)\nthistuple += y\nprint(thistuple)\n# Convert the tuple into a list, remove \"apple\", and convert it back into a tuple:",
+        "detail": "01.Python basics.05.Tuple.03.update_tuples",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.03.update_tuples",
+        "description": "01.Python basics.05.Tuple.03.update_tuples",
+        "peekOfCode": "y = list(thistuple)\ny.append(\"orange\")\nthistuple = tuple(y)\n# Add tuple to a tuple. You are allowed to add tuples to tuples, so if you want to add one item, (or many), create a new tuple with the item(s), and add it to the existing tuple:\nthistuple = (\"apple\", \"banana\", \"cherry\")\ny = (\"orange\",)\nthistuple += y\nprint(thistuple)\n# Convert the tuple into a list, remove \"apple\", and convert it back into a tuple:\nthistuple = (\"apple\", \"banana\", \"cherry\")",
+        "detail": "01.Python basics.05.Tuple.03.update_tuples",
+        "documentation": {}
+    },
+    {
+        "label": "thistuple",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.03.update_tuples",
+        "description": "01.Python basics.05.Tuple.03.update_tuples",
+        "peekOfCode": "thistuple = tuple(y)\n# Add tuple to a tuple. You are allowed to add tuples to tuples, so if you want to add one item, (or many), create a new tuple with the item(s), and add it to the existing tuple:\nthistuple = (\"apple\", \"banana\", \"cherry\")\ny = (\"orange\",)\nthistuple += y\nprint(thistuple)\n# Convert the tuple into a list, remove \"apple\", and convert it back into a tuple:\nthistuple = (\"apple\", \"banana\", \"cherry\")\ny = list(thistuple)\ny.remove(\"apple\")",
+        "detail": "01.Python basics.05.Tuple.03.update_tuples",
+        "documentation": {}
+    },
+    {
+        "label": "thistuple",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.03.update_tuples",
+        "description": "01.Python basics.05.Tuple.03.update_tuples",
+        "peekOfCode": "thistuple = (\"apple\", \"banana\", \"cherry\")\ny = (\"orange\",)\nthistuple += y\nprint(thistuple)\n# Convert the tuple into a list, remove \"apple\", and convert it back into a tuple:\nthistuple = (\"apple\", \"banana\", \"cherry\")\ny = list(thistuple)\ny.remove(\"apple\")\nthistuple = tuple(y)\n# The del keyword can delete the tuple completely:",
+        "detail": "01.Python basics.05.Tuple.03.update_tuples",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.03.update_tuples",
+        "description": "01.Python basics.05.Tuple.03.update_tuples",
+        "peekOfCode": "y = (\"orange\",)\nthistuple += y\nprint(thistuple)\n# Convert the tuple into a list, remove \"apple\", and convert it back into a tuple:\nthistuple = (\"apple\", \"banana\", \"cherry\")\ny = list(thistuple)\ny.remove(\"apple\")\nthistuple = tuple(y)\n# The del keyword can delete the tuple completely:\nthistuple = (\"apple\", \"banana\", \"cherry\")",
+        "detail": "01.Python basics.05.Tuple.03.update_tuples",
+        "documentation": {}
+    },
+    {
+        "label": "thistuple",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.03.update_tuples",
+        "description": "01.Python basics.05.Tuple.03.update_tuples",
+        "peekOfCode": "thistuple = (\"apple\", \"banana\", \"cherry\")\ny = list(thistuple)\ny.remove(\"apple\")\nthistuple = tuple(y)\n# The del keyword can delete the tuple completely:\nthistuple = (\"apple\", \"banana\", \"cherry\")\ndel thistuple\nprint(thistuple)  # this will raise an error because the tuple no longer exists",
+        "detail": "01.Python basics.05.Tuple.03.update_tuples",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.03.update_tuples",
+        "description": "01.Python basics.05.Tuple.03.update_tuples",
+        "peekOfCode": "y = list(thistuple)\ny.remove(\"apple\")\nthistuple = tuple(y)\n# The del keyword can delete the tuple completely:\nthistuple = (\"apple\", \"banana\", \"cherry\")\ndel thistuple\nprint(thistuple)  # this will raise an error because the tuple no longer exists",
+        "detail": "01.Python basics.05.Tuple.03.update_tuples",
+        "documentation": {}
+    },
+    {
+        "label": "thistuple",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.03.update_tuples",
+        "description": "01.Python basics.05.Tuple.03.update_tuples",
+        "peekOfCode": "thistuple = tuple(y)\n# The del keyword can delete the tuple completely:\nthistuple = (\"apple\", \"banana\", \"cherry\")\ndel thistuple\nprint(thistuple)  # this will raise an error because the tuple no longer exists",
+        "detail": "01.Python basics.05.Tuple.03.update_tuples",
+        "documentation": {}
+    },
+    {
+        "label": "thistuple",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.03.update_tuples",
+        "description": "01.Python basics.05.Tuple.03.update_tuples",
+        "peekOfCode": "thistuple = (\"apple\", \"banana\", \"cherry\")\ndel thistuple\nprint(thistuple)  # this will raise an error because the tuple no longer exists",
+        "detail": "01.Python basics.05.Tuple.03.update_tuples",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.04.unpack_tuple",
+        "description": "01.Python basics.05.Tuple.04.unpack_tuple",
+        "peekOfCode": "fruits = (\"apple\", \"banana\", \"cherry\")\ngreen, yellow, red = fruits\nprint(green)\nprint(yellow)\nprint(red)\n\"\"\"\nUsing Asterisk*\nIf the number of variables is less than the number of values, you can add an * to the variable name and the values will be assigned to the variable as a list:\n\"\"\"\nfruits = (\"apple\", \"banana\", \"cherry\", \"strawberry\", \"raspberry\")",
+        "detail": "01.Python basics.05.Tuple.04.unpack_tuple",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.04.unpack_tuple",
+        "description": "01.Python basics.05.Tuple.04.unpack_tuple",
+        "peekOfCode": "fruits = (\"apple\", \"banana\", \"cherry\", \"strawberry\", \"raspberry\")\ngreen, yellow, *red = fruits\nprint(green)\nprint(yellow)\nprint(red)\n# If the asterisk is added to another variable name than the last, Python will assign values to the variable until the number of values left matches the number of variables left.\nfruits = (\"apple\", \"mango\", \"papaya\", \"pineapple\", \"cherry\")\ngreen, *tropic, red = fruits\nprint(green)\nprint(tropic)",
+        "detail": "01.Python basics.05.Tuple.04.unpack_tuple",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.04.unpack_tuple",
+        "description": "01.Python basics.05.Tuple.04.unpack_tuple",
+        "peekOfCode": "fruits = (\"apple\", \"mango\", \"papaya\", \"pineapple\", \"cherry\")\ngreen, *tropic, red = fruits\nprint(green)\nprint(tropic)\nprint(red)",
+        "detail": "01.Python basics.05.Tuple.04.unpack_tuple",
+        "documentation": {}
+    },
+    {
+        "label": "thistuple",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.05.loop_tuple",
+        "description": "01.Python basics.05.Tuple.05.loop_tuple",
+        "peekOfCode": "thistuple = (\"apple\", \"banana\", \"cherry\")\nfor x in thistuple:\n    print(x)\n# Print all items by referring to their index number:\nthistuple = (\"apple\", \"banana\", \"cherry\")\nfor i in range(len(thistuple)):\n    print(thistuple[i])\n# Print all items, using a while loop to go through all the index numbers:\nthistuple = (\"apple\", \"banana\", \"cherry\")\ni = 0",
+        "detail": "01.Python basics.05.Tuple.05.loop_tuple",
+        "documentation": {}
+    },
+    {
+        "label": "thistuple",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.05.loop_tuple",
+        "description": "01.Python basics.05.Tuple.05.loop_tuple",
+        "peekOfCode": "thistuple = (\"apple\", \"banana\", \"cherry\")\nfor i in range(len(thistuple)):\n    print(thistuple[i])\n# Print all items, using a while loop to go through all the index numbers:\nthistuple = (\"apple\", \"banana\", \"cherry\")\ni = 0\nwhile i < len(thistuple):\n    print(thistuple[i])\n    i = i + 1",
+        "detail": "01.Python basics.05.Tuple.05.loop_tuple",
+        "documentation": {}
+    },
+    {
+        "label": "thistuple",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.05.loop_tuple",
+        "description": "01.Python basics.05.Tuple.05.loop_tuple",
+        "peekOfCode": "thistuple = (\"apple\", \"banana\", \"cherry\")\ni = 0\nwhile i < len(thistuple):\n    print(thistuple[i])\n    i = i + 1",
+        "detail": "01.Python basics.05.Tuple.05.loop_tuple",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.05.loop_tuple",
+        "description": "01.Python basics.05.Tuple.05.loop_tuple",
+        "peekOfCode": "i = 0\nwhile i < len(thistuple):\n    print(thistuple[i])\n    i = i + 1",
+        "detail": "01.Python basics.05.Tuple.05.loop_tuple",
+        "documentation": {}
+    },
+    {
+        "label": "tuple1",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.06.join_tuples",
+        "description": "01.Python basics.05.Tuple.06.join_tuples",
+        "peekOfCode": "tuple1 = (\"a\", \"b\", \"c\")\ntuple2 = (1, 2, 3)\ntuple3 = tuple1 + tuple2\nprint(tuple3)\n# If you want to multiply the content of a tuple a given number of times, you can use the * operator:\nfruits = (\"apple\", \"banana\", \"cherry\")\nmytuple = fruits * 2\nprint(mytuple)",
+        "detail": "01.Python basics.05.Tuple.06.join_tuples",
+        "documentation": {}
+    },
+    {
+        "label": "tuple2",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.06.join_tuples",
+        "description": "01.Python basics.05.Tuple.06.join_tuples",
+        "peekOfCode": "tuple2 = (1, 2, 3)\ntuple3 = tuple1 + tuple2\nprint(tuple3)\n# If you want to multiply the content of a tuple a given number of times, you can use the * operator:\nfruits = (\"apple\", \"banana\", \"cherry\")\nmytuple = fruits * 2\nprint(mytuple)",
+        "detail": "01.Python basics.05.Tuple.06.join_tuples",
+        "documentation": {}
+    },
+    {
+        "label": "tuple3",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.06.join_tuples",
+        "description": "01.Python basics.05.Tuple.06.join_tuples",
+        "peekOfCode": "tuple3 = tuple1 + tuple2\nprint(tuple3)\n# If you want to multiply the content of a tuple a given number of times, you can use the * operator:\nfruits = (\"apple\", \"banana\", \"cherry\")\nmytuple = fruits * 2\nprint(mytuple)",
+        "detail": "01.Python basics.05.Tuple.06.join_tuples",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.06.join_tuples",
+        "description": "01.Python basics.05.Tuple.06.join_tuples",
+        "peekOfCode": "fruits = (\"apple\", \"banana\", \"cherry\")\nmytuple = fruits * 2\nprint(mytuple)",
+        "detail": "01.Python basics.05.Tuple.06.join_tuples",
+        "documentation": {}
+    },
+    {
+        "label": "mytuple",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.06.join_tuples",
+        "description": "01.Python basics.05.Tuple.06.join_tuples",
+        "peekOfCode": "mytuple = fruits * 2\nprint(mytuple)",
+        "detail": "01.Python basics.05.Tuple.06.join_tuples",
+        "documentation": {}
+    },
+    {
+        "label": "find_all_positions",
+        "kind": 2,
+        "importPath": "01.Python basics.05.Tuple.07.methods",
+        "description": "01.Python basics.05.Tuple.07.methods",
+        "peekOfCode": "def find_all_positions(tuple_data, value):\n    positions = []\n    start = 0\n    while True:\n        try:\n            pos = tuple_data.index(value, start)\n            positions.append(pos)\n            start = pos + 1\n        except ValueError:\n            break",
+        "detail": "01.Python basics.05.Tuple.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.07.methods",
+        "description": "01.Python basics.05.Tuple.07.methods",
+        "peekOfCode": "fruits = (\"apple\", \"banana\", \"cherry\", \"date\", \"apple\", \"elderberry\")\nnumbers = (10, 20, 30, 40, 50, 20, 30, 20)\nmixed_tuple = (1, \"hello\", 3.14, True, \"hello\", 42)\nnested_tuple = (1, 2, (3, 4), 5, (3, 4))\nprint(\"\\n📋 SAMPLE TUPLES CREATED:\")\nprint(f\"Fruits tuple: {fruits}\")\nprint(f\"Numbers tuple: {numbers}\")\nprint(f\"Mixed tuple: {mixed_tuple}\")\nprint(f\"Nested tuple: {nested_tuple}\")\nprint(\"\\n\" + \"=\" * 80)",
+        "detail": "01.Python basics.05.Tuple.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.07.methods",
+        "description": "01.Python basics.05.Tuple.07.methods",
+        "peekOfCode": "numbers = (10, 20, 30, 40, 50, 20, 30, 20)\nmixed_tuple = (1, \"hello\", 3.14, True, \"hello\", 42)\nnested_tuple = (1, 2, (3, 4), 5, (3, 4))\nprint(\"\\n📋 SAMPLE TUPLES CREATED:\")\nprint(f\"Fruits tuple: {fruits}\")\nprint(f\"Numbers tuple: {numbers}\")\nprint(f\"Mixed tuple: {mixed_tuple}\")\nprint(f\"Nested tuple: {nested_tuple}\")\nprint(\"\\n\" + \"=\" * 80)\n# 1. count() - Returns the number of times a specified value occurs in a tuple",
+        "detail": "01.Python basics.05.Tuple.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "mixed_tuple",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.07.methods",
+        "description": "01.Python basics.05.Tuple.07.methods",
+        "peekOfCode": "mixed_tuple = (1, \"hello\", 3.14, True, \"hello\", 42)\nnested_tuple = (1, 2, (3, 4), 5, (3, 4))\nprint(\"\\n📋 SAMPLE TUPLES CREATED:\")\nprint(f\"Fruits tuple: {fruits}\")\nprint(f\"Numbers tuple: {numbers}\")\nprint(f\"Mixed tuple: {mixed_tuple}\")\nprint(f\"Nested tuple: {nested_tuple}\")\nprint(\"\\n\" + \"=\" * 80)\n# 1. count() - Returns the number of times a specified value occurs in a tuple\nprint(\"\\n1. count()\")",
+        "detail": "01.Python basics.05.Tuple.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "nested_tuple",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.07.methods",
+        "description": "01.Python basics.05.Tuple.07.methods",
+        "peekOfCode": "nested_tuple = (1, 2, (3, 4), 5, (3, 4))\nprint(\"\\n📋 SAMPLE TUPLES CREATED:\")\nprint(f\"Fruits tuple: {fruits}\")\nprint(f\"Numbers tuple: {numbers}\")\nprint(f\"Mixed tuple: {mixed_tuple}\")\nprint(f\"Nested tuple: {nested_tuple}\")\nprint(\"\\n\" + \"=\" * 80)\n# 1. count() - Returns the number of times a specified value occurs in a tuple\nprint(\"\\n1. count()\")\nprint(\"-\" * 50)",
+        "detail": "01.Python basics.05.Tuple.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "votes",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.07.methods",
+        "description": "01.Python basics.05.Tuple.07.methods",
+        "peekOfCode": "votes = (\"A\", \"B\", \"A\", \"C\", \"A\", \"B\", \"A\", \"D\", \"C\", \"A\")\nprint(f\"Votes: {votes}\")\nprint(f\"Votes for A: {votes.count('A')}\")\nprint(f\"Votes for B: {votes.count('B')}\")\nprint(f\"Votes for C: {votes.count('C')}\")\nprint(f\"Votes for D: {votes.count('D')}\")\ntotal_votes = len(votes)\nprint(f\"Total votes: {total_votes}\")\nprint(\"\\n→ Returns the number of occurrences of a value in tuple\")\nprint(\"→ Returns 0 if value is not found\")",
+        "detail": "01.Python basics.05.Tuple.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "total_votes",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.07.methods",
+        "description": "01.Python basics.05.Tuple.07.methods",
+        "peekOfCode": "total_votes = len(votes)\nprint(f\"Total votes: {total_votes}\")\nprint(\"\\n→ Returns the number of occurrences of a value in tuple\")\nprint(\"→ Returns 0 if value is not found\")\nprint(\"→ Works with any data type (strings, numbers, tuples, etc.)\")\nprint(\"→ Case-sensitive: 'apple' and 'Apple' are different\")\n# Important note about count with True/False\nprint(\"\\n⚠️ Important: True counts as 1, False counts as 0\")\nbool_tuple = (True, 1, False, 0, True, 1)\nprint(f\"Tuple: {bool_tuple}\")",
+        "detail": "01.Python basics.05.Tuple.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "bool_tuple",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.07.methods",
+        "description": "01.Python basics.05.Tuple.07.methods",
+        "peekOfCode": "bool_tuple = (True, 1, False, 0, True, 1)\nprint(f\"Tuple: {bool_tuple}\")\nprint(f\"Count of True: {bool_tuple.count(True)}\")  # Counts True and 1\nprint(f\"Count of 1: {bool_tuple.count(1)}\")  # Counts 1 and True\nprint(f\"Count of False: {bool_tuple.count(False)}\")  # Counts False and 0\nprint(f\"Count of 0: {bool_tuple.count(0)}\")  # Counts 0 and False\n# 2. index() - Searches the tuple for a specified value and returns the position\nprint(\"\\n2. index()\")\nprint(\"-\" * 50)\n# Basic usage with fruits tuple",
+        "detail": "01.Python basics.05.Tuple.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "students",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.07.methods",
+        "description": "01.Python basics.05.Tuple.07.methods",
+        "peekOfCode": "students = (\"Alice\", \"Bob\", \"Charlie\", \"David\", \"Emma\")\nprint(f\"Students: {students}\")\nstudent_name = \"Charlie\"\nposition = students.index(student_name)\nprint(f\"'{student_name}' is at position {position}\")\n# Example 2: Using start parameter to find second occurrence\ncolors = (\"red\", \"blue\", \"green\", \"red\", \"yellow\", \"red\")\nprint(f\"\\nColors: {colors}\")\nfirst_red = colors.index(\"red\")\nsecond_red = colors.index(\"red\", first_red + 1)",
+        "detail": "01.Python basics.05.Tuple.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "student_name",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.07.methods",
+        "description": "01.Python basics.05.Tuple.07.methods",
+        "peekOfCode": "student_name = \"Charlie\"\nposition = students.index(student_name)\nprint(f\"'{student_name}' is at position {position}\")\n# Example 2: Using start parameter to find second occurrence\ncolors = (\"red\", \"blue\", \"green\", \"red\", \"yellow\", \"red\")\nprint(f\"\\nColors: {colors}\")\nfirst_red = colors.index(\"red\")\nsecond_red = colors.index(\"red\", first_red + 1)\nthird_red = colors.index(\"red\", second_red + 1)\nprint(f\"First 'red' at: {first_red}\")",
+        "detail": "01.Python basics.05.Tuple.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "position",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.07.methods",
+        "description": "01.Python basics.05.Tuple.07.methods",
+        "peekOfCode": "position = students.index(student_name)\nprint(f\"'{student_name}' is at position {position}\")\n# Example 2: Using start parameter to find second occurrence\ncolors = (\"red\", \"blue\", \"green\", \"red\", \"yellow\", \"red\")\nprint(f\"\\nColors: {colors}\")\nfirst_red = colors.index(\"red\")\nsecond_red = colors.index(\"red\", first_red + 1)\nthird_red = colors.index(\"red\", second_red + 1)\nprint(f\"First 'red' at: {first_red}\")\nprint(f\"Second 'red' at: {second_red}\")",
+        "detail": "01.Python basics.05.Tuple.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "colors",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.07.methods",
+        "description": "01.Python basics.05.Tuple.07.methods",
+        "peekOfCode": "colors = (\"red\", \"blue\", \"green\", \"red\", \"yellow\", \"red\")\nprint(f\"\\nColors: {colors}\")\nfirst_red = colors.index(\"red\")\nsecond_red = colors.index(\"red\", first_red + 1)\nthird_red = colors.index(\"red\", second_red + 1)\nprint(f\"First 'red' at: {first_red}\")\nprint(f\"Second 'red' at: {second_red}\")\nprint(f\"Third 'red' at: {third_red}\")\n# Example 3: Finding position of maximum value\nprint(f\"\\nNumbers: {numbers}\")",
+        "detail": "01.Python basics.05.Tuple.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "first_red",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.07.methods",
+        "description": "01.Python basics.05.Tuple.07.methods",
+        "peekOfCode": "first_red = colors.index(\"red\")\nsecond_red = colors.index(\"red\", first_red + 1)\nthird_red = colors.index(\"red\", second_red + 1)\nprint(f\"First 'red' at: {first_red}\")\nprint(f\"Second 'red' at: {second_red}\")\nprint(f\"Third 'red' at: {third_red}\")\n# Example 3: Finding position of maximum value\nprint(f\"\\nNumbers: {numbers}\")\nmax_value = max(numbers)\nmax_index = numbers.index(max_value)",
+        "detail": "01.Python basics.05.Tuple.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "second_red",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.07.methods",
+        "description": "01.Python basics.05.Tuple.07.methods",
+        "peekOfCode": "second_red = colors.index(\"red\", first_red + 1)\nthird_red = colors.index(\"red\", second_red + 1)\nprint(f\"First 'red' at: {first_red}\")\nprint(f\"Second 'red' at: {second_red}\")\nprint(f\"Third 'red' at: {third_red}\")\n# Example 3: Finding position of maximum value\nprint(f\"\\nNumbers: {numbers}\")\nmax_value = max(numbers)\nmax_index = numbers.index(max_value)\nprint(f\"Maximum value {max_value} found at index {max_index}\")",
+        "detail": "01.Python basics.05.Tuple.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "third_red",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.07.methods",
+        "description": "01.Python basics.05.Tuple.07.methods",
+        "peekOfCode": "third_red = colors.index(\"red\", second_red + 1)\nprint(f\"First 'red' at: {first_red}\")\nprint(f\"Second 'red' at: {second_red}\")\nprint(f\"Third 'red' at: {third_red}\")\n# Example 3: Finding position of maximum value\nprint(f\"\\nNumbers: {numbers}\")\nmax_value = max(numbers)\nmax_index = numbers.index(max_value)\nprint(f\"Maximum value {max_value} found at index {max_index}\")\n# Example 4: Finding all positions of a value",
+        "detail": "01.Python basics.05.Tuple.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "max_value",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.07.methods",
+        "description": "01.Python basics.05.Tuple.07.methods",
+        "peekOfCode": "max_value = max(numbers)\nmax_index = numbers.index(max_value)\nprint(f\"Maximum value {max_value} found at index {max_index}\")\n# Example 4: Finding all positions of a value\nprint(f\"\\n🔍 Finding all positions of a value:\")\ndef find_all_positions(tuple_data, value):\n    positions = []\n    start = 0\n    while True:\n        try:",
+        "detail": "01.Python basics.05.Tuple.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "max_index",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.07.methods",
+        "description": "01.Python basics.05.Tuple.07.methods",
+        "peekOfCode": "max_index = numbers.index(max_value)\nprint(f\"Maximum value {max_value} found at index {max_index}\")\n# Example 4: Finding all positions of a value\nprint(f\"\\n🔍 Finding all positions of a value:\")\ndef find_all_positions(tuple_data, value):\n    positions = []\n    start = 0\n    while True:\n        try:\n            pos = tuple_data.index(value, start)",
+        "detail": "01.Python basics.05.Tuple.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "test_tuple",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.07.methods",
+        "description": "01.Python basics.05.Tuple.07.methods",
+        "peekOfCode": "test_tuple = (5, 2, 8, 2, 9, 2, 1, 2)\nprint(f\"Tuple: {test_tuple}\")\nprint(f\"All positions of 2: {find_all_positions(test_tuple, 2)}\")\nprint(f\"All positions of 5: {find_all_positions(test_tuple, 5)}\")\nprint(f\"All positions of 10: {find_all_positions(test_tuple, 10)}\")\nprint(\"\\n→ Returns the index of the first occurrence of a value\")\nprint(\"→ Raises ValueError if value is not found\")\nprint(\"→ Can specify start and end search range with parameters\")\nprint(\"→ Syntax: tuple.index(value, start, end)\")\nprint(\"→ Works with any data type (strings, numbers, tuples, etc.)\")",
+        "detail": "01.Python basics.05.Tuple.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "sample",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.07.methods",
+        "description": "01.Python basics.05.Tuple.07.methods",
+        "peekOfCode": "sample = (1, 2, 3, 2, 4, 2, 5)\nprint(f\"Sample tuple: {sample}\")\nprint(f\"count(2): {sample.count(2)} - Tells HOW MANY times 2 appears\")\nprint(f\"index(2): {sample.index(2)} - Tells WHERE the first 2 is located\")\nprint(\"→ count() for quantity, index() for position\")\nprint(\"→ Both work on tuples (immutable)\")\nprint(\"\\n\" + \"=\" * 80)\nprint(\"📚 QUICK REFERENCE SUMMARY\")\nprint(\"-\" * 50)\nprint(\"count(value) → Returns number of occurrences of value\")",
+        "detail": "01.Python basics.05.Tuple.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "tuple_data",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.07.methods",
+        "description": "01.Python basics.05.Tuple.07.methods",
+        "peekOfCode": "tuple_data = (1, 2, 3, 4, 5)\nlist_data = list(tuple_data)\nlist_data.append(6)\nlist_data.remove(3)\ntuple_data = tuple(list_data)\nprint(f\"Original tuple converted to list, modified, and back to tuple: {tuple_data}\")\nprint(\"=\" * 80)",
+        "detail": "01.Python basics.05.Tuple.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "list_data",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.07.methods",
+        "description": "01.Python basics.05.Tuple.07.methods",
+        "peekOfCode": "list_data = list(tuple_data)\nlist_data.append(6)\nlist_data.remove(3)\ntuple_data = tuple(list_data)\nprint(f\"Original tuple converted to list, modified, and back to tuple: {tuple_data}\")\nprint(\"=\" * 80)",
+        "detail": "01.Python basics.05.Tuple.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "tuple_data",
+        "kind": 5,
+        "importPath": "01.Python basics.05.Tuple.07.methods",
+        "description": "01.Python basics.05.Tuple.07.methods",
+        "peekOfCode": "tuple_data = tuple(list_data)\nprint(f\"Original tuple converted to list, modified, and back to tuple: {tuple_data}\")\nprint(\"=\" * 80)",
+        "detail": "01.Python basics.05.Tuple.07.methods",
         "documentation": {}
     }
 ]
