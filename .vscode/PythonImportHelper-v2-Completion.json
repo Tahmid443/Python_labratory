@@ -2716,5 +2716,1148 @@
         "peekOfCode": "tuple_data = tuple(list_data)\nprint(f\"Original tuple converted to list, modified, and back to tuple: {tuple_data}\")\nprint(\"=\" * 80)",
         "detail": "01.Python basics.05.Tuple.07.methods",
         "documentation": {}
+    },
+    {
+        "label": "thisset",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.01.sets",
+        "description": "01.Python basics.06.Set.01.sets",
+        "peekOfCode": "thisset = {\"apple\", \"banana\", \"cherry\"}  # can have duplicates but other will ignored\nprint(thisset)\n# True and 1 is considered the same value:\nthisset = {\"apple\", \"banana\", \"cherry\", True, 1, 2}\nprint(thisset)#it will ignore 1\n# Duplicate values will be ignored:\nthisset = {\"apple\", \"banana\", \"cherry\", \"apple\"}\nprint(thisset)\n# Get the number of items in a set:\nthisset = {\"apple\", \"banana\", \"cherry\", \"apple\"}",
+        "detail": "01.Python basics.06.Set.01.sets",
+        "documentation": {}
+    },
+    {
+        "label": "thisset",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.01.sets",
+        "description": "01.Python basics.06.Set.01.sets",
+        "peekOfCode": "thisset = {\"apple\", \"banana\", \"cherry\", True, 1, 2}\nprint(thisset)#it will ignore 1\n# Duplicate values will be ignored:\nthisset = {\"apple\", \"banana\", \"cherry\", \"apple\"}\nprint(thisset)\n# Get the number of items in a set:\nthisset = {\"apple\", \"banana\", \"cherry\", \"apple\"}\nprint(len(thisset))#number of unique items in the set\n# set constructor\nthisset = set((\"apple\", \"banana\", \"cherry\"))  # note the double round-brackets",
+        "detail": "01.Python basics.06.Set.01.sets",
+        "documentation": {}
+    },
+    {
+        "label": "thisset",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.01.sets",
+        "description": "01.Python basics.06.Set.01.sets",
+        "peekOfCode": "thisset = {\"apple\", \"banana\", \"cherry\", \"apple\"}\nprint(thisset)\n# Get the number of items in a set:\nthisset = {\"apple\", \"banana\", \"cherry\", \"apple\"}\nprint(len(thisset))#number of unique items in the set\n# set constructor\nthisset = set((\"apple\", \"banana\", \"cherry\"))  # note the double round-brackets\nprint(thisset)",
+        "detail": "01.Python basics.06.Set.01.sets",
+        "documentation": {}
+    },
+    {
+        "label": "thisset",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.01.sets",
+        "description": "01.Python basics.06.Set.01.sets",
+        "peekOfCode": "thisset = {\"apple\", \"banana\", \"cherry\", \"apple\"}\nprint(len(thisset))#number of unique items in the set\n# set constructor\nthisset = set((\"apple\", \"banana\", \"cherry\"))  # note the double round-brackets\nprint(thisset)",
+        "detail": "01.Python basics.06.Set.01.sets",
+        "documentation": {}
+    },
+    {
+        "label": "thisset",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.01.sets",
+        "description": "01.Python basics.06.Set.01.sets",
+        "peekOfCode": "thisset = set((\"apple\", \"banana\", \"cherry\"))  # note the double round-brackets\nprint(thisset)",
+        "detail": "01.Python basics.06.Set.01.sets",
+        "documentation": {}
+    },
+    {
+        "label": "thisset",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.02.access_item",
+        "description": "01.Python basics.06.Set.02.access_item",
+        "peekOfCode": "thisset = {\"apple\", \"banana\", \"cherry\"}\nfor x in thisset:\n    print(x)\n# Check if \"banana\" is present in the set:\nthisset = {\"apple\", \"banana\", \"cherry\"}\nprint(\"banana\" in thisset)\n# Check if \"banana\" is NOT present in the set:\nthisset = {\"apple\", \"banana\", \"cherry\"}\nprint(\"banana\" not in thisset)",
+        "detail": "01.Python basics.06.Set.02.access_item",
+        "documentation": {}
+    },
+    {
+        "label": "thisset",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.02.access_item",
+        "description": "01.Python basics.06.Set.02.access_item",
+        "peekOfCode": "thisset = {\"apple\", \"banana\", \"cherry\"}\nprint(\"banana\" in thisset)\n# Check if \"banana\" is NOT present in the set:\nthisset = {\"apple\", \"banana\", \"cherry\"}\nprint(\"banana\" not in thisset)",
+        "detail": "01.Python basics.06.Set.02.access_item",
+        "documentation": {}
+    },
+    {
+        "label": "thisset",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.02.access_item",
+        "description": "01.Python basics.06.Set.02.access_item",
+        "peekOfCode": "thisset = {\"apple\", \"banana\", \"cherry\"}\nprint(\"banana\" not in thisset)",
+        "detail": "01.Python basics.06.Set.02.access_item",
+        "documentation": {}
+    },
+    {
+        "label": "thisset",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.03.add_items",
+        "description": "01.Python basics.06.Set.03.add_items",
+        "peekOfCode": "thisset = {\"apple\", \"banana\", \"cherry\"}\nthisset.add(\"orange\")\nprint(thisset)\n# To add items from another set into the current set, use the update() method.\nthisset = {\"apple\", \"banana\", \"cherry\"}\ntropical = {\"pineapple\", \"mango\", \"papaya\"}\nthisset.update(tropical)\nprint(thisset)\n# The object in the update() method does not have to be a set, it can be any iterable object (tuples, lists, dictionaries etc.).\nthisset = {\"apple\", \"banana\", \"cherry\"}",
+        "detail": "01.Python basics.06.Set.03.add_items",
+        "documentation": {}
+    },
+    {
+        "label": "thisset",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.03.add_items",
+        "description": "01.Python basics.06.Set.03.add_items",
+        "peekOfCode": "thisset = {\"apple\", \"banana\", \"cherry\"}\ntropical = {\"pineapple\", \"mango\", \"papaya\"}\nthisset.update(tropical)\nprint(thisset)\n# The object in the update() method does not have to be a set, it can be any iterable object (tuples, lists, dictionaries etc.).\nthisset = {\"apple\", \"banana\", \"cherry\"}\nmylist = [\"kiwi\", \"orange\"]\nthisset.update(mylist)\nprint(thisset)",
+        "detail": "01.Python basics.06.Set.03.add_items",
+        "documentation": {}
+    },
+    {
+        "label": "tropical",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.03.add_items",
+        "description": "01.Python basics.06.Set.03.add_items",
+        "peekOfCode": "tropical = {\"pineapple\", \"mango\", \"papaya\"}\nthisset.update(tropical)\nprint(thisset)\n# The object in the update() method does not have to be a set, it can be any iterable object (tuples, lists, dictionaries etc.).\nthisset = {\"apple\", \"banana\", \"cherry\"}\nmylist = [\"kiwi\", \"orange\"]\nthisset.update(mylist)\nprint(thisset)",
+        "detail": "01.Python basics.06.Set.03.add_items",
+        "documentation": {}
+    },
+    {
+        "label": "thisset",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.03.add_items",
+        "description": "01.Python basics.06.Set.03.add_items",
+        "peekOfCode": "thisset = {\"apple\", \"banana\", \"cherry\"}\nmylist = [\"kiwi\", \"orange\"]\nthisset.update(mylist)\nprint(thisset)",
+        "detail": "01.Python basics.06.Set.03.add_items",
+        "documentation": {}
+    },
+    {
+        "label": "mylist",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.03.add_items",
+        "description": "01.Python basics.06.Set.03.add_items",
+        "peekOfCode": "mylist = [\"kiwi\", \"orange\"]\nthisset.update(mylist)\nprint(thisset)",
+        "detail": "01.Python basics.06.Set.03.add_items",
+        "documentation": {}
+    },
+    {
+        "label": "thisset",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.04.remove_item",
+        "description": "01.Python basics.06.Set.04.remove_item",
+        "peekOfCode": "thisset = {\"apple\", \"banana\", \"cherry\"}\nthisset.remove(\"banana\")\nprint(thisset)\n# Remove \"banana\" by using the discard() method:\nthisset = {\"apple\", \"banana\", \"cherry\"}\nthisset.discard(\"banana\")\nprint(thisset)\n# Remove a random item by using the pop() method:\nthisset = {\"apple\", \"banana\", \"cherry\"}\nx = thisset.pop()",
+        "detail": "01.Python basics.06.Set.04.remove_item",
+        "documentation": {}
+    },
+    {
+        "label": "thisset",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.04.remove_item",
+        "description": "01.Python basics.06.Set.04.remove_item",
+        "peekOfCode": "thisset = {\"apple\", \"banana\", \"cherry\"}\nthisset.discard(\"banana\")\nprint(thisset)\n# Remove a random item by using the pop() method:\nthisset = {\"apple\", \"banana\", \"cherry\"}\nx = thisset.pop()\nprint(x)\nprint(thisset)\n# The clear() method empties the set:\nthisset = {\"apple\", \"banana\", \"cherry\"}",
+        "detail": "01.Python basics.06.Set.04.remove_item",
+        "documentation": {}
+    },
+    {
+        "label": "thisset",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.04.remove_item",
+        "description": "01.Python basics.06.Set.04.remove_item",
+        "peekOfCode": "thisset = {\"apple\", \"banana\", \"cherry\"}\nx = thisset.pop()\nprint(x)\nprint(thisset)\n# The clear() method empties the set:\nthisset = {\"apple\", \"banana\", \"cherry\"}\nthisset.clear()\nprint(thisset)\n# The del keyword will delete the set completely:\nthisset = {\"apple\", \"banana\", \"cherry\"}",
+        "detail": "01.Python basics.06.Set.04.remove_item",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.04.remove_item",
+        "description": "01.Python basics.06.Set.04.remove_item",
+        "peekOfCode": "x = thisset.pop()\nprint(x)\nprint(thisset)\n# The clear() method empties the set:\nthisset = {\"apple\", \"banana\", \"cherry\"}\nthisset.clear()\nprint(thisset)\n# The del keyword will delete the set completely:\nthisset = {\"apple\", \"banana\", \"cherry\"}\ndel thisset",
+        "detail": "01.Python basics.06.Set.04.remove_item",
+        "documentation": {}
+    },
+    {
+        "label": "thisset",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.04.remove_item",
+        "description": "01.Python basics.06.Set.04.remove_item",
+        "peekOfCode": "thisset = {\"apple\", \"banana\", \"cherry\"}\nthisset.clear()\nprint(thisset)\n# The del keyword will delete the set completely:\nthisset = {\"apple\", \"banana\", \"cherry\"}\ndel thisset\nprint(thisset)",
+        "detail": "01.Python basics.06.Set.04.remove_item",
+        "documentation": {}
+    },
+    {
+        "label": "thisset",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.04.remove_item",
+        "description": "01.Python basics.06.Set.04.remove_item",
+        "peekOfCode": "thisset = {\"apple\", \"banana\", \"cherry\"}\ndel thisset\nprint(thisset)",
+        "detail": "01.Python basics.06.Set.04.remove_item",
+        "documentation": {}
+    },
+    {
+        "label": "set1",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}\nset3 = set1.union(set2)\nprint(set3)\n# You can use the | operator instead of the union() method, and you will get the same result.\nset1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}\nset3 = set1 | set2\nprint(set3)\n# Join multiple sets with the union() method:",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set2",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set2 = {1, 2, 3}\nset3 = set1.union(set2)\nprint(set3)\n# You can use the | operator instead of the union() method, and you will get the same result.\nset1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}\nset3 = set1 | set2\nprint(set3)\n# Join multiple sets with the union() method:\nset1 = {\"a\", \"b\", \"c\"}",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set3",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set3 = set1.union(set2)\nprint(set3)\n# You can use the | operator instead of the union() method, and you will get the same result.\nset1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}\nset3 = set1 | set2\nprint(set3)\n# Join multiple sets with the union() method:\nset1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set1",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}\nset3 = set1 | set2\nprint(set3)\n# Join multiple sets with the union() method:\nset1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}\nset3 = {\"John\", \"Elena\"}\nset4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1.union(set2, set3, set4)",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set2",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set2 = {1, 2, 3}\nset3 = set1 | set2\nprint(set3)\n# Join multiple sets with the union() method:\nset1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}\nset3 = {\"John\", \"Elena\"}\nset4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1.union(set2, set3, set4)\nprint(myset)",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set3",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set3 = set1 | set2\nprint(set3)\n# Join multiple sets with the union() method:\nset1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}\nset3 = {\"John\", \"Elena\"}\nset4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1.union(set2, set3, set4)\nprint(myset)\n# When using the | operator, separate the sets with more | operators:",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set1",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}\nset3 = {\"John\", \"Elena\"}\nset4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1.union(set2, set3, set4)\nprint(myset)\n# When using the | operator, separate the sets with more | operators:\nset1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}\nset3 = {\"John\", \"Elena\"}",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set2",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set2 = {1, 2, 3}\nset3 = {\"John\", \"Elena\"}\nset4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1.union(set2, set3, set4)\nprint(myset)\n# When using the | operator, separate the sets with more | operators:\nset1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}\nset3 = {\"John\", \"Elena\"}\nset4 = {\"apple\", \"bananas\", \"cherry\"}",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set3",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set3 = {\"John\", \"Elena\"}\nset4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1.union(set2, set3, set4)\nprint(myset)\n# When using the | operator, separate the sets with more | operators:\nset1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}\nset3 = {\"John\", \"Elena\"}\nset4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1 | set2 | set3 | set4",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set4",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1.union(set2, set3, set4)\nprint(myset)\n# When using the | operator, separate the sets with more | operators:\nset1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}\nset3 = {\"John\", \"Elena\"}\nset4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1 | set2 | set3 | set4\nprint(myset)",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "myset",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "myset = set1.union(set2, set3, set4)\nprint(myset)\n# When using the | operator, separate the sets with more | operators:\nset1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}\nset3 = {\"John\", \"Elena\"}\nset4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1 | set2 | set3 | set4\nprint(myset)\n# The union() method allows you to join a set with other data types, like lists or tuples.",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set1",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}\nset3 = {\"John\", \"Elena\"}\nset4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1 | set2 | set3 | set4\nprint(myset)\n# The union() method allows you to join a set with other data types, like lists or tuples.\nx = {\"a\", \"b\", \"c\"}\ny = (1, 2, 3)\nz = x.union(y)",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set2",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set2 = {1, 2, 3}\nset3 = {\"John\", \"Elena\"}\nset4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1 | set2 | set3 | set4\nprint(myset)\n# The union() method allows you to join a set with other data types, like lists or tuples.\nx = {\"a\", \"b\", \"c\"}\ny = (1, 2, 3)\nz = x.union(y)\nprint(z)",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set3",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set3 = {\"John\", \"Elena\"}\nset4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1 | set2 | set3 | set4\nprint(myset)\n# The union() method allows you to join a set with other data types, like lists or tuples.\nx = {\"a\", \"b\", \"c\"}\ny = (1, 2, 3)\nz = x.union(y)\nprint(z)\n\"\"\"",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set4",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set4 = {\"apple\", \"bananas\", \"cherry\"}\nmyset = set1 | set2 | set3 | set4\nprint(myset)\n# The union() method allows you to join a set with other data types, like lists or tuples.\nx = {\"a\", \"b\", \"c\"}\ny = (1, 2, 3)\nz = x.union(y)\nprint(z)\n\"\"\"\nNote: The  | operator only allows you to join sets with sets, and not with other data types like you can with the  union() method.",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "myset",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "myset = set1 | set2 | set3 | set4\nprint(myset)\n# The union() method allows you to join a set with other data types, like lists or tuples.\nx = {\"a\", \"b\", \"c\"}\ny = (1, 2, 3)\nz = x.union(y)\nprint(z)\n\"\"\"\nNote: The  | operator only allows you to join sets with sets, and not with other data types like you can with the  union() method.\n\"\"\"",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "x = {\"a\", \"b\", \"c\"}\ny = (1, 2, 3)\nz = x.union(y)\nprint(z)\n\"\"\"\nNote: The  | operator only allows you to join sets with sets, and not with other data types like you can with the  union() method.\n\"\"\"\n# The update() method inserts the items in set2 into set1:\nset1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "y = (1, 2, 3)\nz = x.union(y)\nprint(z)\n\"\"\"\nNote: The  | operator only allows you to join sets with sets, and not with other data types like you can with the  union() method.\n\"\"\"\n# The update() method inserts the items in set2 into set1:\nset1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}\nset1.update(set2)",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "z = x.union(y)\nprint(z)\n\"\"\"\nNote: The  | operator only allows you to join sets with sets, and not with other data types like you can with the  union() method.\n\"\"\"\n# The update() method inserts the items in set2 into set1:\nset1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}\nset1.update(set2)\nprint(set1)",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set1",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set1 = {\"a\", \"b\", \"c\"}\nset2 = {1, 2, 3}\nset1.update(set2)\nprint(set1)\n# The intersection() method will return a new set, that only contains the items that are present in both sets.\nset1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1.intersection(set2)\nprint(set3)\n# You can use the & operator instead of the intersection() method, and you will get the same result.",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set2",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set2 = {1, 2, 3}\nset1.update(set2)\nprint(set1)\n# The intersection() method will return a new set, that only contains the items that are present in both sets.\nset1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1.intersection(set2)\nprint(set3)\n# You can use the & operator instead of the intersection() method, and you will get the same result.\nset1 = {\"apple\", \"banana\", \"cherry\"}",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set1",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1.intersection(set2)\nprint(set3)\n# You can use the & operator instead of the intersection() method, and you will get the same result.\nset1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1 & set2\nprint(set3)\n\"\"\"",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set2",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1.intersection(set2)\nprint(set3)\n# You can use the & operator instead of the intersection() method, and you will get the same result.\nset1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1 & set2\nprint(set3)\n\"\"\"\nNote: The & operator only allows you to join sets with sets, and not with other data types like you can with the intersection() method.",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set3",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set3 = set1.intersection(set2)\nprint(set3)\n# You can use the & operator instead of the intersection() method, and you will get the same result.\nset1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1 & set2\nprint(set3)\n\"\"\"\nNote: The & operator only allows you to join sets with sets, and not with other data types like you can with the intersection() method.\n\"\"\"",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set1",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1 & set2\nprint(set3)\n\"\"\"\nNote: The & operator only allows you to join sets with sets, and not with other data types like you can with the intersection() method.\n\"\"\"\n# The intersection_update() method will also keep ONLY the duplicates, but it will change the original set instead of returning a new set.\nset1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set2",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1 & set2\nprint(set3)\n\"\"\"\nNote: The & operator only allows you to join sets with sets, and not with other data types like you can with the intersection() method.\n\"\"\"\n# The intersection_update() method will also keep ONLY the duplicates, but it will change the original set instead of returning a new set.\nset1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset1.intersection_update(set2)",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set3",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set3 = set1 & set2\nprint(set3)\n\"\"\"\nNote: The & operator only allows you to join sets with sets, and not with other data types like you can with the intersection() method.\n\"\"\"\n# The intersection_update() method will also keep ONLY the duplicates, but it will change the original set instead of returning a new set.\nset1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset1.intersection_update(set2)\nprint(set1)",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set1",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset1.intersection_update(set2)\nprint(set1)\n# Join sets that contains the values True, False, 1, and 0, and see what is considered as duplicates:\nset1 = {\"apple\", 1, \"banana\", 0, \"cherry\"}\nset2 = {False, \"google\", 1, \"apple\", 2, True}\nset3 = set1.intersection(set2)\nprint(set3)\n# The difference() method will return a new set that will contain only the items from the first set that are not present in the other set.",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set2",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set2 = {\"google\", \"microsoft\", \"apple\"}\nset1.intersection_update(set2)\nprint(set1)\n# Join sets that contains the values True, False, 1, and 0, and see what is considered as duplicates:\nset1 = {\"apple\", 1, \"banana\", 0, \"cherry\"}\nset2 = {False, \"google\", 1, \"apple\", 2, True}\nset3 = set1.intersection(set2)\nprint(set3)\n# The difference() method will return a new set that will contain only the items from the first set that are not present in the other set.\nset1 = {\"apple\", \"banana\", \"cherry\"}",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set1",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set1 = {\"apple\", 1, \"banana\", 0, \"cherry\"}\nset2 = {False, \"google\", 1, \"apple\", 2, True}\nset3 = set1.intersection(set2)\nprint(set3)\n# The difference() method will return a new set that will contain only the items from the first set that are not present in the other set.\nset1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1.difference(set2)\nprint(set3)\n# You can use the - operator instead of the difference() method, and you will get the same result.",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set2",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set2 = {False, \"google\", 1, \"apple\", 2, True}\nset3 = set1.intersection(set2)\nprint(set3)\n# The difference() method will return a new set that will contain only the items from the first set that are not present in the other set.\nset1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1.difference(set2)\nprint(set3)\n# You can use the - operator instead of the difference() method, and you will get the same result.\nset1 = {\"apple\", \"banana\", \"cherry\"}",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set3",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set3 = set1.intersection(set2)\nprint(set3)\n# The difference() method will return a new set that will contain only the items from the first set that are not present in the other set.\nset1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1.difference(set2)\nprint(set3)\n# You can use the - operator instead of the difference() method, and you will get the same result.\nset1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set1",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1.difference(set2)\nprint(set3)\n# You can use the - operator instead of the difference() method, and you will get the same result.\nset1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1 - set2\nprint(set3)\n\"\"\"",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set2",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1.difference(set2)\nprint(set3)\n# You can use the - operator instead of the difference() method, and you will get the same result.\nset1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1 - set2\nprint(set3)\n\"\"\"\nNote: The - operator only allows you to join sets with sets, and not with other data types like you can with the difference() method.",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set3",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set3 = set1.difference(set2)\nprint(set3)\n# You can use the - operator instead of the difference() method, and you will get the same result.\nset1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1 - set2\nprint(set3)\n\"\"\"\nNote: The - operator only allows you to join sets with sets, and not with other data types like you can with the difference() method.\n\"\"\"",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set1",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1 - set2\nprint(set3)\n\"\"\"\nNote: The - operator only allows you to join sets with sets, and not with other data types like you can with the difference() method.\n\"\"\"\n# Use the difference_update() method to keep only the items from the first set that are not present in the other set:\nset1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set2",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1 - set2\nprint(set3)\n\"\"\"\nNote: The - operator only allows you to join sets with sets, and not with other data types like you can with the difference() method.\n\"\"\"\n# Use the difference_update() method to keep only the items from the first set that are not present in the other set:\nset1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset1.difference_update(set2)",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set3",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set3 = set1 - set2\nprint(set3)\n\"\"\"\nNote: The - operator only allows you to join sets with sets, and not with other data types like you can with the difference() method.\n\"\"\"\n# Use the difference_update() method to keep only the items from the first set that are not present in the other set:\nset1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset1.difference_update(set2)\nprint(set1)",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set1",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset1.difference_update(set2)\nprint(set1)\n# The symmetric_difference() method will keep only the elements that are NOT present in both sets.\nset1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1.symmetric_difference(set2)\nprint(set3)\n# You can use the ^ operator instead of the symmetric_difference() method, and you will get the same result.",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set2",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set2 = {\"google\", \"microsoft\", \"apple\"}\nset1.difference_update(set2)\nprint(set1)\n# The symmetric_difference() method will keep only the elements that are NOT present in both sets.\nset1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1.symmetric_difference(set2)\nprint(set3)\n# You can use the ^ operator instead of the symmetric_difference() method, and you will get the same result.\nset1 = {\"apple\", \"banana\", \"cherry\"}",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set1",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1.symmetric_difference(set2)\nprint(set3)\n# You can use the ^ operator instead of the symmetric_difference() method, and you will get the same result.\nset1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1 ^ set2\nprint(set3)\n\"\"\"",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set2",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1.symmetric_difference(set2)\nprint(set3)\n# You can use the ^ operator instead of the symmetric_difference() method, and you will get the same result.\nset1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1 ^ set2\nprint(set3)\n\"\"\"\nNote: The ^ operator only allows you to join sets with sets, and not with other data types like you can with the symmetric_difference() method.",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set3",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set3 = set1.symmetric_difference(set2)\nprint(set3)\n# You can use the ^ operator instead of the symmetric_difference() method, and you will get the same result.\nset1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1 ^ set2\nprint(set3)\n\"\"\"\nNote: The ^ operator only allows you to join sets with sets, and not with other data types like you can with the symmetric_difference() method.\n\"\"\"",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set1",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1 ^ set2\nprint(set3)\n\"\"\"\nNote: The ^ operator only allows you to join sets with sets, and not with other data types like you can with the symmetric_difference() method.\n\"\"\"\n# Use the symmetric_difference_update() method to keep the items that are not present in both sets:\nset1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set2",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set2 = {\"google\", \"microsoft\", \"apple\"}\nset3 = set1 ^ set2\nprint(set3)\n\"\"\"\nNote: The ^ operator only allows you to join sets with sets, and not with other data types like you can with the symmetric_difference() method.\n\"\"\"\n# Use the symmetric_difference_update() method to keep the items that are not present in both sets:\nset1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset1.symmetric_difference_update(set2)",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set3",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set3 = set1 ^ set2\nprint(set3)\n\"\"\"\nNote: The ^ operator only allows you to join sets with sets, and not with other data types like you can with the symmetric_difference() method.\n\"\"\"\n# Use the symmetric_difference_update() method to keep the items that are not present in both sets:\nset1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset1.symmetric_difference_update(set2)\nprint(set1)",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set1",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set1 = {\"apple\", \"banana\", \"cherry\"}\nset2 = {\"google\", \"microsoft\", \"apple\"}\nset1.symmetric_difference_update(set2)\nprint(set1)",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "set2",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.05.join_set",
+        "description": "01.Python basics.06.Set.05.join_set",
+        "peekOfCode": "set2 = {\"google\", \"microsoft\", \"apple\"}\nset1.symmetric_difference_update(set2)\nprint(set1)",
+        "detail": "01.Python basics.06.Set.05.join_set",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.06.frozenset",
+        "description": "01.Python basics.06.Set.06.frozenset",
+        "peekOfCode": "x = frozenset({\"apple\", \"banana\", \"cherry\"})\nprint(x)\nprint(type(x))\n# ============================================================\n# PYTHON FROZENSET METHODS\n# ============================================================\n# A frozenset is an immutable version of a set.\n# Once created, its elements cannot be changed.\n#\n# Example:",
+        "detail": "01.Python basics.06.Set.06.frozenset",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.06.frozenset",
+        "description": "01.Python basics.06.Set.06.frozenset",
+        "peekOfCode": "A = frozenset([1, 2, 3])\nB = A.copy()\nprint(B)\n# Output: frozenset({1, 2, 3})\n# ------------------------------------------------------------\n# 2. difference()  /  -\n# ------------------------------------------------------------\n# Returns a new frozenset containing elements that are\n# present in the first frozenset but not in the second.\nA = frozenset([1, 2, 3, 4])",
+        "detail": "01.Python basics.06.Set.06.frozenset",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.06.frozenset",
+        "description": "01.Python basics.06.Set.06.frozenset",
+        "peekOfCode": "B = A.copy()\nprint(B)\n# Output: frozenset({1, 2, 3})\n# ------------------------------------------------------------\n# 2. difference()  /  -\n# ------------------------------------------------------------\n# Returns a new frozenset containing elements that are\n# present in the first frozenset but not in the second.\nA = frozenset([1, 2, 3, 4])\nB = frozenset([3, 4, 5, 6])",
+        "detail": "01.Python basics.06.Set.06.frozenset",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.06.frozenset",
+        "description": "01.Python basics.06.Set.06.frozenset",
+        "peekOfCode": "A = frozenset([1, 2, 3, 4])\nB = frozenset([3, 4, 5, 6])\nprint(A.difference(B))\n# Output: frozenset({1, 2})\nprint(A - B)\n# Output: frozenset({1, 2})\n# ------------------------------------------------------------\n# 3. intersection()  /  &\n# ------------------------------------------------------------\n# Returns a new frozenset containing elements common",
+        "detail": "01.Python basics.06.Set.06.frozenset",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.06.frozenset",
+        "description": "01.Python basics.06.Set.06.frozenset",
+        "peekOfCode": "B = frozenset([3, 4, 5, 6])\nprint(A.difference(B))\n# Output: frozenset({1, 2})\nprint(A - B)\n# Output: frozenset({1, 2})\n# ------------------------------------------------------------\n# 3. intersection()  /  &\n# ------------------------------------------------------------\n# Returns a new frozenset containing elements common\n# to both frozensets.",
+        "detail": "01.Python basics.06.Set.06.frozenset",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.06.frozenset",
+        "description": "01.Python basics.06.Set.06.frozenset",
+        "peekOfCode": "A = frozenset([1, 2, 3, 4])\nB = frozenset([3, 4, 5, 6])\nprint(A.intersection(B))\n# Output: frozenset({3, 4})\nprint(A & B)\n# Output: frozenset({3, 4})\n# ------------------------------------------------------------\n# 4. isdisjoint()\n# ------------------------------------------------------------\n# Returns True if two frozensets have NO elements in common.",
+        "detail": "01.Python basics.06.Set.06.frozenset",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.06.frozenset",
+        "description": "01.Python basics.06.Set.06.frozenset",
+        "peekOfCode": "B = frozenset([3, 4, 5, 6])\nprint(A.intersection(B))\n# Output: frozenset({3, 4})\nprint(A & B)\n# Output: frozenset({3, 4})\n# ------------------------------------------------------------\n# 4. isdisjoint()\n# ------------------------------------------------------------\n# Returns True if two frozensets have NO elements in common.\n# Returns False if they have at least one common element.",
+        "detail": "01.Python basics.06.Set.06.frozenset",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.06.frozenset",
+        "description": "01.Python basics.06.Set.06.frozenset",
+        "peekOfCode": "A = frozenset([1, 2, 3])\nB = frozenset([4, 5, 6])\nprint(A.isdisjoint(B))\n# Output: True\nC = frozenset([3, 4, 5])\nprint(A.isdisjoint(C))\n# Output: False\n# ------------------------------------------------------------\n# 5. issubset()  /  <=  /  <\n# ------------------------------------------------------------",
+        "detail": "01.Python basics.06.Set.06.frozenset",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.06.frozenset",
+        "description": "01.Python basics.06.Set.06.frozenset",
+        "peekOfCode": "B = frozenset([4, 5, 6])\nprint(A.isdisjoint(B))\n# Output: True\nC = frozenset([3, 4, 5])\nprint(A.isdisjoint(C))\n# Output: False\n# ------------------------------------------------------------\n# 5. issubset()  /  <=  /  <\n# ------------------------------------------------------------\n# Checks whether all elements of one frozenset are",
+        "detail": "01.Python basics.06.Set.06.frozenset",
+        "documentation": {}
+    },
+    {
+        "label": "C",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.06.frozenset",
+        "description": "01.Python basics.06.Set.06.frozenset",
+        "peekOfCode": "C = frozenset([3, 4, 5])\nprint(A.isdisjoint(C))\n# Output: False\n# ------------------------------------------------------------\n# 5. issubset()  /  <=  /  <\n# ------------------------------------------------------------\n# Checks whether all elements of one frozenset are\n# contained in another frozenset.\n#\n# <=  means subset (can be equal)",
+        "detail": "01.Python basics.06.Set.06.frozenset",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.06.frozenset",
+        "description": "01.Python basics.06.Set.06.frozenset",
+        "peekOfCode": "A = frozenset([1, 2])\nB = frozenset([1, 2, 3])\nprint(A.issubset(B))\n# Output: True\nprint(A <= B)\n# Output: True\nprint(A < B)\n# Output: True\n# ------------------------------------------------------------\n# 6. issuperset()  /  >=  /  >",
+        "detail": "01.Python basics.06.Set.06.frozenset",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.06.frozenset",
+        "description": "01.Python basics.06.Set.06.frozenset",
+        "peekOfCode": "B = frozenset([1, 2, 3])\nprint(A.issubset(B))\n# Output: True\nprint(A <= B)\n# Output: True\nprint(A < B)\n# Output: True\n# ------------------------------------------------------------\n# 6. issuperset()  /  >=  /  >\n# ------------------------------------------------------------",
+        "detail": "01.Python basics.06.Set.06.frozenset",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.06.frozenset",
+        "description": "01.Python basics.06.Set.06.frozenset",
+        "peekOfCode": "A = frozenset([1, 2, 3])\nB = frozenset([1, 2])\nprint(A.issuperset(B))\n# Output: True\nprint(A >= B)\n# Output: True\nprint(A > B)\n# Output: True\n# ------------------------------------------------------------\n# 7. symmetric_difference()  /  ^",
+        "detail": "01.Python basics.06.Set.06.frozenset",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.06.frozenset",
+        "description": "01.Python basics.06.Set.06.frozenset",
+        "peekOfCode": "B = frozenset([1, 2])\nprint(A.issuperset(B))\n# Output: True\nprint(A >= B)\n# Output: True\nprint(A > B)\n# Output: True\n# ------------------------------------------------------------\n# 7. symmetric_difference()  /  ^\n# ------------------------------------------------------------",
+        "detail": "01.Python basics.06.Set.06.frozenset",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.06.frozenset",
+        "description": "01.Python basics.06.Set.06.frozenset",
+        "peekOfCode": "A = frozenset([1, 2, 3, 4])\nB = frozenset([3, 4, 5, 6])\nprint(A.symmetric_difference(B))\n# Output: frozenset({1, 2, 5, 6})\nprint(A ^ B)\n# Output: frozenset({1, 2, 5, 6})\n# ------------------------------------------------------------\n# 8. union()  /  |\n# ------------------------------------------------------------\n# Returns a new frozenset containing all unique elements",
+        "detail": "01.Python basics.06.Set.06.frozenset",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.06.frozenset",
+        "description": "01.Python basics.06.Set.06.frozenset",
+        "peekOfCode": "B = frozenset([3, 4, 5, 6])\nprint(A.symmetric_difference(B))\n# Output: frozenset({1, 2, 5, 6})\nprint(A ^ B)\n# Output: frozenset({1, 2, 5, 6})\n# ------------------------------------------------------------\n# 8. union()  /  |\n# ------------------------------------------------------------\n# Returns a new frozenset containing all unique elements\n# from both frozensets.",
+        "detail": "01.Python basics.06.Set.06.frozenset",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.06.frozenset",
+        "description": "01.Python basics.06.Set.06.frozenset",
+        "peekOfCode": "A = frozenset([1, 2, 3])\nB = frozenset([3, 4, 5])\nprint(A.union(B))\n# Output: frozenset({1, 2, 3, 4, 5})\nprint(A | B)\n# Output: frozenset({1, 2, 3, 4, 5})\n# ============================================================\n# QUICK SUMMARY\n# ============================================================\n#",
+        "detail": "01.Python basics.06.Set.06.frozenset",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.06.frozenset",
+        "description": "01.Python basics.06.Set.06.frozenset",
+        "peekOfCode": "B = frozenset([3, 4, 5])\nprint(A.union(B))\n# Output: frozenset({1, 2, 3, 4, 5})\nprint(A | B)\n# Output: frozenset({1, 2, 3, 4, 5})\n# ============================================================\n# QUICK SUMMARY\n# ============================================================\n#\n# Method                    Operator       Purpose",
+        "detail": "01.Python basics.06.Set.06.frozenset",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "A = {1, 2, 3}\nA.add(4)\nprint(A)\n# Output: {1, 2, 3, 4}\n# ------------------------------------------------------------\n# 2. clear()\n# ------------------------------------------------------------\n# Removes all elements from the set.\nA = {1, 2, 3}\nA.clear()",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "A = {1, 2, 3}\nA.clear()\nprint(A)\n# Output: set()\n# ------------------------------------------------------------\n# 3. copy()\n# ------------------------------------------------------------\n# Returns a shallow copy of the set.\nA = {1, 2, 3}\nB = A.copy()",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "A = {1, 2, 3}\nB = A.copy()\nprint(B)\n# Output: {1, 2, 3}\n# ------------------------------------------------------------\n# 4. difference()  /  -\n# ------------------------------------------------------------\n# Returns elements that are present in the first set\n# but not in the second set.\nA = {1, 2, 3, 4}",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "B = A.copy()\nprint(B)\n# Output: {1, 2, 3}\n# ------------------------------------------------------------\n# 4. difference()  /  -\n# ------------------------------------------------------------\n# Returns elements that are present in the first set\n# but not in the second set.\nA = {1, 2, 3, 4}\nB = {3, 4, 5, 6}",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "A = {1, 2, 3, 4}\nB = {3, 4, 5, 6}\nprint(A.difference(B))\n# Output: {1, 2}\nprint(A - B)\n# Output: {1, 2}\n# ------------------------------------------------------------\n# 5. difference_update()  /  -=\n# ------------------------------------------------------------\n# Removes elements from the original set that are also",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "B = {3, 4, 5, 6}\nprint(A.difference(B))\n# Output: {1, 2}\nprint(A - B)\n# Output: {1, 2}\n# ------------------------------------------------------------\n# 5. difference_update()  /  -=\n# ------------------------------------------------------------\n# Removes elements from the original set that are also\n# present in another set.",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "A = {1, 2, 3, 4}\nB = {3, 4, 5, 6}\nA.difference_update(B)\nprint(A)\n# Output: {1, 2}\n# Operator version\nA = {1, 2, 3, 4}\nB = {3, 4, 5, 6}\nA -= B\nprint(A)",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "B = {3, 4, 5, 6}\nA.difference_update(B)\nprint(A)\n# Output: {1, 2}\n# Operator version\nA = {1, 2, 3, 4}\nB = {3, 4, 5, 6}\nA -= B\nprint(A)\n# Output: {1, 2}",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "A = {1, 2, 3, 4}\nB = {3, 4, 5, 6}\nA -= B\nprint(A)\n# Output: {1, 2}\n# ------------------------------------------------------------\n# 6. discard()\n# ------------------------------------------------------------\n# Removes a specified element from the set.\n#",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "B = {3, 4, 5, 6}\nA -= B\nprint(A)\n# Output: {1, 2}\n# ------------------------------------------------------------\n# 6. discard()\n# ------------------------------------------------------------\n# Removes a specified element from the set.\n#\n# If the element does not exist, discard() does NOT",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "A = {1, 2, 3}\nA.discard(2)\nprint(A)\n# Output: {1, 3}\nA.discard(10)  # No error\n# ------------------------------------------------------------\n# 7. intersection()  /  &\n# ------------------------------------------------------------\n# Returns elements that are common to both sets.\nA = {1, 2, 3, 4}",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "A = {1, 2, 3, 4}\nB = {3, 4, 5, 6}\nprint(A.intersection(B))\n# Output: {3, 4}\nprint(A & B)\n# Output: {3, 4}\n# ------------------------------------------------------------\n# 8. intersection_update()  /  &=\n# ------------------------------------------------------------\n# Keeps only the elements that are common to the sets.",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "B = {3, 4, 5, 6}\nprint(A.intersection(B))\n# Output: {3, 4}\nprint(A & B)\n# Output: {3, 4}\n# ------------------------------------------------------------\n# 8. intersection_update()  /  &=\n# ------------------------------------------------------------\n# Keeps only the elements that are common to the sets.\n#",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "A = {1, 2, 3, 4}\nB = {3, 4, 5, 6}\nA.intersection_update(B)\nprint(A)\n# Output: {3, 4}\n# Operator version\nA = {1, 2, 3, 4}\nB = {3, 4, 5, 6}\nA &= B\nprint(A)",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "B = {3, 4, 5, 6}\nA.intersection_update(B)\nprint(A)\n# Output: {3, 4}\n# Operator version\nA = {1, 2, 3, 4}\nB = {3, 4, 5, 6}\nA &= B\nprint(A)\n# Output: {3, 4}",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "A = {1, 2, 3, 4}\nB = {3, 4, 5, 6}\nA &= B\nprint(A)\n# Output: {3, 4}\n# ------------------------------------------------------------\n# 9. isdisjoint()\n# ------------------------------------------------------------\n# Returns True if two sets have NO elements in common.\n# Otherwise, returns False.",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "B = {3, 4, 5, 6}\nA &= B\nprint(A)\n# Output: {3, 4}\n# ------------------------------------------------------------\n# 9. isdisjoint()\n# ------------------------------------------------------------\n# Returns True if two sets have NO elements in common.\n# Otherwise, returns False.\nA = {1, 2, 3}",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "A = {1, 2, 3}\nB = {4, 5, 6}\nprint(A.isdisjoint(B))\n# Output: True\nC = {3, 4, 5}\nprint(A.isdisjoint(C))\n# Output: False\n# ------------------------------------------------------------\n# 10. issubset()  /  <=  /  <\n# ------------------------------------------------------------",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "B = {4, 5, 6}\nprint(A.isdisjoint(B))\n# Output: True\nC = {3, 4, 5}\nprint(A.isdisjoint(C))\n# Output: False\n# ------------------------------------------------------------\n# 10. issubset()  /  <=  /  <\n# ------------------------------------------------------------\n# Checks whether all elements of one set are contained",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "C",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "C = {3, 4, 5}\nprint(A.isdisjoint(C))\n# Output: False\n# ------------------------------------------------------------\n# 10. issubset()  /  <=  /  <\n# ------------------------------------------------------------\n# Checks whether all elements of one set are contained\n# in another set.\n#\n# <=  : subset, equality is allowed",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "A = {1, 2}\nB = {1, 2, 3}\nprint(A.issubset(B))\n# Output: True\nprint(A <= B)\n# Output: True\nprint(A < B)\n# Output: True\n# Equal sets\nA = {1, 2}",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "B = {1, 2, 3}\nprint(A.issubset(B))\n# Output: True\nprint(A <= B)\n# Output: True\nprint(A < B)\n# Output: True\n# Equal sets\nA = {1, 2}\nB = {1, 2}",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "A = {1, 2}\nB = {1, 2}\nprint(A <= B)\n# Output: True\nprint(A < B)\n# Output: False\n# ------------------------------------------------------------\n# 11. issuperset()  /  >=  /  >\n# ------------------------------------------------------------\n# Checks whether a set contains all elements of another set.",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "B = {1, 2}\nprint(A <= B)\n# Output: True\nprint(A < B)\n# Output: False\n# ------------------------------------------------------------\n# 11. issuperset()  /  >=  /  >\n# ------------------------------------------------------------\n# Checks whether a set contains all elements of another set.\n#",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "A = {1, 2, 3}\nB = {1, 2}\nprint(A.issuperset(B))\n# Output: True\nprint(A >= B)\n# Output: True\nprint(A > B)\n# Output: True\n# ------------------------------------------------------------\n# 12. pop()",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "B = {1, 2}\nprint(A.issuperset(B))\n# Output: True\nprint(A >= B)\n# Output: True\nprint(A > B)\n# Output: True\n# ------------------------------------------------------------\n# 12. pop()\n# ------------------------------------------------------------",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "A = {10, 20, 30, 40}\nx = A.pop()\nprint(x)\nprint(A)\n# The removed element can be different depending on\n# the set's internal arrangement.\n# ------------------------------------------------------------\n# 13. remove()\n# ------------------------------------------------------------\n# Removes a specified element from the set.",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "x = A.pop()\nprint(x)\nprint(A)\n# The removed element can be different depending on\n# the set's internal arrangement.\n# ------------------------------------------------------------\n# 13. remove()\n# ------------------------------------------------------------\n# Removes a specified element from the set.\n#",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "A = {1, 2, 3}\nA.remove(2)\nprint(A)\n# Output: {1, 3}\n# A.remove(10)\n# KeyError: 10\n# ------------------------------------------------------------\n# 14. symmetric_difference()  /  ^\n# ------------------------------------------------------------\n# Returns elements that are present in either set,",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "A = {1, 2, 3, 4}\nB = {3, 4, 5, 6}\nprint(A.symmetric_difference(B))\n# Output: {1, 2, 5, 6}\nprint(A ^ B)\n# Output: {1, 2, 5, 6}\n# ------------------------------------------------------------\n# 15. symmetric_difference_update()  /  ^=\n# ------------------------------------------------------------\n# Updates the original set with the symmetric difference.",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "B = {3, 4, 5, 6}\nprint(A.symmetric_difference(B))\n# Output: {1, 2, 5, 6}\nprint(A ^ B)\n# Output: {1, 2, 5, 6}\n# ------------------------------------------------------------\n# 15. symmetric_difference_update()  /  ^=\n# ------------------------------------------------------------\n# Updates the original set with the symmetric difference.\n#",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "A = {1, 2, 3, 4}\nB = {3, 4, 5, 6}\nA.symmetric_difference_update(B)\nprint(A)\n# Output: {1, 2, 5, 6}\n# Operator version\nA = {1, 2, 3, 4}\nB = {3, 4, 5, 6}\nA ^= B\nprint(A)",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "B = {3, 4, 5, 6}\nA.symmetric_difference_update(B)\nprint(A)\n# Output: {1, 2, 5, 6}\n# Operator version\nA = {1, 2, 3, 4}\nB = {3, 4, 5, 6}\nA ^= B\nprint(A)\n# Output: {1, 2, 5, 6}",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "A = {1, 2, 3, 4}\nB = {3, 4, 5, 6}\nA ^= B\nprint(A)\n# Output: {1, 2, 5, 6}\n# ------------------------------------------------------------\n# 16. union()  /  |\n# ------------------------------------------------------------\n# Returns a new set containing all unique elements\n# from both sets.",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "B = {3, 4, 5, 6}\nA ^= B\nprint(A)\n# Output: {1, 2, 5, 6}\n# ------------------------------------------------------------\n# 16. union()  /  |\n# ------------------------------------------------------------\n# Returns a new set containing all unique elements\n# from both sets.\nA = {1, 2, 3}",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "A = {1, 2, 3}\nB = {3, 4, 5}\nprint(A.union(B))\n# Output: {1, 2, 3, 4, 5}\nprint(A | B)\n# Output: {1, 2, 3, 4, 5}\n# ------------------------------------------------------------\n# 17. update()  /  |=\n# ------------------------------------------------------------\n# Adds all elements from another set (or other iterables)",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "B = {3, 4, 5}\nprint(A.union(B))\n# Output: {1, 2, 3, 4, 5}\nprint(A | B)\n# Output: {1, 2, 3, 4, 5}\n# ------------------------------------------------------------\n# 17. update()  /  |=\n# ------------------------------------------------------------\n# Adds all elements from another set (or other iterables)\n# to the original set.",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "A = {1, 2, 3}\nB = {3, 4, 5}\nA.update(B)\nprint(A)\n# Output: {1, 2, 3, 4, 5}\n# Operator version\nA = {1, 2, 3}\nB = {3, 4, 5}\nA |= B\nprint(A)",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "B = {3, 4, 5}\nA.update(B)\nprint(A)\n# Output: {1, 2, 3, 4, 5}\n# Operator version\nA = {1, 2, 3}\nB = {3, 4, 5}\nA |= B\nprint(A)\n# Output: {1, 2, 3, 4, 5}",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "A = {1, 2, 3}\nB = {3, 4, 5}\nA |= B\nprint(A)\n# Output: {1, 2, 3, 4, 5}\n# ============================================================\n# QUICK SUMMARY\n# ============================================================\n#\n# Method                         Operator       Purpose",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "B = {3, 4, 5}\nA |= B\nprint(A)\n# Output: {1, 2, 3, 4, 5}\n# ============================================================\n# QUICK SUMMARY\n# ============================================================\n#\n# Method                         Operator       Purpose\n#",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "01.Python basics.06.Set.07.methods",
+        "description": "01.Python basics.06.Set.07.methods",
+        "peekOfCode": "A = {1, 2, 3}\nA.remove(2)  # Removes 2\n# A.remove(10)    # Raises KeyError\nA.discard(10)  # No error even though 10 doesn't exist\n# ============================================================\n# IMPORTANT DIFFERENCE: NORMAL vs UPDATE METHODS\n# ============================================================\n#\n# Normal methods:\n# difference()",
+        "detail": "01.Python basics.06.Set.07.methods",
+        "documentation": {}
     }
 ]
