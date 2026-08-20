@@ -3859,5 +3859,608 @@
         "peekOfCode": "A = {1, 2, 3}\nA.remove(2)  # Removes 2\n# A.remove(10)    # Raises KeyError\nA.discard(10)  # No error even though 10 doesn't exist\n# ============================================================\n# IMPORTANT DIFFERENCE: NORMAL vs UPDATE METHODS\n# ============================================================\n#\n# Normal methods:\n# difference()",
         "detail": "01.Python basics.06.Set.07.methods",
         "documentation": {}
+    },
+    {
+        "label": "thisdict",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.01.dict",
+        "description": "01.Python basics.07.Dictionaries.01.dict",
+        "peekOfCode": "thisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nprint(thisdict)\n\"\"\"\nDictionary items are ordered, changeable, and do not allow duplicates.\nDictionary items are presented in key:value pairs, and can be referred to by using the key name.\n\"\"\"\nthisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nprint(thisdict[\"brand\"])\n# Duplicate values will overwrite existing values:\nthisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964, \"year\": 2020}",
+        "detail": "01.Python basics.07.Dictionaries.01.dict",
+        "documentation": {}
+    },
+    {
+        "label": "thisdict",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.01.dict",
+        "description": "01.Python basics.07.Dictionaries.01.dict",
+        "peekOfCode": "thisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nprint(thisdict[\"brand\"])\n# Duplicate values will overwrite existing values:\nthisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964, \"year\": 2020}\nprint(thisdict)\n# To determine how many items a dictionary has, use the len() function:\nprint(len(thisdict))\n# The values in dictionary items can be of any data type:\nthisdict = {\n    \"brand\": \"Ford\",",
+        "detail": "01.Python basics.07.Dictionaries.01.dict",
+        "documentation": {}
+    },
+    {
+        "label": "thisdict",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.01.dict",
+        "description": "01.Python basics.07.Dictionaries.01.dict",
+        "peekOfCode": "thisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964, \"year\": 2020}\nprint(thisdict)\n# To determine how many items a dictionary has, use the len() function:\nprint(len(thisdict))\n# The values in dictionary items can be of any data type:\nthisdict = {\n    \"brand\": \"Ford\",\n    \"electric\": False,\n    \"year\": 1964,\n    \"colors\": [\"red\", \"white\", \"blue\"],",
+        "detail": "01.Python basics.07.Dictionaries.01.dict",
+        "documentation": {}
+    },
+    {
+        "label": "thisdict",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.01.dict",
+        "description": "01.Python basics.07.Dictionaries.01.dict",
+        "peekOfCode": "thisdict = {\n    \"brand\": \"Ford\",\n    \"electric\": False,\n    \"year\": 1964,\n    \"colors\": [\"red\", \"white\", \"blue\"],\n}\n# Print the data type of a dictionary:\nthisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nprint(type(thisdict))\n# It is also possible to use the dict() constructor to make a dictionary.",
+        "detail": "01.Python basics.07.Dictionaries.01.dict",
+        "documentation": {}
+    },
+    {
+        "label": "thisdict",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.01.dict",
+        "description": "01.Python basics.07.Dictionaries.01.dict",
+        "peekOfCode": "thisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nprint(type(thisdict))\n# It is also possible to use the dict() constructor to make a dictionary.\nthisdict = dict(name=\"John\", age=36, country=\"Norway\")\nprint(thisdict)",
+        "detail": "01.Python basics.07.Dictionaries.01.dict",
+        "documentation": {}
+    },
+    {
+        "label": "thisdict",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.01.dict",
+        "description": "01.Python basics.07.Dictionaries.01.dict",
+        "peekOfCode": "thisdict = dict(name=\"John\", age=36, country=\"Norway\")\nprint(thisdict)",
+        "detail": "01.Python basics.07.Dictionaries.01.dict",
+        "documentation": {}
+    },
+    {
+        "label": "thisdict",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.02.access_item",
+        "description": "01.Python basics.07.Dictionaries.02.access_item",
+        "peekOfCode": "thisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nx = thisdict[\"model\"]\n# There is also a method called get() that will give you the same result:\nx = thisdict.get(\"model\")\n# The keys() method will return a list of all the keys in the dictionary.\nx = thisdict.keys()\n# Add a new item to the original dictionary, and see that the keys list gets updated as well:\ncar = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nx = car.keys()\nprint(x)  # before the change",
+        "detail": "01.Python basics.07.Dictionaries.02.access_item",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.02.access_item",
+        "description": "01.Python basics.07.Dictionaries.02.access_item",
+        "peekOfCode": "x = thisdict[\"model\"]\n# There is also a method called get() that will give you the same result:\nx = thisdict.get(\"model\")\n# The keys() method will return a list of all the keys in the dictionary.\nx = thisdict.keys()\n# Add a new item to the original dictionary, and see that the keys list gets updated as well:\ncar = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nx = car.keys()\nprint(x)  # before the change\ncar[\"color\"] = \"white\"",
+        "detail": "01.Python basics.07.Dictionaries.02.access_item",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.02.access_item",
+        "description": "01.Python basics.07.Dictionaries.02.access_item",
+        "peekOfCode": "x = thisdict.get(\"model\")\n# The keys() method will return a list of all the keys in the dictionary.\nx = thisdict.keys()\n# Add a new item to the original dictionary, and see that the keys list gets updated as well:\ncar = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nx = car.keys()\nprint(x)  # before the change\ncar[\"color\"] = \"white\"\nprint(x)  # after the change\n# The values() method will return a list of all the values in the dictionary.",
+        "detail": "01.Python basics.07.Dictionaries.02.access_item",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.02.access_item",
+        "description": "01.Python basics.07.Dictionaries.02.access_item",
+        "peekOfCode": "x = thisdict.keys()\n# Add a new item to the original dictionary, and see that the keys list gets updated as well:\ncar = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nx = car.keys()\nprint(x)  # before the change\ncar[\"color\"] = \"white\"\nprint(x)  # after the change\n# The values() method will return a list of all the values in the dictionary.\nx = thisdict.values()\n# Make a change in the original dictionary, and see that the values list gets updated as well:",
+        "detail": "01.Python basics.07.Dictionaries.02.access_item",
+        "documentation": {}
+    },
+    {
+        "label": "car",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.02.access_item",
+        "description": "01.Python basics.07.Dictionaries.02.access_item",
+        "peekOfCode": "car = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nx = car.keys()\nprint(x)  # before the change\ncar[\"color\"] = \"white\"\nprint(x)  # after the change\n# The values() method will return a list of all the values in the dictionary.\nx = thisdict.values()\n# Make a change in the original dictionary, and see that the values list gets updated as well:\ncar = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nx = car.values()",
+        "detail": "01.Python basics.07.Dictionaries.02.access_item",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.02.access_item",
+        "description": "01.Python basics.07.Dictionaries.02.access_item",
+        "peekOfCode": "x = car.keys()\nprint(x)  # before the change\ncar[\"color\"] = \"white\"\nprint(x)  # after the change\n# The values() method will return a list of all the values in the dictionary.\nx = thisdict.values()\n# Make a change in the original dictionary, and see that the values list gets updated as well:\ncar = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nx = car.values()\nprint(x)  # before the change",
+        "detail": "01.Python basics.07.Dictionaries.02.access_item",
+        "documentation": {}
+    },
+    {
+        "label": "car[\"color\"]",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.02.access_item",
+        "description": "01.Python basics.07.Dictionaries.02.access_item",
+        "peekOfCode": "car[\"color\"] = \"white\"\nprint(x)  # after the change\n# The values() method will return a list of all the values in the dictionary.\nx = thisdict.values()\n# Make a change in the original dictionary, and see that the values list gets updated as well:\ncar = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nx = car.values()\nprint(x)  # before the change\ncar[\"year\"] = 2020\nprint(x)  # after the change",
+        "detail": "01.Python basics.07.Dictionaries.02.access_item",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.02.access_item",
+        "description": "01.Python basics.07.Dictionaries.02.access_item",
+        "peekOfCode": "x = thisdict.values()\n# Make a change in the original dictionary, and see that the values list gets updated as well:\ncar = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nx = car.values()\nprint(x)  # before the change\ncar[\"year\"] = 2020\nprint(x)  # after the change\n# Add a new item to the original dictionary, and see that the values list gets updated as well:\ncar = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nx = car.values()",
+        "detail": "01.Python basics.07.Dictionaries.02.access_item",
+        "documentation": {}
+    },
+    {
+        "label": "car",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.02.access_item",
+        "description": "01.Python basics.07.Dictionaries.02.access_item",
+        "peekOfCode": "car = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nx = car.values()\nprint(x)  # before the change\ncar[\"year\"] = 2020\nprint(x)  # after the change\n# Add a new item to the original dictionary, and see that the values list gets updated as well:\ncar = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nx = car.values()\nprint(x)  # before the change\ncar[\"color\"] = \"red\"",
+        "detail": "01.Python basics.07.Dictionaries.02.access_item",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.02.access_item",
+        "description": "01.Python basics.07.Dictionaries.02.access_item",
+        "peekOfCode": "x = car.values()\nprint(x)  # before the change\ncar[\"year\"] = 2020\nprint(x)  # after the change\n# Add a new item to the original dictionary, and see that the values list gets updated as well:\ncar = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nx = car.values()\nprint(x)  # before the change\ncar[\"color\"] = \"red\"\nprint(x)  # after the change",
+        "detail": "01.Python basics.07.Dictionaries.02.access_item",
+        "documentation": {}
+    },
+    {
+        "label": "car[\"year\"]",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.02.access_item",
+        "description": "01.Python basics.07.Dictionaries.02.access_item",
+        "peekOfCode": "car[\"year\"] = 2020\nprint(x)  # after the change\n# Add a new item to the original dictionary, and see that the values list gets updated as well:\ncar = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nx = car.values()\nprint(x)  # before the change\ncar[\"color\"] = \"red\"\nprint(x)  # after the change\n# The items() method will return each item in a dictionary, as tuples in a list.\nx = thisdict.items()",
+        "detail": "01.Python basics.07.Dictionaries.02.access_item",
+        "documentation": {}
+    },
+    {
+        "label": "car",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.02.access_item",
+        "description": "01.Python basics.07.Dictionaries.02.access_item",
+        "peekOfCode": "car = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nx = car.values()\nprint(x)  # before the change\ncar[\"color\"] = \"red\"\nprint(x)  # after the change\n# The items() method will return each item in a dictionary, as tuples in a list.\nx = thisdict.items()\n# Make a change in the original dictionary, and see that the items list gets updated as well:\ncar = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nx = car.items()",
+        "detail": "01.Python basics.07.Dictionaries.02.access_item",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.02.access_item",
+        "description": "01.Python basics.07.Dictionaries.02.access_item",
+        "peekOfCode": "x = car.values()\nprint(x)  # before the change\ncar[\"color\"] = \"red\"\nprint(x)  # after the change\n# The items() method will return each item in a dictionary, as tuples in a list.\nx = thisdict.items()\n# Make a change in the original dictionary, and see that the items list gets updated as well:\ncar = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nx = car.items()\nprint(x)  # before the change",
+        "detail": "01.Python basics.07.Dictionaries.02.access_item",
+        "documentation": {}
+    },
+    {
+        "label": "car[\"color\"]",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.02.access_item",
+        "description": "01.Python basics.07.Dictionaries.02.access_item",
+        "peekOfCode": "car[\"color\"] = \"red\"\nprint(x)  # after the change\n# The items() method will return each item in a dictionary, as tuples in a list.\nx = thisdict.items()\n# Make a change in the original dictionary, and see that the items list gets updated as well:\ncar = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nx = car.items()\nprint(x)  # before the change\ncar[\"year\"] = 2020\nprint(x)  # after the change",
+        "detail": "01.Python basics.07.Dictionaries.02.access_item",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.02.access_item",
+        "description": "01.Python basics.07.Dictionaries.02.access_item",
+        "peekOfCode": "x = thisdict.items()\n# Make a change in the original dictionary, and see that the items list gets updated as well:\ncar = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nx = car.items()\nprint(x)  # before the change\ncar[\"year\"] = 2020\nprint(x)  # after the change\n# Add a new item to the original dictionary, and see that the items list gets updated as well:\ncar = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nx = car.items()",
+        "detail": "01.Python basics.07.Dictionaries.02.access_item",
+        "documentation": {}
+    },
+    {
+        "label": "car",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.02.access_item",
+        "description": "01.Python basics.07.Dictionaries.02.access_item",
+        "peekOfCode": "car = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nx = car.items()\nprint(x)  # before the change\ncar[\"year\"] = 2020\nprint(x)  # after the change\n# Add a new item to the original dictionary, and see that the items list gets updated as well:\ncar = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nx = car.items()\nprint(x)  # before the change\ncar[\"color\"] = \"red\"",
+        "detail": "01.Python basics.07.Dictionaries.02.access_item",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.02.access_item",
+        "description": "01.Python basics.07.Dictionaries.02.access_item",
+        "peekOfCode": "x = car.items()\nprint(x)  # before the change\ncar[\"year\"] = 2020\nprint(x)  # after the change\n# Add a new item to the original dictionary, and see that the items list gets updated as well:\ncar = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nx = car.items()\nprint(x)  # before the change\ncar[\"color\"] = \"red\"\nprint(x)  # after the change",
+        "detail": "01.Python basics.07.Dictionaries.02.access_item",
+        "documentation": {}
+    },
+    {
+        "label": "car[\"year\"]",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.02.access_item",
+        "description": "01.Python basics.07.Dictionaries.02.access_item",
+        "peekOfCode": "car[\"year\"] = 2020\nprint(x)  # after the change\n# Add a new item to the original dictionary, and see that the items list gets updated as well:\ncar = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nx = car.items()\nprint(x)  # before the change\ncar[\"color\"] = \"red\"\nprint(x)  # after the change\n# To determine if a specified key is present in a dictionary use the in keyword:\nthisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}",
+        "detail": "01.Python basics.07.Dictionaries.02.access_item",
+        "documentation": {}
+    },
+    {
+        "label": "car",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.02.access_item",
+        "description": "01.Python basics.07.Dictionaries.02.access_item",
+        "peekOfCode": "car = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nx = car.items()\nprint(x)  # before the change\ncar[\"color\"] = \"red\"\nprint(x)  # after the change\n# To determine if a specified key is present in a dictionary use the in keyword:\nthisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nif \"model\" in thisdict:\n    print(\"Yes, 'model' is one of the keys in the thisdict dictionary\")",
+        "detail": "01.Python basics.07.Dictionaries.02.access_item",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.02.access_item",
+        "description": "01.Python basics.07.Dictionaries.02.access_item",
+        "peekOfCode": "x = car.items()\nprint(x)  # before the change\ncar[\"color\"] = \"red\"\nprint(x)  # after the change\n# To determine if a specified key is present in a dictionary use the in keyword:\nthisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nif \"model\" in thisdict:\n    print(\"Yes, 'model' is one of the keys in the thisdict dictionary\")",
+        "detail": "01.Python basics.07.Dictionaries.02.access_item",
+        "documentation": {}
+    },
+    {
+        "label": "car[\"color\"]",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.02.access_item",
+        "description": "01.Python basics.07.Dictionaries.02.access_item",
+        "peekOfCode": "car[\"color\"] = \"red\"\nprint(x)  # after the change\n# To determine if a specified key is present in a dictionary use the in keyword:\nthisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nif \"model\" in thisdict:\n    print(\"Yes, 'model' is one of the keys in the thisdict dictionary\")",
+        "detail": "01.Python basics.07.Dictionaries.02.access_item",
+        "documentation": {}
+    },
+    {
+        "label": "thisdict",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.02.access_item",
+        "description": "01.Python basics.07.Dictionaries.02.access_item",
+        "peekOfCode": "thisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nif \"model\" in thisdict:\n    print(\"Yes, 'model' is one of the keys in the thisdict dictionary\")",
+        "detail": "01.Python basics.07.Dictionaries.02.access_item",
+        "documentation": {}
+    },
+    {
+        "label": "thisdict",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.03.change_item",
+        "description": "01.Python basics.07.Dictionaries.03.change_item",
+        "peekOfCode": "thisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nthisdict[\"year\"] = 2018\n# The update() method will update the dictionary with the items from the given argument.\n# The argument must be a dictionary, or an iterable object with key:value pairs.\nthisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nthisdict.update({\"year\": 2020})",
+        "detail": "01.Python basics.07.Dictionaries.03.change_item",
+        "documentation": {}
+    },
+    {
+        "label": "thisdict[\"year\"]",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.03.change_item",
+        "description": "01.Python basics.07.Dictionaries.03.change_item",
+        "peekOfCode": "thisdict[\"year\"] = 2018\n# The update() method will update the dictionary with the items from the given argument.\n# The argument must be a dictionary, or an iterable object with key:value pairs.\nthisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nthisdict.update({\"year\": 2020})",
+        "detail": "01.Python basics.07.Dictionaries.03.change_item",
+        "documentation": {}
+    },
+    {
+        "label": "thisdict",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.03.change_item",
+        "description": "01.Python basics.07.Dictionaries.03.change_item",
+        "peekOfCode": "thisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nthisdict.update({\"year\": 2020})",
+        "detail": "01.Python basics.07.Dictionaries.03.change_item",
+        "documentation": {}
+    },
+    {
+        "label": "thisdict",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.04.add_items",
+        "description": "01.Python basics.07.Dictionaries.04.add_items",
+        "peekOfCode": "thisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nthisdict[\"color\"] = \"red\"\nprint(thisdict)\n# The update() method will update the dictionary with the items from a given argument. If the item does not exist, the item will be added.\n# The argument must be a dictionary, or an iterable object with key:value pairs.\nthisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nthisdict.update({\"color\": \"red\"})",
+        "detail": "01.Python basics.07.Dictionaries.04.add_items",
+        "documentation": {}
+    },
+    {
+        "label": "thisdict[\"color\"]",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.04.add_items",
+        "description": "01.Python basics.07.Dictionaries.04.add_items",
+        "peekOfCode": "thisdict[\"color\"] = \"red\"\nprint(thisdict)\n# The update() method will update the dictionary with the items from a given argument. If the item does not exist, the item will be added.\n# The argument must be a dictionary, or an iterable object with key:value pairs.\nthisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nthisdict.update({\"color\": \"red\"})",
+        "detail": "01.Python basics.07.Dictionaries.04.add_items",
+        "documentation": {}
+    },
+    {
+        "label": "thisdict",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.04.add_items",
+        "description": "01.Python basics.07.Dictionaries.04.add_items",
+        "peekOfCode": "thisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nthisdict.update({\"color\": \"red\"})",
+        "detail": "01.Python basics.07.Dictionaries.04.add_items",
+        "documentation": {}
+    },
+    {
+        "label": "thisdict",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.05.remove_items",
+        "description": "01.Python basics.07.Dictionaries.05.remove_items",
+        "peekOfCode": "thisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nthisdict.pop(\"model\")\nprint(thisdict)\n# The popitem() method removes the last inserted item (in versions before 3.7, a random item is removed instead):\nthisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nthisdict.popitem()\nprint(thisdict)\n# The del keyword removes the item with the specified key name:\nthisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\ndel thisdict[\"model\"]",
+        "detail": "01.Python basics.07.Dictionaries.05.remove_items",
+        "documentation": {}
+    },
+    {
+        "label": "thisdict",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.05.remove_items",
+        "description": "01.Python basics.07.Dictionaries.05.remove_items",
+        "peekOfCode": "thisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nthisdict.popitem()\nprint(thisdict)\n# The del keyword removes the item with the specified key name:\nthisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\ndel thisdict[\"model\"]\nprint(thisdict)\n# del thisdict\n# print(thisdict)  # this will cause an error because \"thisdict\" no longer exists.\n# The clear() method empties the dictionary:",
+        "detail": "01.Python basics.07.Dictionaries.05.remove_items",
+        "documentation": {}
+    },
+    {
+        "label": "thisdict",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.05.remove_items",
+        "description": "01.Python basics.07.Dictionaries.05.remove_items",
+        "peekOfCode": "thisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\ndel thisdict[\"model\"]\nprint(thisdict)\n# del thisdict\n# print(thisdict)  # this will cause an error because \"thisdict\" no longer exists.\n# The clear() method empties the dictionary:\nthisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nthisdict.clear()\nprint(thisdict)",
+        "detail": "01.Python basics.07.Dictionaries.05.remove_items",
+        "documentation": {}
+    },
+    {
+        "label": "thisdict",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.05.remove_items",
+        "description": "01.Python basics.07.Dictionaries.05.remove_items",
+        "peekOfCode": "thisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nthisdict.clear()\nprint(thisdict)",
+        "detail": "01.Python basics.07.Dictionaries.05.remove_items",
+        "documentation": {}
+    },
+    {
+        "label": "thisdict",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.06.loop_dict",
+        "description": "01.Python basics.07.Dictionaries.06.loop_dict",
+        "peekOfCode": "thisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nfor x in thisdict:\n    print(x)\n# Print all values in the dictionary, one by one:\nfor x in thisdict:\n    print(thisdict[x])\n# You can also use the values() method to return values of a dictionary:\nfor x in thisdict.values():\n    print(x)\n# You can use the keys() method to return the keys of a dictionary:",
+        "detail": "01.Python basics.07.Dictionaries.06.loop_dict",
+        "documentation": {}
+    },
+    {
+        "label": "thisdict",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.07.copy_dict",
+        "description": "01.Python basics.07.Dictionaries.07.copy_dict",
+        "peekOfCode": "thisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nmydict = thisdict.copy()\nprint(mydict)\n# Make a copy of a dictionary with the dict() function:\nthisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nmydict = dict(thisdict)\nprint(mydict)",
+        "detail": "01.Python basics.07.Dictionaries.07.copy_dict",
+        "documentation": {}
+    },
+    {
+        "label": "mydict",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.07.copy_dict",
+        "description": "01.Python basics.07.Dictionaries.07.copy_dict",
+        "peekOfCode": "mydict = thisdict.copy()\nprint(mydict)\n# Make a copy of a dictionary with the dict() function:\nthisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nmydict = dict(thisdict)\nprint(mydict)",
+        "detail": "01.Python basics.07.Dictionaries.07.copy_dict",
+        "documentation": {}
+    },
+    {
+        "label": "thisdict",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.07.copy_dict",
+        "description": "01.Python basics.07.Dictionaries.07.copy_dict",
+        "peekOfCode": "thisdict = {\"brand\": \"Ford\", \"model\": \"Mustang\", \"year\": 1964}\nmydict = dict(thisdict)\nprint(mydict)",
+        "detail": "01.Python basics.07.Dictionaries.07.copy_dict",
+        "documentation": {}
+    },
+    {
+        "label": "mydict",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.07.copy_dict",
+        "description": "01.Python basics.07.Dictionaries.07.copy_dict",
+        "peekOfCode": "mydict = dict(thisdict)\nprint(mydict)",
+        "detail": "01.Python basics.07.Dictionaries.07.copy_dict",
+        "documentation": {}
+    },
+    {
+        "label": "myfamily",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.08.nested_dict",
+        "description": "01.Python basics.07.Dictionaries.08.nested_dict",
+        "peekOfCode": "myfamily = {\n    \"child1\": {\"name\": \"Emil\", \"year\": 2004},\n    \"child2\": {\"name\": \"Tobias\", \"year\": 2007},\n    \"child3\": {\"name\": \"Linus\", \"year\": 2011},\n}\n# Create three dictionaries, then create one dictionary that will contain the other three dictionaries:\nchild1 = {\"name\": \"Emil\", \"year\": 2004}\nchild2 = {\"name\": \"Tobias\", \"year\": 2007}\nchild3 = {\"name\": \"Linus\", \"year\": 2011}\nmyfamily = {\"child1\": child1, \"child2\": child2, \"child3\": child3}",
+        "detail": "01.Python basics.07.Dictionaries.08.nested_dict",
+        "documentation": {}
+    },
+    {
+        "label": "child1",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.08.nested_dict",
+        "description": "01.Python basics.07.Dictionaries.08.nested_dict",
+        "peekOfCode": "child1 = {\"name\": \"Emil\", \"year\": 2004}\nchild2 = {\"name\": \"Tobias\", \"year\": 2007}\nchild3 = {\"name\": \"Linus\", \"year\": 2011}\nmyfamily = {\"child1\": child1, \"child2\": child2, \"child3\": child3}\n# Print the name of child 2:\nprint(myfamily[\"child2\"][\"name\"])\n# Loop through the keys and values of all nested dictionaries:\nfor x, obj in myfamily.items():\n    print(x)\n    for y in obj:",
+        "detail": "01.Python basics.07.Dictionaries.08.nested_dict",
+        "documentation": {}
+    },
+    {
+        "label": "child2",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.08.nested_dict",
+        "description": "01.Python basics.07.Dictionaries.08.nested_dict",
+        "peekOfCode": "child2 = {\"name\": \"Tobias\", \"year\": 2007}\nchild3 = {\"name\": \"Linus\", \"year\": 2011}\nmyfamily = {\"child1\": child1, \"child2\": child2, \"child3\": child3}\n# Print the name of child 2:\nprint(myfamily[\"child2\"][\"name\"])\n# Loop through the keys and values of all nested dictionaries:\nfor x, obj in myfamily.items():\n    print(x)\n    for y in obj:\n        print(y + \":\", obj[y])",
+        "detail": "01.Python basics.07.Dictionaries.08.nested_dict",
+        "documentation": {}
+    },
+    {
+        "label": "child3",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.08.nested_dict",
+        "description": "01.Python basics.07.Dictionaries.08.nested_dict",
+        "peekOfCode": "child3 = {\"name\": \"Linus\", \"year\": 2011}\nmyfamily = {\"child1\": child1, \"child2\": child2, \"child3\": child3}\n# Print the name of child 2:\nprint(myfamily[\"child2\"][\"name\"])\n# Loop through the keys and values of all nested dictionaries:\nfor x, obj in myfamily.items():\n    print(x)\n    for y in obj:\n        print(y + \":\", obj[y])",
+        "detail": "01.Python basics.07.Dictionaries.08.nested_dict",
+        "documentation": {}
+    },
+    {
+        "label": "myfamily",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.08.nested_dict",
+        "description": "01.Python basics.07.Dictionaries.08.nested_dict",
+        "peekOfCode": "myfamily = {\"child1\": child1, \"child2\": child2, \"child3\": child3}\n# Print the name of child 2:\nprint(myfamily[\"child2\"][\"name\"])\n# Loop through the keys and values of all nested dictionaries:\nfor x, obj in myfamily.items():\n    print(x)\n    for y in obj:\n        print(y + \":\", obj[y])",
+        "detail": "01.Python basics.07.Dictionaries.08.nested_dict",
+        "documentation": {}
+    },
+    {
+        "label": "student",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.09.methods",
+        "description": "01.Python basics.07.Dictionaries.09.methods",
+        "peekOfCode": "student = {\"name\": \"Tahmid\", \"age\": 21, \"department\": \"CSE\", \"cgpa\": 3.75}\n# ------------------------------------------------------------\n# 1. clear()\n# ------------------------------------------------------------\n# Removes all elements from the dictionary.\ndata = {\"name\": \"Tahmid\", \"age\": 21}\ndata.clear()\nprint(data)\n# Output: {}\n# ------------------------------------------------------------",
+        "detail": "01.Python basics.07.Dictionaries.09.methods",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.09.methods",
+        "description": "01.Python basics.07.Dictionaries.09.methods",
+        "peekOfCode": "data = {\"name\": \"Tahmid\", \"age\": 21}\ndata.clear()\nprint(data)\n# Output: {}\n# ------------------------------------------------------------\n# 2. copy()\n# ------------------------------------------------------------\n# Returns a copy of the dictionary.\nstudent = {\"name\": \"Tahmid\", \"age\": 21}\nnew_student = student.copy()",
+        "detail": "01.Python basics.07.Dictionaries.09.methods",
+        "documentation": {}
+    },
+    {
+        "label": "student",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.09.methods",
+        "description": "01.Python basics.07.Dictionaries.09.methods",
+        "peekOfCode": "student = {\"name\": \"Tahmid\", \"age\": 21}\nnew_student = student.copy()\nprint(new_student)\n# Output: {'name': 'Tahmid', 'age': 21}\n# ------------------------------------------------------------\n# 3. fromkeys()\n# ------------------------------------------------------------\n# Creates a new dictionary using specified keys\n# and a common value.\nkeys = (\"name\", \"age\", \"department\")",
+        "detail": "01.Python basics.07.Dictionaries.09.methods",
+        "documentation": {}
+    },
+    {
+        "label": "new_student",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.09.methods",
+        "description": "01.Python basics.07.Dictionaries.09.methods",
+        "peekOfCode": "new_student = student.copy()\nprint(new_student)\n# Output: {'name': 'Tahmid', 'age': 21}\n# ------------------------------------------------------------\n# 3. fromkeys()\n# ------------------------------------------------------------\n# Creates a new dictionary using specified keys\n# and a common value.\nkeys = (\"name\", \"age\", \"department\")\nstudent = dict.fromkeys(keys, \"Unknown\")",
+        "detail": "01.Python basics.07.Dictionaries.09.methods",
+        "documentation": {}
+    },
+    {
+        "label": "keys",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.09.methods",
+        "description": "01.Python basics.07.Dictionaries.09.methods",
+        "peekOfCode": "keys = (\"name\", \"age\", \"department\")\nstudent = dict.fromkeys(keys, \"Unknown\")\nprint(student)\n# Output:\n# {'name': 'Unknown', 'age': 'Unknown', 'department': 'Unknown'}\n# Without specifying a value:\ndata = dict.fromkeys([\"a\", \"b\", \"c\"])\nprint(data)\n# Output: {'a': None, 'b': None, 'c': None}\n# ------------------------------------------------------------",
+        "detail": "01.Python basics.07.Dictionaries.09.methods",
+        "documentation": {}
+    },
+    {
+        "label": "student",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.09.methods",
+        "description": "01.Python basics.07.Dictionaries.09.methods",
+        "peekOfCode": "student = dict.fromkeys(keys, \"Unknown\")\nprint(student)\n# Output:\n# {'name': 'Unknown', 'age': 'Unknown', 'department': 'Unknown'}\n# Without specifying a value:\ndata = dict.fromkeys([\"a\", \"b\", \"c\"])\nprint(data)\n# Output: {'a': None, 'b': None, 'c': None}\n# ------------------------------------------------------------\n# 4. get()",
+        "detail": "01.Python basics.07.Dictionaries.09.methods",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.09.methods",
+        "description": "01.Python basics.07.Dictionaries.09.methods",
+        "peekOfCode": "data = dict.fromkeys([\"a\", \"b\", \"c\"])\nprint(data)\n# Output: {'a': None, 'b': None, 'c': None}\n# ------------------------------------------------------------\n# 4. get()\n# ------------------------------------------------------------\n# Returns the value associated with a specified key.\nstudent = {\"name\": \"Tahmid\", \"age\": 21}\nprint(student.get(\"name\"))\n# Output: Tahmid",
+        "detail": "01.Python basics.07.Dictionaries.09.methods",
+        "documentation": {}
+    },
+    {
+        "label": "student",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.09.methods",
+        "description": "01.Python basics.07.Dictionaries.09.methods",
+        "peekOfCode": "student = {\"name\": \"Tahmid\", \"age\": 21}\nprint(student.get(\"name\"))\n# Output: Tahmid\nprint(student.get(\"age\"))\n# Output: 21\n# If the key does not exist, get() returns None.\nprint(student.get(\"email\"))\n# Output: None\n# We can also provide a default value.\nprint(student.get(\"email\", \"Not Found\"))",
+        "detail": "01.Python basics.07.Dictionaries.09.methods",
+        "documentation": {}
+    },
+    {
+        "label": "student",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.09.methods",
+        "description": "01.Python basics.07.Dictionaries.09.methods",
+        "peekOfCode": "student = {\"name\": \"Tahmid\", \"age\": 21}\nprint(student.items())\n# Output:\n# dict_items([('name', 'Tahmid'), ('age', 21)])\n# Using a loop:\nfor key, value in student.items():\n    print(key, \":\", value)\n# Output:\n# name : Tahmid\n# age : 21",
+        "detail": "01.Python basics.07.Dictionaries.09.methods",
+        "documentation": {}
+    },
+    {
+        "label": "student",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.09.methods",
+        "description": "01.Python basics.07.Dictionaries.09.methods",
+        "peekOfCode": "student = {\"name\": \"Tahmid\", \"age\": 21, \"department\": \"CSE\"}\nprint(student.keys())\n# Output:\n# dict_keys(['name', 'age', 'department'])\n# Using a loop:\nfor key in student.keys():\n    print(key)\n# ------------------------------------------------------------\n# 7. pop()\n# ------------------------------------------------------------",
+        "detail": "01.Python basics.07.Dictionaries.09.methods",
+        "documentation": {}
+    },
+    {
+        "label": "student",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.09.methods",
+        "description": "01.Python basics.07.Dictionaries.09.methods",
+        "peekOfCode": "student = {\"name\": \"Tahmid\", \"age\": 21, \"department\": \"CSE\"}\nremoved_value = student.pop(\"age\")\nprint(removed_value)\n# Output: 21\nprint(student)\n# Output:\n# {'name': 'Tahmid', 'department': 'CSE'}\n# If the key does not exist, it causes a KeyError.\n# student.pop(\"email\")\n# We can provide a default value:",
+        "detail": "01.Python basics.07.Dictionaries.09.methods",
+        "documentation": {}
+    },
+    {
+        "label": "removed_value",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.09.methods",
+        "description": "01.Python basics.07.Dictionaries.09.methods",
+        "peekOfCode": "removed_value = student.pop(\"age\")\nprint(removed_value)\n# Output: 21\nprint(student)\n# Output:\n# {'name': 'Tahmid', 'department': 'CSE'}\n# If the key does not exist, it causes a KeyError.\n# student.pop(\"email\")\n# We can provide a default value:\nprint(student.pop(\"email\", \"Not Found\"))",
+        "detail": "01.Python basics.07.Dictionaries.09.methods",
+        "documentation": {}
+    },
+    {
+        "label": "student",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.09.methods",
+        "description": "01.Python basics.07.Dictionaries.09.methods",
+        "peekOfCode": "student = {\"name\": \"Tahmid\", \"age\": 21, \"department\": \"CSE\"}\nremoved_item = student.popitem()\nprint(removed_item)\n# Output: ('department', 'CSE')\nprint(student)\n# Output:\n# {'name': 'Tahmid', 'age': 21}\n# ------------------------------------------------------------\n# 9. setdefault()\n# ------------------------------------------------------------",
+        "detail": "01.Python basics.07.Dictionaries.09.methods",
+        "documentation": {}
+    },
+    {
+        "label": "removed_item",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.09.methods",
+        "description": "01.Python basics.07.Dictionaries.09.methods",
+        "peekOfCode": "removed_item = student.popitem()\nprint(removed_item)\n# Output: ('department', 'CSE')\nprint(student)\n# Output:\n# {'name': 'Tahmid', 'age': 21}\n# ------------------------------------------------------------\n# 9. setdefault()\n# ------------------------------------------------------------\n# Returns the value of the specified key.",
+        "detail": "01.Python basics.07.Dictionaries.09.methods",
+        "documentation": {}
+    },
+    {
+        "label": "student",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.09.methods",
+        "description": "01.Python basics.07.Dictionaries.09.methods",
+        "peekOfCode": "student = {\"name\": \"Tahmid\", \"age\": 21}\nprint(student.setdefault(\"name\", \"Unknown\"))\n# Output: Tahmid\nprint(student)\n# No change because \"name\" already exists.\n# Key does not exist:\nprint(student.setdefault(\"department\", \"CSE\"))\n# Output: CSE\nprint(student)\n# Output:",
+        "detail": "01.Python basics.07.Dictionaries.09.methods",
+        "documentation": {}
+    },
+    {
+        "label": "student",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.09.methods",
+        "description": "01.Python basics.07.Dictionaries.09.methods",
+        "peekOfCode": "student = {\"name\": \"Tahmid\", \"age\": 21}\nstudent.update({\"department\": \"CSE\", \"cgpa\": 3.75})\nprint(student)\n# Output:\n# {\n#   'name': 'Tahmid',\n#   'age': 21,\n#   'department': 'CSE',\n#   'cgpa': 3.75\n# }",
+        "detail": "01.Python basics.07.Dictionaries.09.methods",
+        "documentation": {}
+    },
+    {
+        "label": "student",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.09.methods",
+        "description": "01.Python basics.07.Dictionaries.09.methods",
+        "peekOfCode": "student = {\"name\": \"Tahmid\", \"age\": 21, \"department\": \"CSE\"}\nprint(student.values())\n# Output:\n# dict_values(['Tahmid', 21, 'CSE'])\n# Using a loop:\nfor value in student.values():\n    print(value)\n# ============================================================\n#                   QUICK REVISION\n# ============================================================",
+        "detail": "01.Python basics.07.Dictionaries.09.methods",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.09.methods",
+        "description": "01.Python basics.07.Dictionaries.09.methods",
+        "peekOfCode": "a = student.copy()\n    -> Creates a separate dictionary.\na = student\n    -> Both variables refer to the same dictionary.\nitems() vs keys() vs values()\nitems() -> key + value\nkeys()  -> only keys\nvalues()-> only values\n\"\"\"",
+        "detail": "01.Python basics.07.Dictionaries.09.methods",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "01.Python basics.07.Dictionaries.09.methods",
+        "description": "01.Python basics.07.Dictionaries.09.methods",
+        "peekOfCode": "a = student\n    -> Both variables refer to the same dictionary.\nitems() vs keys() vs values()\nitems() -> key + value\nkeys()  -> only keys\nvalues()-> only values\n\"\"\"",
+        "detail": "01.Python basics.07.Dictionaries.09.methods",
+        "documentation": {}
     }
 ]
