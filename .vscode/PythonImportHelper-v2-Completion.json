@@ -27,6 +27,15 @@
         "documentation": {}
     },
     {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
         "label": "name",
         "kind": 5,
         "importPath": "01.Python basics.01.Basics.01.output_comment",
@@ -4515,6 +4524,96 @@
         "description": "01.Python basics.08.File Handling.02.write",
         "peekOfCode": "f = open(\"d:/Python_labratory/01.Python basics/08.File Handling/myfile.txt\", \"x\")",
         "detail": "01.Python basics.08.File Handling.02.write",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.09.Exception Handling.01.exception",
+        "description": "01.Python basics.09.Exception Handling.01.exception",
+        "peekOfCode": "x = -1\nif x < 0:\n    raise Exception(\"Sorry, no numbers below zero\")\n# The raise keyword is used to raise an exception.\n# You can define what kind of error to raise, and the text to print to the user.\n# Raise a TypeError if x is not an integer:\nx = \"hello\"\nif not type(x) is int:\n    raise TypeError(\"Only integers are allowed\")",
+        "detail": "01.Python basics.09.Exception Handling.01.exception",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.09.Exception Handling.01.exception",
+        "description": "01.Python basics.09.Exception Handling.01.exception",
+        "peekOfCode": "x = \"hello\"\nif not type(x) is int:\n    raise TypeError(\"Only integers are allowed\")",
+        "detail": "01.Python basics.09.Exception Handling.01.exception",
+        "documentation": {}
+    },
+    {
+        "label": "Animal",
+        "kind": 6,
+        "importPath": "01.Python basics.09.Exception Handling.02.built_in_exception",
+        "description": "01.Python basics.09.Exception Handling.02.built_in_exception",
+        "peekOfCode": "class Animal:\n    def sound(self):\n        raise NotImplementedError(\"sound() must be implemented\")\ntry:\n    animal = Animal()\n    animal.sound()\nexcept NotImplementedError:\n    print(\"16. NotImplementedError\")\n# 17. OSError\ntry:",
+        "detail": "01.Python basics.09.Exception Handling.02.built_in_exception",
+        "documentation": {}
+    },
+    {
+        "label": "my_generator",
+        "kind": 2,
+        "importPath": "01.Python basics.09.Exception Handling.02.built_in_exception",
+        "description": "01.Python basics.09.Exception Handling.02.built_in_exception",
+        "peekOfCode": "def my_generator():\n    try:\n        yield 1\n        yield 2\n    except GeneratorExit:\n        print(\"7. GeneratorExit\")\ng = my_generator()\nnext(g)\ng.close()\n# 8. ImportError",
+        "detail": "01.Python basics.09.Exception Handling.02.built_in_exception",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 2,
+        "importPath": "01.Python basics.09.Exception Handling.02.built_in_exception",
+        "description": "01.Python basics.09.Exception Handling.02.built_in_exception",
+        "peekOfCode": "def test():\n    try:\n        print(x)\n        x = 20\n    except UnboundLocalError:\n        print(\"27. UnboundLocalError\")\ntest()\n# 28. UnicodeError\ntry:\n    raise UnicodeError(\"Unicode problem\")",
+        "detail": "01.Python basics.09.Exception Handling.02.built_in_exception",
+        "documentation": {}
+    },
+    {
+        "label": "g",
+        "kind": 5,
+        "importPath": "01.Python basics.09.Exception Handling.02.built_in_exception",
+        "description": "01.Python basics.09.Exception Handling.02.built_in_exception",
+        "peekOfCode": "g = my_generator()\nnext(g)\ng.close()\n# 8. ImportError\ntry:\n    from math import something_that_does_not_exist\nexcept ImportError:\n    print(\"8. ImportError\")\n# 9. IndentationError\n# IndentationError is a SyntaxError subclass and is difficult",
+        "detail": "01.Python basics.09.Exception Handling.02.built_in_exception",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "01.Python basics.09.Exception Handling.02.built_in_exception",
+        "description": "01.Python basics.09.Exception Handling.02.built_in_exception",
+        "peekOfCode": "numbers = [10, 20, 30]\ntry:\n    print(numbers[5])\nexcept IndexError:\n    print(\"10. IndexError\")\n# 11. KeyError\nstudent = {\"name\": \"Tahmid\", \"age\": 20}\ntry:\n    print(student[\"address\"])\nexcept KeyError:",
+        "detail": "01.Python basics.09.Exception Handling.02.built_in_exception",
+        "documentation": {}
+    },
+    {
+        "label": "student",
+        "kind": 5,
+        "importPath": "01.Python basics.09.Exception Handling.02.built_in_exception",
+        "description": "01.Python basics.09.Exception Handling.02.built_in_exception",
+        "peekOfCode": "student = {\"name\": \"Tahmid\", \"age\": 20}\ntry:\n    print(student[\"address\"])\nexcept KeyError:\n    print(\"11. KeyError\")\n# 12. KeyboardInterrupt\n# Press Ctrl+C to trigger this exception.\n#\n# try:\n#     while True:",
+        "detail": "01.Python basics.09.Exception Handling.02.built_in_exception",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "01.Python basics.09.Exception Handling.02.built_in_exception",
+        "description": "01.Python basics.09.Exception Handling.02.built_in_exception",
+        "peekOfCode": "numbers = iter([10, 20])\ntry:\n    print(next(numbers))\n    print(next(numbers))\n    print(next(numbers))\nexcept StopIteration:\n    print(\"21. StopIteration\")\n# 22. SyntaxError\n# SyntaxError happens before the program starts running.\n#",
+        "detail": "01.Python basics.09.Exception Handling.02.built_in_exception",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.09.Exception Handling.02.built_in_exception",
+        "description": "01.Python basics.09.Exception Handling.02.built_in_exception",
+        "peekOfCode": "x = 10\ndef test():\n    try:\n        print(x)\n        x = 20\n    except UnboundLocalError:\n        print(\"27. UnboundLocalError\")\ntest()\n# 28. UnicodeError\ntry:",
+        "detail": "01.Python basics.09.Exception Handling.02.built_in_exception",
         "documentation": {}
     }
 ]
