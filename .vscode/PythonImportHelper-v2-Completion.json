@@ -36,6 +36,296 @@
         "documentation": {}
     },
     {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "statistics",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "statistics",
+        "description": "statistics",
+        "detail": "statistics",
+        "documentation": {}
+    },
+    {
+        "label": "harmonic_mean",
+        "importPath": "statistics",
+        "description": "statistics",
+        "isExtraImport": true,
+        "detail": "statistics",
+        "documentation": {}
+    },
+    {
+        "label": "mean",
+        "importPath": "statistics",
+        "description": "statistics",
+        "isExtraImport": true,
+        "detail": "statistics",
+        "documentation": {}
+    },
+    {
+        "label": "median",
+        "importPath": "statistics",
+        "description": "statistics",
+        "isExtraImport": true,
+        "detail": "statistics",
+        "documentation": {}
+    },
+    {
+        "label": "median_grouped",
+        "importPath": "statistics",
+        "description": "statistics",
+        "isExtraImport": true,
+        "detail": "statistics",
+        "documentation": {}
+    },
+    {
+        "label": "median_high",
+        "importPath": "statistics",
+        "description": "statistics",
+        "isExtraImport": true,
+        "detail": "statistics",
+        "documentation": {}
+    },
+    {
+        "label": "median_low",
+        "importPath": "statistics",
+        "description": "statistics",
+        "isExtraImport": true,
+        "detail": "statistics",
+        "documentation": {}
+    },
+    {
+        "label": "mode",
+        "importPath": "statistics",
+        "description": "statistics",
+        "isExtraImport": true,
+        "detail": "statistics",
+        "documentation": {}
+    },
+    {
+        "label": "pstdev",
+        "importPath": "statistics",
+        "description": "statistics",
+        "isExtraImport": true,
+        "detail": "statistics",
+        "documentation": {}
+    },
+    {
+        "label": "stdev",
+        "importPath": "statistics",
+        "description": "statistics",
+        "isExtraImport": true,
+        "detail": "statistics",
+        "documentation": {}
+    },
+    {
+        "label": "pvariance",
+        "importPath": "statistics",
+        "description": "statistics",
+        "isExtraImport": true,
+        "detail": "statistics",
+        "documentation": {}
+    },
+    {
+        "label": "variance",
+        "importPath": "statistics",
+        "description": "statistics",
+        "isExtraImport": true,
+        "detail": "statistics",
+        "documentation": {}
+    },
+    {
+        "label": "acos",
+        "importPath": "cmath",
+        "description": "cmath",
+        "isExtraImport": true,
+        "detail": "cmath",
+        "documentation": {}
+    },
+    {
+        "label": "acosh",
+        "importPath": "cmath",
+        "description": "cmath",
+        "isExtraImport": true,
+        "detail": "cmath",
+        "documentation": {}
+    },
+    {
+        "label": "asin",
+        "importPath": "cmath",
+        "description": "cmath",
+        "isExtraImport": true,
+        "detail": "cmath",
+        "documentation": {}
+    },
+    {
+        "label": "asinh",
+        "importPath": "cmath",
+        "description": "cmath",
+        "isExtraImport": true,
+        "detail": "cmath",
+        "documentation": {}
+    },
+    {
+        "label": "atan",
+        "importPath": "cmath",
+        "description": "cmath",
+        "isExtraImport": true,
+        "detail": "cmath",
+        "documentation": {}
+    },
+    {
+        "label": "atanh",
+        "importPath": "cmath",
+        "description": "cmath",
+        "isExtraImport": true,
+        "detail": "cmath",
+        "documentation": {}
+    },
+    {
+        "label": "cos",
+        "importPath": "cmath",
+        "description": "cmath",
+        "isExtraImport": true,
+        "detail": "cmath",
+        "documentation": {}
+    },
+    {
+        "label": "cosh",
+        "importPath": "cmath",
+        "description": "cmath",
+        "isExtraImport": true,
+        "detail": "cmath",
+        "documentation": {}
+    },
+    {
+        "label": "exp",
+        "importPath": "cmath",
+        "description": "cmath",
+        "isExtraImport": true,
+        "detail": "cmath",
+        "documentation": {}
+    },
+    {
+        "label": "isclose",
+        "importPath": "cmath",
+        "description": "cmath",
+        "isExtraImport": true,
+        "detail": "cmath",
+        "documentation": {}
+    },
+    {
+        "label": "isfinite",
+        "importPath": "cmath",
+        "description": "cmath",
+        "isExtraImport": true,
+        "detail": "cmath",
+        "documentation": {}
+    },
+    {
+        "label": "isinf",
+        "importPath": "cmath",
+        "description": "cmath",
+        "isExtraImport": true,
+        "detail": "cmath",
+        "documentation": {}
+    },
+    {
+        "label": "isnan",
+        "importPath": "cmath",
+        "description": "cmath",
+        "isExtraImport": true,
+        "detail": "cmath",
+        "documentation": {}
+    },
+    {
+        "label": "log",
+        "importPath": "cmath",
+        "description": "cmath",
+        "isExtraImport": true,
+        "detail": "cmath",
+        "documentation": {}
+    },
+    {
+        "label": "log10",
+        "importPath": "cmath",
+        "description": "cmath",
+        "isExtraImport": true,
+        "detail": "cmath",
+        "documentation": {}
+    },
+    {
+        "label": "phase",
+        "importPath": "cmath",
+        "description": "cmath",
+        "isExtraImport": true,
+        "detail": "cmath",
+        "documentation": {}
+    },
+    {
+        "label": "polar",
+        "importPath": "cmath",
+        "description": "cmath",
+        "isExtraImport": true,
+        "detail": "cmath",
+        "documentation": {}
+    },
+    {
+        "label": "rect",
+        "importPath": "cmath",
+        "description": "cmath",
+        "isExtraImport": true,
+        "detail": "cmath",
+        "documentation": {}
+    },
+    {
+        "label": "sin",
+        "importPath": "cmath",
+        "description": "cmath",
+        "isExtraImport": true,
+        "detail": "cmath",
+        "documentation": {}
+    },
+    {
+        "label": "sinh",
+        "importPath": "cmath",
+        "description": "cmath",
+        "isExtraImport": true,
+        "detail": "cmath",
+        "documentation": {}
+    },
+    {
+        "label": "sqrt",
+        "importPath": "cmath",
+        "description": "cmath",
+        "isExtraImport": true,
+        "detail": "cmath",
+        "documentation": {}
+    },
+    {
+        "label": "tan",
+        "importPath": "cmath",
+        "description": "cmath",
+        "isExtraImport": true,
+        "detail": "cmath",
+        "documentation": {}
+    },
+    {
+        "label": "tanh",
+        "importPath": "cmath",
+        "description": "cmath",
+        "isExtraImport": true,
+        "detail": "cmath",
+        "documentation": {}
+    },
+    {
         "label": "name",
         "kind": 5,
         "importPath": "01.Python basics.01.Basics.01.output_comment",
@@ -4614,6 +4904,771 @@
         "description": "01.Python basics.09.Exception Handling.02.built_in_exception",
         "peekOfCode": "x = 10\ndef test():\n    try:\n        print(x)\n        x = 20\n    except UnboundLocalError:\n        print(\"27. UnboundLocalError\")\ntest()\n# 28. UnicodeError\ntry:",
         "detail": "01.Python basics.09.Exception Handling.02.built_in_exception",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "x = requests.get(\"https://w3schools.com/python/demopage.htm\")\nprint(x.text)\n# pip install requests\n# The requests module allows you to send HTTP requests using Python.\n# The HTTP request returns a Response Object with all the response data (content, encoding, status, etc).\n\"\"\"\n================================================================================\nREQUESTS MODULE - COMPLETE METHOD REFERENCE WITH CODES AND EXAMPLES\n================================================================================\nAll methods return a Response object containing the server's response.",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.delete(\"https://jsonplaceholder.typicode.com/posts/1\")\nprint(response.status_code)  # 200 (success) or 404 (not found)\n# DELETE with headers\nheaders = {\"Authorization\": \"Bearer token123\"}\nresponse = requests.delete(\"https://api.example.com/users/5\", headers=headers)\n# DELETE with timeout\nresponse = requests.delete(\"https://api.example.com/resource/10\", timeout=5)\n\"\"\"\n================================================================================\n2. GET - Retrieve a resource",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "headers",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "headers = {\"Authorization\": \"Bearer token123\"}\nresponse = requests.delete(\"https://api.example.com/users/5\", headers=headers)\n# DELETE with timeout\nresponse = requests.delete(\"https://api.example.com/resource/10\", timeout=5)\n\"\"\"\n================================================================================\n2. GET - Retrieve a resource\n================================================================================\n\"\"\"\n# Basic GET request",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.delete(\"https://api.example.com/users/5\", headers=headers)\n# DELETE with timeout\nresponse = requests.delete(\"https://api.example.com/resource/10\", timeout=5)\n\"\"\"\n================================================================================\n2. GET - Retrieve a resource\n================================================================================\n\"\"\"\n# Basic GET request\nresponse = requests.get(\"https://jsonplaceholder.typicode.com/posts/1\")",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.delete(\"https://api.example.com/resource/10\", timeout=5)\n\"\"\"\n================================================================================\n2. GET - Retrieve a resource\n================================================================================\n\"\"\"\n# Basic GET request\nresponse = requests.get(\"https://jsonplaceholder.typicode.com/posts/1\")\nprint(response.status_code)  # 200\nprint(response.json())  # Parsed JSON response",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.get(\"https://jsonplaceholder.typicode.com/posts/1\")\nprint(response.status_code)  # 200\nprint(response.json())  # Parsed JSON response\n# GET with query parameters\nparams = {\"userId\": 1, \"id\": 2}\nresponse = requests.get(\"https://jsonplaceholder.typicode.com/posts\", params=params)\nprint(response.url)  # https://jsonplaceholder.typicode.com/posts?userId=1&id=2\n# GET with headers\nheaders = {\"User-Agent\": \"Mozilla/5.0\", \"Accept\": \"application/json\"}\nresponse = requests.get(\"https://api.github.com/users/octocat\", headers=headers)",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "params",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "params = {\"userId\": 1, \"id\": 2}\nresponse = requests.get(\"https://jsonplaceholder.typicode.com/posts\", params=params)\nprint(response.url)  # https://jsonplaceholder.typicode.com/posts?userId=1&id=2\n# GET with headers\nheaders = {\"User-Agent\": \"Mozilla/5.0\", \"Accept\": \"application/json\"}\nresponse = requests.get(\"https://api.github.com/users/octocat\", headers=headers)\n# GET with timeout and verify SSL\nresponse = requests.get(\"https://api.example.com/data\", timeout=5, verify=True)\n# GET with authentication\nresponse = requests.get(\"https://api.example.com/secure\", auth=(\"username\", \"password\"))",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.get(\"https://jsonplaceholder.typicode.com/posts\", params=params)\nprint(response.url)  # https://jsonplaceholder.typicode.com/posts?userId=1&id=2\n# GET with headers\nheaders = {\"User-Agent\": \"Mozilla/5.0\", \"Accept\": \"application/json\"}\nresponse = requests.get(\"https://api.github.com/users/octocat\", headers=headers)\n# GET with timeout and verify SSL\nresponse = requests.get(\"https://api.example.com/data\", timeout=5, verify=True)\n# GET with authentication\nresponse = requests.get(\"https://api.example.com/secure\", auth=(\"username\", \"password\"))\n\"\"\"",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "headers",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "headers = {\"User-Agent\": \"Mozilla/5.0\", \"Accept\": \"application/json\"}\nresponse = requests.get(\"https://api.github.com/users/octocat\", headers=headers)\n# GET with timeout and verify SSL\nresponse = requests.get(\"https://api.example.com/data\", timeout=5, verify=True)\n# GET with authentication\nresponse = requests.get(\"https://api.example.com/secure\", auth=(\"username\", \"password\"))\n\"\"\"\n================================================================================\n3. HEAD - Get headers only (no response body)\n================================================================================",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.get(\"https://api.github.com/users/octocat\", headers=headers)\n# GET with timeout and verify SSL\nresponse = requests.get(\"https://api.example.com/data\", timeout=5, verify=True)\n# GET with authentication\nresponse = requests.get(\"https://api.example.com/secure\", auth=(\"username\", \"password\"))\n\"\"\"\n================================================================================\n3. HEAD - Get headers only (no response body)\n================================================================================\n\"\"\"",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.get(\"https://api.example.com/data\", timeout=5, verify=True)\n# GET with authentication\nresponse = requests.get(\"https://api.example.com/secure\", auth=(\"username\", \"password\"))\n\"\"\"\n================================================================================\n3. HEAD - Get headers only (no response body)\n================================================================================\n\"\"\"\n# HEAD request - returns only headers, no body\nresponse = requests.head(\"https://jsonplaceholder.typicode.com/posts/1\")",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.get(\"https://api.example.com/secure\", auth=(\"username\", \"password\"))\n\"\"\"\n================================================================================\n3. HEAD - Get headers only (no response body)\n================================================================================\n\"\"\"\n# HEAD request - returns only headers, no body\nresponse = requests.head(\"https://jsonplaceholder.typicode.com/posts/1\")\nprint(response.status_code)  # 200\nprint(response.headers)  # Headers dictionary",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.head(\"https://jsonplaceholder.typicode.com/posts/1\")\nprint(response.status_code)  # 200\nprint(response.headers)  # Headers dictionary\nprint(response.text)  # Empty string (no body)\n# HEAD with headers\nheaders = {\"Accept-Encoding\": \"gzip\"}\nresponse = requests.head(\"https://www.example.com\", headers=headers)\n# HEAD with timeout\nresponse = requests.head(\"https://api.example.com/status\", timeout=3)\n\"\"\"",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "headers",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "headers = {\"Accept-Encoding\": \"gzip\"}\nresponse = requests.head(\"https://www.example.com\", headers=headers)\n# HEAD with timeout\nresponse = requests.head(\"https://api.example.com/status\", timeout=3)\n\"\"\"\n================================================================================\n4. PATCH - Partially update a resource\n================================================================================\n\"\"\"\n# PATCH request to update specific fields",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.head(\"https://www.example.com\", headers=headers)\n# HEAD with timeout\nresponse = requests.head(\"https://api.example.com/status\", timeout=3)\n\"\"\"\n================================================================================\n4. PATCH - Partially update a resource\n================================================================================\n\"\"\"\n# PATCH request to update specific fields\ndata = {\"title\": \"Updated Title\"}",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.head(\"https://api.example.com/status\", timeout=3)\n\"\"\"\n================================================================================\n4. PATCH - Partially update a resource\n================================================================================\n\"\"\"\n# PATCH request to update specific fields\ndata = {\"title\": \"Updated Title\"}\nresponse = requests.patch(\"https://jsonplaceholder.typicode.com/posts/1\", data=data)\nprint(response.status_code)  # 200",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "data = {\"title\": \"Updated Title\"}\nresponse = requests.patch(\"https://jsonplaceholder.typicode.com/posts/1\", data=data)\nprint(response.status_code)  # 200\nprint(response.json())\n# PATCH with JSON data\njson_data = {\"status\": \"active\", \"priority\": 5}\nresponse = requests.patch(\"https://api.example.com/tasks/10\", json=json_data)\n# PATCH with headers\nheaders = {\"Content-Type\": \"application/json\"}\ndata = {\"name\": \"New Name\"}",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.patch(\"https://jsonplaceholder.typicode.com/posts/1\", data=data)\nprint(response.status_code)  # 200\nprint(response.json())\n# PATCH with JSON data\njson_data = {\"status\": \"active\", \"priority\": 5}\nresponse = requests.patch(\"https://api.example.com/tasks/10\", json=json_data)\n# PATCH with headers\nheaders = {\"Content-Type\": \"application/json\"}\ndata = {\"name\": \"New Name\"}\nresponse = requests.patch(\"https://api.example.com/users/5\", data=data, headers=headers)",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "json_data",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "json_data = {\"status\": \"active\", \"priority\": 5}\nresponse = requests.patch(\"https://api.example.com/tasks/10\", json=json_data)\n# PATCH with headers\nheaders = {\"Content-Type\": \"application/json\"}\ndata = {\"name\": \"New Name\"}\nresponse = requests.patch(\"https://api.example.com/users/5\", data=data, headers=headers)\n# PATCH with authentication\nresponse = requests.patch(\n    \"https://api.example.com/items/3\", json={\"quantity\": 10}, auth=(\"user\", \"pass\")\n)",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.patch(\"https://api.example.com/tasks/10\", json=json_data)\n# PATCH with headers\nheaders = {\"Content-Type\": \"application/json\"}\ndata = {\"name\": \"New Name\"}\nresponse = requests.patch(\"https://api.example.com/users/5\", data=data, headers=headers)\n# PATCH with authentication\nresponse = requests.patch(\n    \"https://api.example.com/items/3\", json={\"quantity\": 10}, auth=(\"user\", \"pass\")\n)\n\"\"\"",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "headers",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "headers = {\"Content-Type\": \"application/json\"}\ndata = {\"name\": \"New Name\"}\nresponse = requests.patch(\"https://api.example.com/users/5\", data=data, headers=headers)\n# PATCH with authentication\nresponse = requests.patch(\n    \"https://api.example.com/items/3\", json={\"quantity\": 10}, auth=(\"user\", \"pass\")\n)\n\"\"\"\n================================================================================\n5. POST - Create a new resource",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "data = {\"name\": \"New Name\"}\nresponse = requests.patch(\"https://api.example.com/users/5\", data=data, headers=headers)\n# PATCH with authentication\nresponse = requests.patch(\n    \"https://api.example.com/items/3\", json={\"quantity\": 10}, auth=(\"user\", \"pass\")\n)\n\"\"\"\n================================================================================\n5. POST - Create a new resource\n================================================================================",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.patch(\"https://api.example.com/users/5\", data=data, headers=headers)\n# PATCH with authentication\nresponse = requests.patch(\n    \"https://api.example.com/items/3\", json={\"quantity\": 10}, auth=(\"user\", \"pass\")\n)\n\"\"\"\n================================================================================\n5. POST - Create a new resource\n================================================================================\n\"\"\"",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.patch(\n    \"https://api.example.com/items/3\", json={\"quantity\": 10}, auth=(\"user\", \"pass\")\n)\n\"\"\"\n================================================================================\n5. POST - Create a new resource\n================================================================================\n\"\"\"\n# POST with form data\ndata = {\"title\": \"New Post\", \"body\": \"Content here\", \"userId\": 1}",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "data = {\"title\": \"New Post\", \"body\": \"Content here\", \"userId\": 1}\nresponse = requests.post(\"https://jsonplaceholder.typicode.com/posts\", data=data)\nprint(response.status_code)  # 201 (Created)\nprint(response.json())  # Response with new resource ID\n# POST with JSON data\njson_data = {\"name\": \"John Doe\", \"email\": \"john@example.com\", \"age\": 30}\nresponse = requests.post(\"https://api.example.com/users\", json=json_data)\n# POST with files\nfiles = {\"file\": (\"filename.txt\", b\"File content here\")}\nresponse = requests.post(\"https://httpbin.org/post\", files=files)",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.post(\"https://jsonplaceholder.typicode.com/posts\", data=data)\nprint(response.status_code)  # 201 (Created)\nprint(response.json())  # Response with new resource ID\n# POST with JSON data\njson_data = {\"name\": \"John Doe\", \"email\": \"john@example.com\", \"age\": 30}\nresponse = requests.post(\"https://api.example.com/users\", json=json_data)\n# POST with files\nfiles = {\"file\": (\"filename.txt\", b\"File content here\")}\nresponse = requests.post(\"https://httpbin.org/post\", files=files)\n# POST with headers and authentication",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "json_data",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "json_data = {\"name\": \"John Doe\", \"email\": \"john@example.com\", \"age\": 30}\nresponse = requests.post(\"https://api.example.com/users\", json=json_data)\n# POST with files\nfiles = {\"file\": (\"filename.txt\", b\"File content here\")}\nresponse = requests.post(\"https://httpbin.org/post\", files=files)\n# POST with headers and authentication\nheaders = {\"X-Custom-Header\": \"CustomValue\"}\ndata = {\"action\": \"create\"}\nresponse = requests.post(\n    \"https://api.example.com/resource\",",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.post(\"https://api.example.com/users\", json=json_data)\n# POST with files\nfiles = {\"file\": (\"filename.txt\", b\"File content here\")}\nresponse = requests.post(\"https://httpbin.org/post\", files=files)\n# POST with headers and authentication\nheaders = {\"X-Custom-Header\": \"CustomValue\"}\ndata = {\"action\": \"create\"}\nresponse = requests.post(\n    \"https://api.example.com/resource\",\n    data=data,",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "files",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "files = {\"file\": (\"filename.txt\", b\"File content here\")}\nresponse = requests.post(\"https://httpbin.org/post\", files=files)\n# POST with headers and authentication\nheaders = {\"X-Custom-Header\": \"CustomValue\"}\ndata = {\"action\": \"create\"}\nresponse = requests.post(\n    \"https://api.example.com/resource\",\n    data=data,\n    headers=headers,\n    auth=(\"admin\", \"password\"),",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.post(\"https://httpbin.org/post\", files=files)\n# POST with headers and authentication\nheaders = {\"X-Custom-Header\": \"CustomValue\"}\ndata = {\"action\": \"create\"}\nresponse = requests.post(\n    \"https://api.example.com/resource\",\n    data=data,\n    headers=headers,\n    auth=(\"admin\", \"password\"),\n)",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "headers",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "headers = {\"X-Custom-Header\": \"CustomValue\"}\ndata = {\"action\": \"create\"}\nresponse = requests.post(\n    \"https://api.example.com/resource\",\n    data=data,\n    headers=headers,\n    auth=(\"admin\", \"password\"),\n)\n# POST with timeout\nresponse = requests.post(",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "data = {\"action\": \"create\"}\nresponse = requests.post(\n    \"https://api.example.com/resource\",\n    data=data,\n    headers=headers,\n    auth=(\"admin\", \"password\"),\n)\n# POST with timeout\nresponse = requests.post(\n    \"https://api.example.com/process\", json={\"data\": \"value\"}, timeout=10",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.post(\n    \"https://api.example.com/resource\",\n    data=data,\n    headers=headers,\n    auth=(\"admin\", \"password\"),\n)\n# POST with timeout\nresponse = requests.post(\n    \"https://api.example.com/process\", json={\"data\": \"value\"}, timeout=10\n)",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.post(\n    \"https://api.example.com/process\", json={\"data\": \"value\"}, timeout=10\n)\n\"\"\"\n================================================================================\n6. PUT - Fully update/replace a resource\n================================================================================\n\"\"\"\n# PUT request to replace entire resource\ndata = {\"title\": \"Complete Update\", \"body\": \"New content\", \"userId\": 1}",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "data = {\"title\": \"Complete Update\", \"body\": \"New content\", \"userId\": 1}\nresponse = requests.put(\"https://jsonplaceholder.typicode.com/posts/1\", data=data)\nprint(response.status_code)  # 200\n# PUT with JSON\njson_data = {\"name\": \"Updated Name\", \"email\": \"new@example.com\", \"age\": 35}\nresponse = requests.put(\"https://api.example.com/users/5\", json=json_data)\n# PUT with headers\nheaders = {\"If-Match\": \"etag123\"}\ndata = {\"status\": \"completed\"}\nresponse = requests.put(\"https://api.example.com/tasks/10\", data=data, headers=headers)",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.put(\"https://jsonplaceholder.typicode.com/posts/1\", data=data)\nprint(response.status_code)  # 200\n# PUT with JSON\njson_data = {\"name\": \"Updated Name\", \"email\": \"new@example.com\", \"age\": 35}\nresponse = requests.put(\"https://api.example.com/users/5\", json=json_data)\n# PUT with headers\nheaders = {\"If-Match\": \"etag123\"}\ndata = {\"status\": \"completed\"}\nresponse = requests.put(\"https://api.example.com/tasks/10\", data=data, headers=headers)\n# PUT with authentication",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "json_data",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "json_data = {\"name\": \"Updated Name\", \"email\": \"new@example.com\", \"age\": 35}\nresponse = requests.put(\"https://api.example.com/users/5\", json=json_data)\n# PUT with headers\nheaders = {\"If-Match\": \"etag123\"}\ndata = {\"status\": \"completed\"}\nresponse = requests.put(\"https://api.example.com/tasks/10\", data=data, headers=headers)\n# PUT with authentication\nresponse = requests.put(\n    \"https://api.example.com/orders/7\",\n    json={\"status\": \"shipped\"},",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.put(\"https://api.example.com/users/5\", json=json_data)\n# PUT with headers\nheaders = {\"If-Match\": \"etag123\"}\ndata = {\"status\": \"completed\"}\nresponse = requests.put(\"https://api.example.com/tasks/10\", data=data, headers=headers)\n# PUT with authentication\nresponse = requests.put(\n    \"https://api.example.com/orders/7\",\n    json={\"status\": \"shipped\"},\n    auth=(\"user\", \"pass\"),",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "headers",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "headers = {\"If-Match\": \"etag123\"}\ndata = {\"status\": \"completed\"}\nresponse = requests.put(\"https://api.example.com/tasks/10\", data=data, headers=headers)\n# PUT with authentication\nresponse = requests.put(\n    \"https://api.example.com/orders/7\",\n    json={\"status\": \"shipped\"},\n    auth=(\"user\", \"pass\"),\n)\n\"\"\"",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "data = {\"status\": \"completed\"}\nresponse = requests.put(\"https://api.example.com/tasks/10\", data=data, headers=headers)\n# PUT with authentication\nresponse = requests.put(\n    \"https://api.example.com/orders/7\",\n    json={\"status\": \"shipped\"},\n    auth=(\"user\", \"pass\"),\n)\n\"\"\"\n================================================================================",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.put(\"https://api.example.com/tasks/10\", data=data, headers=headers)\n# PUT with authentication\nresponse = requests.put(\n    \"https://api.example.com/orders/7\",\n    json={\"status\": \"shipped\"},\n    auth=(\"user\", \"pass\"),\n)\n\"\"\"\n================================================================================\n7. REQUEST - Generic request method (any HTTP method)",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.put(\n    \"https://api.example.com/orders/7\",\n    json={\"status\": \"shipped\"},\n    auth=(\"user\", \"pass\"),\n)\n\"\"\"\n================================================================================\n7. REQUEST - Generic request method (any HTTP method)\n================================================================================\n\"\"\"",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.request(\"GET\", \"https://jsonplaceholder.typicode.com/posts/1\")\nprint(response.json())\n# POST using request()\nresponse = requests.request(\n    \"POST\", \"https://jsonplaceholder.typicode.com/posts\", json={\"title\": \"Test\"}\n)\n# PUT using request()\nresponse = requests.request(\n    \"PUT\", \"https://jsonplaceholder.typicode.com/posts/1\", data={\"title\": \"New\"}\n)",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.request(\n    \"POST\", \"https://jsonplaceholder.typicode.com/posts\", json={\"title\": \"Test\"}\n)\n# PUT using request()\nresponse = requests.request(\n    \"PUT\", \"https://jsonplaceholder.typicode.com/posts/1\", data={\"title\": \"New\"}\n)\n# DELETE using request()\nresponse = requests.request(\"DELETE\", \"https://jsonplaceholder.typicode.com/posts/1\")\n# PATCH using request()",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.request(\n    \"PUT\", \"https://jsonplaceholder.typicode.com/posts/1\", data={\"title\": \"New\"}\n)\n# DELETE using request()\nresponse = requests.request(\"DELETE\", \"https://jsonplaceholder.typicode.com/posts/1\")\n# PATCH using request()\nresponse = requests.request(\n    \"PATCH\", \"https://jsonplaceholder.typicode.com/posts/1\", data={\"title\": \"Patched\"}\n)\n# HEAD using request()",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.request(\"DELETE\", \"https://jsonplaceholder.typicode.com/posts/1\")\n# PATCH using request()\nresponse = requests.request(\n    \"PATCH\", \"https://jsonplaceholder.typicode.com/posts/1\", data={\"title\": \"Patched\"}\n)\n# HEAD using request()\nresponse = requests.request(\"HEAD\", \"https://jsonplaceholder.typicode.com/posts/1\")\nprint(response.headers)\n# Request with full parameter set\nresponse = requests.request(",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.request(\n    \"PATCH\", \"https://jsonplaceholder.typicode.com/posts/1\", data={\"title\": \"Patched\"}\n)\n# HEAD using request()\nresponse = requests.request(\"HEAD\", \"https://jsonplaceholder.typicode.com/posts/1\")\nprint(response.headers)\n# Request with full parameter set\nresponse = requests.request(\n    method=\"POST\",\n    url=\"https://api.example.com/resource\",",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.request(\"HEAD\", \"https://jsonplaceholder.typicode.com/posts/1\")\nprint(response.headers)\n# Request with full parameter set\nresponse = requests.request(\n    method=\"POST\",\n    url=\"https://api.example.com/resource\",\n    headers={\"Authorization\": \"Bearer token\"},\n    json={\"data\": \"value\"},\n    timeout=5,\n    verify=True,",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.request(\n    method=\"POST\",\n    url=\"https://api.example.com/resource\",\n    headers={\"Authorization\": \"Bearer token\"},\n    json={\"data\": \"value\"},\n    timeout=5,\n    verify=True,\n    auth=(\"username\", \"password\"),\n)\n\"\"\"",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.get(\"https://jsonplaceholder.typicode.com/posts/1\")\nprint(response.status_code)  # HTTP status code (200, 404, etc.)\nprint(response.headers)  # Response headers dictionary\nprint(response.text)  # Response body as string\nprint(response.content)  # Response body as bytes\nprint(response.json())  # Response body as JSON (parsed)\nprint(response.url)  # Final URL (after redirects)\nprint(response.elapsed)  # Time taken for request\nprint(response.encoding)  # Encoding of response\nprint(response.cookies)  # Cookies from response",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.03.requests_module",
+        "description": "01.Python basics.10.Module and Packages.03.requests_module",
+        "peekOfCode": "response = requests.get(\"https://jsonplaceholder.typicode.com/posts/1\")\nif response.status_code == 200:\n    print(\"Success!\")\nelse:\n    print(f\"Failed with status: {response.status_code}\")\n# Using response.raise_for_status() (raises exception on error)\ntry:\n    response = requests.get(\"https://jsonplaceholder.typicode.com/posts/invalid\")\n    response.raise_for_status()\n    print(response.json())",
+        "detail": "01.Python basics.10.Module and Packages.03.requests_module",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "description": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "peekOfCode": "data = [40, 60, 80]\nstatistics.harmonic_mean(data)\n# Returns: 54.54545454545454\n# With weights\nstatistics.harmonic_mean(data, weights=[1, 2, 3])\n# Returns weighted harmonic mean\n# Used for rates, speeds, and ratios\n\"\"\"\n================================================================================\n2. MEAN - Arithmetic mean (average)",
+        "detail": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "description": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "peekOfCode": "data = [10, 20, 30, 40, 50]\nstatistics.mean(data)\n# Returns: 30.0\n# Works with integers and floats\nstatistics.mean([1, 2, 3, 4, 5])\n# Returns: 3.0\n# Raises StatisticsError if data is empty\n# statistics.mean([])  # StatisticsError\n\"\"\"\n================================================================================",
+        "detail": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "description": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "peekOfCode": "data = [1, 3, 5, 7, 9]  # Odd number of elements\nstatistics.median(data)\n# Returns: 5\ndata = [1, 3, 5, 7]  # Even number of elements\nstatistics.median(data)\n# Returns: 4.0 (average of 3 and 5)\n\"\"\"\n================================================================================\n4. MEDIAN_GROUPED - Median of grouped continuous data\n================================================================================",
+        "detail": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "description": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "peekOfCode": "data = [1, 3, 5, 7]  # Even number of elements\nstatistics.median(data)\n# Returns: 4.0 (average of 3 and 5)\n\"\"\"\n================================================================================\n4. MEDIAN_GROUPED - Median of grouped continuous data\n================================================================================\n\"\"\"\n# median_grouped(data, interval=1) - Median for grouped continuous data\ndata = [1, 2, 3, 4, 5, 6, 7, 8, 9]",
+        "detail": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "description": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "peekOfCode": "data = [1, 2, 3, 4, 5, 6, 7, 8, 9]\nstatistics.median_grouped(data)\n# Returns: 5.0\n# With interval parameter\nstatistics.median_grouped(data, interval=2)\n# Returns median with specified class interval\n# Used for continuous data grouped into intervals\n\"\"\"\n================================================================================\n5. MEDIAN_HIGH - High median",
+        "detail": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "description": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "peekOfCode": "data = [1, 3, 5, 7, 9]  # Odd number of elements\nstatistics.median_high(data)\n# Returns: 5 (same as median for odd count)\ndata = [1, 3, 5, 7]  # Even number of elements\nstatistics.median_high(data)\n# Returns: 5 (higher of the two middle values: 5)\n\"\"\"\n================================================================================\n6. MEDIAN_LOW - Low median\n================================================================================",
+        "detail": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "description": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "peekOfCode": "data = [1, 3, 5, 7]  # Even number of elements\nstatistics.median_high(data)\n# Returns: 5 (higher of the two middle values: 5)\n\"\"\"\n================================================================================\n6. MEDIAN_LOW - Low median\n================================================================================\n\"\"\"\n# median_low(data) - Returns the low median\ndata = [1, 3, 5, 7, 9]  # Odd number of elements",
+        "detail": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "description": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "peekOfCode": "data = [1, 3, 5, 7, 9]  # Odd number of elements\nstatistics.median_low(data)\n# Returns: 5 (same as median for odd count)\ndata = [1, 3, 5, 7]  # Even number of elements\nstatistics.median_low(data)\n# Returns: 3 (lower of the two middle values: 3)\n\"\"\"\n================================================================================\n7. MODE - Most frequent value (central tendency)\n================================================================================",
+        "detail": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "description": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "peekOfCode": "data = [1, 3, 5, 7]  # Even number of elements\nstatistics.median_low(data)\n# Returns: 3 (lower of the two middle values: 3)\n\"\"\"\n================================================================================\n7. MODE - Most frequent value (central tendency)\n================================================================================\n\"\"\"\n# mode(data) - Calculates the mode (most frequent value)\ndata = [1, 2, 2, 3, 4, 4, 4, 5]",
+        "detail": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "description": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "peekOfCode": "data = [1, 2, 2, 3, 4, 4, 4, 5]\nstatistics.mode(data)\n# Returns: 4 (appears 3 times)\n# Works with nominal data (strings)\ndata = [\"red\", \"blue\", \"red\", \"green\", \"red\"]\nstatistics.mode(data)\n# Returns: 'red'\n# Raises StatisticsError if no unique mode exists\n# statistics.mode([1, 1, 2, 2])  # StatisticsError: no unique mode\n\"\"\"",
+        "detail": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "description": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "peekOfCode": "data = [\"red\", \"blue\", \"red\", \"green\", \"red\"]\nstatistics.mode(data)\n# Returns: 'red'\n# Raises StatisticsError if no unique mode exists\n# statistics.mode([1, 1, 2, 2])  # StatisticsError: no unique mode\n\"\"\"\n================================================================================\n8. PSTDEV - Population standard deviation\n================================================================================\n\"\"\"",
+        "detail": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "documentation": {}
+    },
+    {
+        "label": "population",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "description": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "peekOfCode": "population = [1, 2, 3, 4, 5]\nstatistics.pstdev(population)\n# Returns: 1.4142135623730951\n# With known population mean\nstatistics.pstdev(population, mu=3.0)\n# Returns standard deviation with known mean\n# Used when data represents the entire population\n\"\"\"\n================================================================================\n9. STDEV - Sample standard deviation",
+        "detail": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "documentation": {}
+    },
+    {
+        "label": "sample",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "description": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "peekOfCode": "sample = [1, 2, 3, 4, 5]\nstatistics.stdev(sample)\n# Returns: 1.5811388300841898\n# With known sample mean\nstatistics.stdev(sample, xbar=3.0)\n# Returns standard deviation with known mean\n# Used when data is a sample from a larger population\n\"\"\"\n================================================================================\n10. PVARIANCE - Population variance",
+        "detail": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "documentation": {}
+    },
+    {
+        "label": "population",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "description": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "peekOfCode": "population = [1, 2, 3, 4, 5]\nstatistics.pvariance(population)\n# Returns: 2.0\n# With known population mean\nstatistics.pvariance(population, mu=3.0)\n# Returns variance with known mean\n# Used when data represents the entire population\n\"\"\"\n================================================================================\n11. VARIANCE - Sample variance",
+        "detail": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "documentation": {}
+    },
+    {
+        "label": "sample",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "description": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "peekOfCode": "sample = [1, 2, 3, 4, 5]\nstatistics.variance(sample)\n# Returns: 2.5\n# With known sample mean\nstatistics.variance(sample, xbar=3.0)\n# Returns variance with known mean\n# Used when data is a sample from a larger population\n\"\"\"\n================================================================================\nQUICK COMPARISON - POPULATION VS SAMPLE",
+        "detail": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "description": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "peekOfCode": "data = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]\n# Central tendency\nstatistics.harmonic_mean(data)  # Harmonic mean\nstatistics.mean(data)  # Arithmetic mean\nstatistics.median(data)  # Median\nstatistics.median_grouped(data)  # Grouped median\nstatistics.median_high(data)  # High median\nstatistics.median_low(data)  # Low median\nstatistics.mode(data)  # Mode (if unique)\n# Dispersion",
+        "detail": "01.Python basics.10.Module and Packages.04.statistics_modules",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "description": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "peekOfCode": "z = 1 + 2j\nprint(\"acos :\", cmath.acos(z))\nprint(\"acosh:\", cmath.acosh(z))\nprint(\"asin :\", cmath.asin(z))\nprint(\"asinh:\", cmath.asinh(z))\nprint(\"atan :\", cmath.atan(z))\nprint(\"atanh:\", cmath.atanh(z))\nprint(\"cos  :\", cmath.cos(z))\nprint(\"cosh :\", cmath.cosh(z))\nprint(\"sin  :\", cmath.sin(z))",
+        "detail": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "description": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "peekOfCode": "a = 1 + 1j\nb = 1.00000001 + 1.00000001j\nprint(\"isclose  :\", cmath.isclose(a, b))\nprint(\"isfinite :\", cmath.isfinite(z))\nprint(\"isinf    :\", cmath.isinf(z))\nprint(\"isnan    :\", cmath.isnan(z))\n# ============================================================\n# 5. PHASE & POLAR COORDINATES\n# ============================================================\nz = 1 + 1j",
+        "detail": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "description": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "peekOfCode": "b = 1.00000001 + 1.00000001j\nprint(\"isclose  :\", cmath.isclose(a, b))\nprint(\"isfinite :\", cmath.isfinite(z))\nprint(\"isinf    :\", cmath.isinf(z))\nprint(\"isnan    :\", cmath.isnan(z))\n# ============================================================\n# 5. PHASE & POLAR COORDINATES\n# ============================================================\nz = 1 + 1j\nangle = cmath.phase(z)",
+        "detail": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "description": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "peekOfCode": "z = 1 + 1j\nangle = cmath.phase(z)\nprint(\"phase (radians):\", angle)\nprint(\"phase (degrees):\", math.degrees(angle))\nr, theta = cmath.polar(z)\nprint(\"polar radius   :\", r)\nprint(\"polar angle    :\", theta)\nz_rect = cmath.rect(r, theta)\nprint(\"rectangular    :\", z_rect)\n# ============================================================",
+        "detail": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "documentation": {}
+    },
+    {
+        "label": "angle",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "description": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "peekOfCode": "angle = cmath.phase(z)\nprint(\"phase (radians):\", angle)\nprint(\"phase (degrees):\", math.degrees(angle))\nr, theta = cmath.polar(z)\nprint(\"polar radius   :\", r)\nprint(\"polar angle    :\", theta)\nz_rect = cmath.rect(r, theta)\nprint(\"rectangular    :\", z_rect)\n# ============================================================\n# 6. COMPLEX SQUARE ROOT",
+        "detail": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "documentation": {}
+    },
+    {
+        "label": "z_rect",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "description": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "peekOfCode": "z_rect = cmath.rect(r, theta)\nprint(\"rectangular    :\", z_rect)\n# ============================================================\n# 6. COMPLEX SQUARE ROOT\n# ============================================================\nprint(\"sqrt(1 + 0j):\", cmath.sqrt(1 + 0j))\nprint(\"sqrt(-1 + 0j):\", cmath.sqrt(-1 + 0j))\nprint(\"sqrt(1 + 1j):\", cmath.sqrt(1 + 1j))\n# ============================================================\n# 7. CREATING COMPLEX NUMBERS",
+        "detail": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "documentation": {}
+    },
+    {
+        "label": "z1",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "description": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "peekOfCode": "z1 = 3 + 4j\nz2 = complex(3, 4)\nz3 = 1.5 - 2.5j\nz4 = 0 + 0j\nprint(\"z1:\", z1)\nprint(\"z2:\", z2)\nprint(\"z3:\", z3)\nprint(\"z4:\", z4)\n# ============================================================\n# 8. ACCESSING COMPLEX-NUMBER COMPONENTS",
+        "detail": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "documentation": {}
+    },
+    {
+        "label": "z2",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "description": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "peekOfCode": "z2 = complex(3, 4)\nz3 = 1.5 - 2.5j\nz4 = 0 + 0j\nprint(\"z1:\", z1)\nprint(\"z2:\", z2)\nprint(\"z3:\", z3)\nprint(\"z4:\", z4)\n# ============================================================\n# 8. ACCESSING COMPLEX-NUMBER COMPONENTS\n# ============================================================",
+        "detail": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "documentation": {}
+    },
+    {
+        "label": "z3",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "description": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "peekOfCode": "z3 = 1.5 - 2.5j\nz4 = 0 + 0j\nprint(\"z1:\", z1)\nprint(\"z2:\", z2)\nprint(\"z3:\", z3)\nprint(\"z4:\", z4)\n# ============================================================\n# 8. ACCESSING COMPLEX-NUMBER COMPONENTS\n# ============================================================\nz = 3 + 4j",
+        "detail": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "documentation": {}
+    },
+    {
+        "label": "z4",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "description": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "peekOfCode": "z4 = 0 + 0j\nprint(\"z1:\", z1)\nprint(\"z2:\", z2)\nprint(\"z3:\", z3)\nprint(\"z4:\", z4)\n# ============================================================\n# 8. ACCESSING COMPLEX-NUMBER COMPONENTS\n# ============================================================\nz = 3 + 4j\nprint(\"real     :\", z.real)",
+        "detail": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "description": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "peekOfCode": "z = 3 + 4j\nprint(\"real     :\", z.real)\nprint(\"imaginary:\", z.imag)\nprint(\"conjugate:\", z.conjugate())\n# ============================================================\n# 9. BASIC COMPLEX-NUMBER OPERATIONS\n# ============================================================\na = 1 + 2j\nb = 3 + 4j\nprint(\"Addition       :\", a + b)",
+        "detail": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "description": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "peekOfCode": "a = 1 + 2j\nb = 3 + 4j\nprint(\"Addition       :\", a + b)\nprint(\"Subtraction    :\", a - b)\nprint(\"Multiplication :\", a * b)\nprint(\"Division        :\", a / b)\nprint(\"Power          :\", a**2)\n# ============================================================\n# 10. PRACTICAL EXAMPLE: POLAR <-> RECTANGULAR\n# ============================================================",
+        "detail": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "description": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "peekOfCode": "b = 3 + 4j\nprint(\"Addition       :\", a + b)\nprint(\"Subtraction    :\", a - b)\nprint(\"Multiplication :\", a * b)\nprint(\"Division        :\", a / b)\nprint(\"Power          :\", a**2)\n# ============================================================\n# 10. PRACTICAL EXAMPLE: POLAR <-> RECTANGULAR\n# ============================================================\nz = 3 + 4j",
+        "detail": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "description": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "peekOfCode": "z = 3 + 4j\nr, theta = cmath.polar(z)\nprint(\"Polar form:\", r, theta)\nz_from_polar = cmath.rect(r, theta)\nprint(\"Back to rectangular:\", z_from_polar)\n# ============================================================\n# 11. COMPLEX LOGARITHM\n# ============================================================\nz = -1 + 0j\nprint(\"log(-1):\", cmath.log(z))",
+        "detail": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "documentation": {}
+    },
+    {
+        "label": "z_from_polar",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "description": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "peekOfCode": "z_from_polar = cmath.rect(r, theta)\nprint(\"Back to rectangular:\", z_from_polar)\n# ============================================================\n# 11. COMPLEX LOGARITHM\n# ============================================================\nz = -1 + 0j\nprint(\"log(-1):\", cmath.log(z))\nprint(\"Expected form: pi*j\")\n# ============================================================\n# 12. COMPLEX TRIGONOMETRIC IDENTITY",
+        "detail": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "description": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "peekOfCode": "z = -1 + 0j\nprint(\"log(-1):\", cmath.log(z))\nprint(\"Expected form: pi*j\")\n# ============================================================\n# 12. COMPLEX TRIGONOMETRIC IDENTITY\n# ============================================================\nz = 1 + 2j\nresult = cmath.cos(z) ** 2 + cmath.sin(z) ** 2\nprint(\"cos²(z) + sin²(z):\", result)\n# ============================================================",
+        "detail": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "description": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "peekOfCode": "z = 1 + 2j\nresult = cmath.cos(z) ** 2 + cmath.sin(z) ** 2\nprint(\"cos²(z) + sin²(z):\", result)\n# ============================================================\n# 13. COMMON ERRORS / EXCEPTIONS\n# ============================================================\n# log(0) raises ValueError.\ntry:\n    print(cmath.log(0 + 0j))\nexcept ValueError as e:",
+        "detail": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "description": "01.Python basics.10.Module and Packages.06.cmath_modules",
+        "peekOfCode": "result = cmath.cos(z) ** 2 + cmath.sin(z) ** 2\nprint(\"cos²(z) + sin²(z):\", result)\n# ============================================================\n# 13. COMMON ERRORS / EXCEPTIONS\n# ============================================================\n# log(0) raises ValueError.\ntry:\n    print(cmath.log(0 + 0j))\nexcept ValueError as e:\n    print(\"ValueError:\", e)",
+        "detail": "01.Python basics.10.Module and Packages.06.cmath_modules",
         "documentation": {}
     }
 ]
