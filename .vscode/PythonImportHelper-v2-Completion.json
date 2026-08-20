@@ -18,6 +18,15 @@
         "documentation": {}
     },
     {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
         "label": "name",
         "kind": 5,
         "importPath": "01.Python basics.01.Basics.01.output_comment",
@@ -4461,6 +4470,51 @@
         "description": "01.Python basics.07.Dictionaries.09.methods",
         "peekOfCode": "a = student\n    -> Both variables refer to the same dictionary.\nitems() vs keys() vs values()\nitems() -> key + value\nkeys()  -> only keys\nvalues()-> only values\n\"\"\"",
         "detail": "01.Python basics.07.Dictionaries.09.methods",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 5,
+        "importPath": "01.Python basics.08.File Handling.01.intro_and_open",
+        "description": "01.Python basics.08.File Handling.01.intro_and_open",
+        "peekOfCode": "f = open(\"d:/Python_labratory/01.Python basics/08.File Handling/demofile.txt\")\n# The code above is the same as:\nf = open(\"d:/Python_labratory/01.Python basics/08.File Handling/demofile.txt\", \"rt\")\n# Because \"r\" for read, and \"t\" for text are the default values, you do not need to specify them.\n\"\"\"\nNote: Make sure the file exists, or else you will get an error.\n\"\"\"\n# The open() function returns a file object, which has a read() method for reading the content of the file:\nf = open(\"d:/Python_labratory/01.Python basics/08.File Handling/demofile.txt\")\nprint(f.read())",
+        "detail": "01.Python basics.08.File Handling.01.intro_and_open",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 5,
+        "importPath": "01.Python basics.08.File Handling.01.intro_and_open",
+        "description": "01.Python basics.08.File Handling.01.intro_and_open",
+        "peekOfCode": "f = open(\"d:/Python_labratory/01.Python basics/08.File Handling/demofile.txt\", \"rt\")\n# Because \"r\" for read, and \"t\" for text are the default values, you do not need to specify them.\n\"\"\"\nNote: Make sure the file exists, or else you will get an error.\n\"\"\"\n# The open() function returns a file object, which has a read() method for reading the content of the file:\nf = open(\"d:/Python_labratory/01.Python basics/08.File Handling/demofile.txt\")\nprint(f.read())\n# You can also use the with statement when opening a file:\nwith open(\"d:/Python_labratory/01.Python basics/08.File Handling/demofile.txt\") as f:",
+        "detail": "01.Python basics.08.File Handling.01.intro_and_open",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 5,
+        "importPath": "01.Python basics.08.File Handling.01.intro_and_open",
+        "description": "01.Python basics.08.File Handling.01.intro_and_open",
+        "peekOfCode": "f = open(\"d:/Python_labratory/01.Python basics/08.File Handling/demofile.txt\")\nprint(f.read())\n# You can also use the with statement when opening a file:\nwith open(\"d:/Python_labratory/01.Python basics/08.File Handling/demofile.txt\") as f:\n    print(f.read())\n# It is a good practice to always close the file when you are done with it.\n# If you are not using the with statement, you must write a close statement in order to close the file:\n# Close the file when you are finished with it:\nf = open(\"d:/Python_labratory/01.Python basics/08.File Handling/demofile.txt\")\nprint(f.readline())",
+        "detail": "01.Python basics.08.File Handling.01.intro_and_open",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 5,
+        "importPath": "01.Python basics.08.File Handling.01.intro_and_open",
+        "description": "01.Python basics.08.File Handling.01.intro_and_open",
+        "peekOfCode": "f = open(\"d:/Python_labratory/01.Python basics/08.File Handling/demofile.txt\")\nprint(f.readline())\nf.close()\n# By default the read() method returns the whole text, but you can also specify how many characters you want to return:\n# Return the 5 first characters of the file:\nwith open(\"d:/Python_labratory/01.Python basics/08.File Handling/demofile.txt\") as f:\n    print(f.read(5))\n# You can return one line by using the readline() method:\n# Read one line of the file:\nwith open(\"d:/Python_labratory/01.Python basics/08.File Handling/demofile.txt\") as f:",
+        "detail": "01.Python basics.08.File Handling.01.intro_and_open",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 5,
+        "importPath": "01.Python basics.08.File Handling.02.write",
+        "description": "01.Python basics.08.File Handling.02.write",
+        "peekOfCode": "f = open(\"d:/Python_labratory/01.Python basics/08.File Handling/myfile.txt\", \"x\")",
+        "detail": "01.Python basics.08.File Handling.02.write",
         "documentation": {}
     }
 ]
