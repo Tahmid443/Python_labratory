@@ -1,0 +1,11 @@
+[
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "calc",
+        "description": "calc",
+        "peekOfCode": "def main():\n    history = []\n    print(\"\\n===========================================================\\n============== Welcome to python calculator ===============\\n===========================================================\\n\\nA help guide for you to use this program:\\n1.To close this program enter 1 in operator\\n2.Operator Details:\\n\\t'+' = sum\\n\\t'-' = difference\\n\\t'*' = multiplication\\n\\t'/' = division\\n\\t'%' = modulo\\n\\t'^' = power\\n\\nDo you want to use this calculator?\\n1.Yes\\n2.No\")\n    def add(a, b):\n        return f\"Sum of {a} and {b} is : {a+b}\\n\"\n    def sub(a, b):\n        return f\"Subtraction of {a} and {b} is: {a-b}\\n\"\n    def mul(a, b):\n        return f\"Multiplication of {a} and {b} is: {a*b}\\n\"\n    def div(a, b):",
+        "detail": "calc",
+        "documentation": {}
+    }
+]
