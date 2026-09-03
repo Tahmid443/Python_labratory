@@ -335,6 +335,15 @@
         "documentation": {}
     },
     {
+        "label": "pyperclip",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyperclip",
+        "description": "pyperclip",
+        "detail": "pyperclip",
+        "documentation": {}
+    },
+    {
         "label": "name",
         "kind": 5,
         "importPath": "01.Python basics.01.Basics.01.output_comment",

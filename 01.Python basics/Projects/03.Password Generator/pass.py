@@ -1,6 +1,7 @@
 import random
 import string
-
+#pip install pyperclip
+import pyperclip
 
 def get_password_length():
     while True:
@@ -73,6 +74,15 @@ def main():
 
     print("\nYour generated password:")
     print(password)
+
+    # Copy option
+    copy_choice = input("\nCopy password to clipboard? (y/n): ").lower()
+
+    if copy_choice == "y":
+        pyperclip.copy(password)
+        print("Password copied to clipboard! ✅")
+    else:
+        print("Password was not copied.")
 
 
 if __name__ == "__main__":
