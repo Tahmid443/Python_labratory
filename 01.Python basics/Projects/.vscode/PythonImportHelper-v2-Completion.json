@@ -1,0 +1,173 @@
+[
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "pyperclip",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyperclip",
+        "description": "pyperclip",
+        "detail": "pyperclip",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "01.Calculator.calc",
+        "description": "01.Calculator.calc",
+        "peekOfCode": "def main():\n    history = []\n    print(\"\\n===========================================================\\n============== Welcome to python calculator ===============\\n===========================================================\\n\\nA help guide for you to use this program:\\n1.To close this program enter 1 in operator\\n2.Operator Details:\\n\\t'+' = sum\\n\\t'-' = difference\\n\\t'*' = multiplication\\n\\t'/' = division\\n\\t'%' = modulo\\n\\t'^' = power\\n\\nDo you want to use this calculator?\\n1.Yes\\n2.No\")\n    def add(a, b):\n        return f\"Sum of {a} and {b} is : {a+b}\\n\"\n    def sub(a, b):\n        return f\"Subtraction of {a} and {b} is: {a-b}\\n\"\n    def mul(a, b):\n        return f\"Multiplication of {a} and {b} is: {a*b}\\n\"\n    def div(a, b):",
+        "detail": "01.Calculator.calc",
+        "documentation": {}
+    },
+    {
+        "label": "get_valid_integer",
+        "kind": 2,
+        "importPath": "02.Random Number.rand",
+        "description": "02.Random Number.rand",
+        "peekOfCode": "def get_valid_integer(prompt, min_value=None, max_value=None):\n    \"\"\"Get a valid integer from the user within an optional range.\"\"\"\n    while True:\n        try:\n            value = int(input(prompt))\n            if min_value is not None and value < min_value:\n                print(f\"Please enter a number >= {min_value}.\")\n                continue\n            if max_value is not None and value > max_value:\n                print(f\"Please enter a number <= {max_value}.\")",
+        "detail": "02.Random Number.rand",
+        "documentation": {}
+    },
+    {
+        "label": "get_player_choice",
+        "kind": 2,
+        "importPath": "02.Random Number.rand",
+        "description": "02.Random Number.rand",
+        "peekOfCode": "def get_player_choice():\n    \"\"\"Ask the player whether they want to play.\"\"\"\n    print(\"\\n\" + \"=\" * 45)\n    print(\"        NUMBER GUESSING GAME\")\n    print(\"=\" * 45)\n    print(\"\\nDo you want to play?\")\n    print(\"1. Yes\")\n    print(\"2. No\")\n    return get_valid_integer(\n        \"\\nEnter your choice (1 or 2): \",",
+        "detail": "02.Random Number.rand",
+        "documentation": {}
+    },
+    {
+        "label": "choose_difficulty",
+        "kind": 2,
+        "importPath": "02.Random Number.rand",
+        "description": "02.Random Number.rand",
+        "peekOfCode": "def choose_difficulty():\n    \"\"\"Let the player choose a difficulty level.\"\"\"\n    print(\"\\n\" + \"=\" * 30)\n    print(\"       DIFFICULTY\")\n    print(\"=\" * 30)\n    print(\"1. Easy   (1 - 10)\")\n    print(\"2. Medium (1 - 20)\")\n    print(\"3. Hard   (1 - 30)\")\n    choice = get_valid_integer(\n        \"\\nChoose difficulty (1, 2 or 3): \",",
+        "detail": "02.Random Number.rand",
+        "documentation": {}
+    },
+    {
+        "label": "generate_number",
+        "kind": 2,
+        "importPath": "02.Random Number.rand",
+        "description": "02.Random Number.rand",
+        "peekOfCode": "def generate_number(limit):\n    \"\"\"Generate a random number within the selected range.\"\"\"\n    return random.randint(1, limit)\ndef calculate_score(attempt, difficulty):\n    \"\"\"Calculate score based on attempts and difficulty.\"\"\"\n    base_scores = {\n        \"Easy\": 100,\n        \"Medium\": 150,\n        \"Hard\": 200\n    }",
+        "detail": "02.Random Number.rand",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_score",
+        "kind": 2,
+        "importPath": "02.Random Number.rand",
+        "description": "02.Random Number.rand",
+        "peekOfCode": "def calculate_score(attempt, difficulty):\n    \"\"\"Calculate score based on attempts and difficulty.\"\"\"\n    base_scores = {\n        \"Easy\": 100,\n        \"Medium\": 150,\n        \"Hard\": 200\n    }\n    base_score = base_scores[difficulty]\n    # Lose 10 points for every unsuccessful attempt.\n    score = base_score - ((attempt - 1) * 10)",
+        "detail": "02.Random Number.rand",
+        "documentation": {}
+    },
+    {
+        "label": "play_game",
+        "kind": 2,
+        "importPath": "02.Random Number.rand",
+        "description": "02.Random Number.rand",
+        "peekOfCode": "def play_game(number, limit, difficulty):\n    \"\"\"Run the guessing game and return the result.\"\"\"\n    guesses = []\n    print(\"\\n\" + \"-\" * 45)\n    print(f\"Guess the number between 1 and {limit}.\")\n    print(f\"You have {MAX_ATTEMPTS} attempts.\")\n    print(\"-\" * 45)\n    for attempt in range(1, MAX_ATTEMPTS + 1):\n        guess = get_valid_integer(\n            f\"\\nAttempt {attempt}/{MAX_ATTEMPTS} - \"",
+        "detail": "02.Random Number.rand",
+        "documentation": {}
+    },
+    {
+        "label": "show_result",
+        "kind": 2,
+        "importPath": "02.Random Number.rand",
+        "description": "02.Random Number.rand",
+        "peekOfCode": "def show_result(attempt, won, number, score, guesses):\n    \"\"\"Display the final result and game statistics.\"\"\"\n    print(\"\\n\" + \"=\" * 45)\n    if won:\n        print(\"🎉 CONGRATULATIONS!\")\n        print(f\"You guessed the number in {attempt} attempt(s).\")\n        print(f\"🏆 Your score: {score}\")\n    else:\n        print(\"😔 GAME OVER!\")\n        print(f\"The lucky number was: {number}\")",
+        "detail": "02.Random Number.rand",
+        "documentation": {}
+    },
+    {
+        "label": "play_again",
+        "kind": 2,
+        "importPath": "02.Random Number.rand",
+        "description": "02.Random Number.rand",
+        "peekOfCode": "def play_again():\n    \"\"\"Ask the player whether they want another round.\"\"\"\n    print(\"\\nDo you want to play again?\")\n    print(\"1. Yes\")\n    print(\"2. No\")\n    choice = get_valid_integer(\n        \"\\nEnter your choice (1 or 2): \",\n        1,\n        2\n    )",
+        "detail": "02.Random Number.rand",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "02.Random Number.rand",
+        "description": "02.Random Number.rand",
+        "peekOfCode": "def main():\n    \"\"\"Main program.\"\"\"\n    while True:\n        choice = get_player_choice()\n        if choice == 2:\n            print(\"\\nOkay, goodbye! 👋\")\n            break\n        difficulty, limit = choose_difficulty()\n        number = generate_number(limit)\n        attempt, won, score, guesses = play_game(",
+        "detail": "02.Random Number.rand",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_ATTEMPTS",
+        "kind": 5,
+        "importPath": "02.Random Number.rand",
+        "description": "02.Random Number.rand",
+        "peekOfCode": "MAX_ATTEMPTS = 7\ndef get_valid_integer(prompt, min_value=None, max_value=None):\n    \"\"\"Get a valid integer from the user within an optional range.\"\"\"\n    while True:\n        try:\n            value = int(input(prompt))\n            if min_value is not None and value < min_value:\n                print(f\"Please enter a number >= {min_value}.\")\n                continue\n            if max_value is not None and value > max_value:",
+        "detail": "02.Random Number.rand",
+        "documentation": {}
+    },
+    {
+        "label": "get_password_length",
+        "kind": 2,
+        "importPath": "03.Password Generator.pass",
+        "description": "03.Password Generator.pass",
+        "peekOfCode": "def get_password_length():\n    while True:\n        try:\n            length = int(input(\"Enter password length: \"))\n            if length < 4:\n                print(\"Password length should be at least 4.\")\n            else:\n                return length\n        except ValueError:\n            print(\"Please enter a valid number.\")",
+        "detail": "03.Password Generator.pass",
+        "documentation": {}
+    },
+    {
+        "label": "choose_character_types",
+        "kind": 2,
+        "importPath": "03.Password Generator.pass",
+        "description": "03.Password Generator.pass",
+        "peekOfCode": "def choose_character_types():\n    while True:\n        print(\"\\nChoose what your password should contain:\")\n        print(\"1. Lowercase letters\")\n        print(\"2. Uppercase letters\")\n        print(\"3. Numbers\")\n        print(\"4. Special characters\")\n        choice = input(\"Enter your choices (e.g. 1234): \")\n        if choice and all(char in \"1234\" for char in choice):\n            return choice",
+        "detail": "03.Password Generator.pass",
+        "documentation": {}
+    },
+    {
+        "label": "build_character_pool",
+        "kind": 2,
+        "importPath": "03.Password Generator.pass",
+        "description": "03.Password Generator.pass",
+        "peekOfCode": "def build_character_pool(choice):\n    characters = \"\"\n    if \"1\" in choice:\n        characters += string.ascii_lowercase\n    if \"2\" in choice:\n        characters += string.ascii_uppercase\n    if \"3\" in choice:\n        characters += string.digits\n    if \"4\" in choice:\n        characters += string.punctuation",
+        "detail": "03.Password Generator.pass",
+        "documentation": {}
+    },
+    {
+        "label": "generate_password",
+        "kind": 2,
+        "importPath": "03.Password Generator.pass",
+        "description": "03.Password Generator.pass",
+        "peekOfCode": "def generate_password(length, characters):\n    password = \"\"\n    for _ in range(length):\n        password += random.choice(characters)\n    return password\ndef main():\n    print(\"=\" * 35)\n    print(\"      PASSWORD GENERATOR\")\n    print(\"=\" * 35)\n    length = get_password_length()",
+        "detail": "03.Password Generator.pass",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "03.Password Generator.pass",
+        "description": "03.Password Generator.pass",
+        "peekOfCode": "def main():\n    print(\"=\" * 35)\n    print(\"      PASSWORD GENERATOR\")\n    print(\"=\" * 35)\n    length = get_password_length()\n    choice = choose_character_types()\n    characters = build_character_pool(choice)\n    password = generate_password(length, characters)\n    print(\"\\nYour generated password:\")\n    print(password)",
+        "detail": "03.Password Generator.pass",
+        "documentation": {}
+    }
+]
