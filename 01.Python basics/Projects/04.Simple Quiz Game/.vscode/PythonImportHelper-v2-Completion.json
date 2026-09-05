@@ -1,0 +1,29 @@
+[
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "run_quiz",
+        "kind": 2,
+        "importPath": "quiz",
+        "description": "quiz",
+        "peekOfCode": "def run_quiz():\n    print(\"=\" * 40)\n    print(\"Welcome to the Ultimate Python Quiz!\")\n    print(\"=\" * 40)\n    random.shuffle(quiz_data)\n    score = 0\n    total_questions = len(quiz_data)\n    for index, item in enumerate(quiz_data, start=1):\n        print(f\"\\nQuestion {index}: {item['question']}\")\n        for option in item['options']:",
+        "detail": "quiz",
+        "documentation": {}
+    },
+    {
+        "label": "quiz_data",
+        "kind": 5,
+        "importPath": "quiz",
+        "description": "quiz",
+        "peekOfCode": "quiz_data = [\n    {\n        \"question\": \"What is the correct file extension for Python files?\",\n        \"options\": [\"A. .pyt\", \"B. .py\", \"C. .pt\", \"D. .python\"],\n        \"answer\": \"B\"\n    },\n    {\n        \"question\": \"Which keyword is used to create a function in Python?\",\n        \"options\": [\"A. function\", \"B. void\", \"C. def\", \"D. fun\"],\n        \"answer\": \"C\"",
+        "detail": "quiz",
+        "documentation": {}
+    }
+]
