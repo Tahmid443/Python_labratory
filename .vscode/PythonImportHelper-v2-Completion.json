@@ -5850,5 +5850,122 @@
         "peekOfCode": "quiz_data = [\n    {\n        \"question\": \"What is the correct file extension for Python files?\",\n        \"options\": [\"A. .pyt\", \"B. .py\", \"C. .pt\", \"D. .python\"],\n        \"answer\": \"B\"\n    },\n    {\n        \"question\": \"Which keyword is used to create a function in Python?\",\n        \"options\": [\"A. function\", \"B. void\", \"C. def\", \"D. fun\"],\n        \"answer\": \"C\"",
         "detail": "01.Python basics.Projects.04.Simple Quiz Game.quiz",
         "documentation": {}
+    },
+    {
+        "label": "factorial",
+        "kind": 2,
+        "importPath": "04.Data Structure and Algorithms.01.Recursion.01.factorial",
+        "description": "04.Data Structure and Algorithms.01.Recursion.01.factorial",
+        "peekOfCode": "def factorial(n):\n    if n in [0,1]:\n        return 1\n    else:\n        return n * factorial(n-1)\nn=int(input(\"Enter your number: \"))\ntry:\n    print(f\"factorial of {n} is \",factorial(n))\nexcept RecursionError:\n    print(\"Please try positive integer!!!\")",
+        "detail": "04.Data Structure and Algorithms.01.Recursion.01.factorial",
+        "documentation": {}
+    },
+    {
+        "label": "factorial",
+        "kind": 2,
+        "importPath": "04.Data Structure and Algorithms.01.Recursion.01.factorial",
+        "description": "04.Data Structure and Algorithms.01.Recursion.01.factorial",
+        "peekOfCode": "def factorial(n):\n    #check if n is greater or equal than zero and n is a positive number\n    assert n>=0 and int(n) == n, \"The number must be positive integer only\"\n    if n in [0, 1]:\n        return 1\n    else:\n        return n * factorial(n - 1)\nn = int(input(\"Enter your number: \"))\nprint(f\"factorial of {n} is \", factorial(n))\n\"\"\"",
+        "detail": "04.Data Structure and Algorithms.01.Recursion.01.factorial",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.01.Recursion.01.factorial",
+        "description": "04.Data Structure and Algorithms.01.Recursion.01.factorial",
+        "peekOfCode": "n = int(input(\"Enter your number: \"))\nprint(f\"factorial of {n} is \", factorial(n))\n\"\"\"",
+        "detail": "04.Data Structure and Algorithms.01.Recursion.01.factorial",
+        "documentation": {}
+    },
+    {
+        "label": "fibo",
+        "kind": 2,
+        "importPath": "04.Data Structure and Algorithms.01.Recursion.02.fibonacci",
+        "description": "04.Data Structure and Algorithms.01.Recursion.02.fibonacci",
+        "peekOfCode": "def fibo(n):\n    if n in [0,1]:\n        return n\n    else:\n        return fibo(n-1) + fibo(n-2)\nnum = int(input(\"Enter the numbers: \"))\nfor i in range(num):\n    print(fibo(i), end=\" \")",
+        "detail": "04.Data Structure and Algorithms.01.Recursion.02.fibonacci",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.01.Recursion.02.fibonacci",
+        "description": "04.Data Structure and Algorithms.01.Recursion.02.fibonacci",
+        "peekOfCode": "num = int(input(\"Enter the numbers: \"))\nfor i in range(num):\n    print(fibo(i), end=\" \")",
+        "detail": "04.Data Structure and Algorithms.01.Recursion.02.fibonacci",
+        "documentation": {}
+    },
+    {
+        "label": "sum_of_digits",
+        "kind": 2,
+        "importPath": "04.Data Structure and Algorithms.01.Recursion.03.sum_of_digits",
+        "description": "04.Data Structure and Algorithms.01.Recursion.03.sum_of_digits",
+        "peekOfCode": "def sum_of_digits(n):\n    if n == 0:\n        return 0\n    else:\n        return int(n%10) + int(sum_of_digits(int(n/10)))\ntry:\n    n = int(input(\"Enter yout number: \"))    \n    if n>=0:\n        print(\"Sum of the digits are:\", sum_of_digits(n))\n    else:",
+        "detail": "04.Data Structure and Algorithms.01.Recursion.03.sum_of_digits",
+        "documentation": {}
+    },
+    {
+        "label": "power",
+        "kind": 2,
+        "importPath": "04.Data Structure and Algorithms.01.Recursion.04.power",
+        "description": "04.Data Structure and Algorithms.01.Recursion.04.power",
+        "peekOfCode": "def power(n,p):\n    assert p>=0 and int(p) == p,\"The power must be positive number!!!\"\n    if p == 0:\n        return 1\n    if p == 1:\n        return n\n    return n * power(n, p-1)\nnum = float(input(\"Enter your base number: \"))\np = float(input(\"Enter your power: \"))\nprint(round(power(num,p),3))",
+        "detail": "04.Data Structure and Algorithms.01.Recursion.04.power",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.01.Recursion.04.power",
+        "description": "04.Data Structure and Algorithms.01.Recursion.04.power",
+        "peekOfCode": "num = float(input(\"Enter your base number: \"))\np = float(input(\"Enter your power: \"))\nprint(round(power(num,p),3))",
+        "detail": "04.Data Structure and Algorithms.01.Recursion.04.power",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.01.Recursion.04.power",
+        "description": "04.Data Structure and Algorithms.01.Recursion.04.power",
+        "peekOfCode": "p = float(input(\"Enter your power: \"))\nprint(round(power(num,p),3))",
+        "detail": "04.Data Structure and Algorithms.01.Recursion.04.power",
+        "documentation": {}
+    },
+    {
+        "label": "gcd",
+        "kind": 2,
+        "importPath": "04.Data Structure and Algorithms.01.Recursion.05.gcd",
+        "description": "04.Data Structure and Algorithms.01.Recursion.05.gcd",
+        "peekOfCode": "def gcd(a,b):\n    if b == 0:\n        return a\n    else:\n        return gcd(b, a%b)\ntry:\n    a = int(input(\"Enter first number: \"))\n    b = int(input(\"Enter second number: \"))\n    print(\"GCD =\",gcd(abs(a),abs(b)))\nexcept ValueError:",
+        "detail": "04.Data Structure and Algorithms.01.Recursion.05.gcd",
+        "documentation": {}
+    },
+    {
+        "label": "gcd(a,0)",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.01.Recursion.05.gcd",
+        "description": "04.Data Structure and Algorithms.01.Recursion.05.gcd",
+        "peekOfCode": "gcd(a,0) = a\ngcd(a,b) = gcd(b, a mod b)\n\"\"\"\ndef gcd(a,b):\n    if b == 0:\n        return a\n    else:\n        return gcd(b, a%b)\ntry:\n    a = int(input(\"Enter first number: \"))",
+        "detail": "04.Data Structure and Algorithms.01.Recursion.05.gcd",
+        "documentation": {}
+    },
+    {
+        "label": "gcd(a,b)",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.01.Recursion.05.gcd",
+        "description": "04.Data Structure and Algorithms.01.Recursion.05.gcd",
+        "peekOfCode": "gcd(a,b) = gcd(b, a mod b)\n\"\"\"\ndef gcd(a,b):\n    if b == 0:\n        return a\n    else:\n        return gcd(b, a%b)\ntry:\n    a = int(input(\"Enter first number: \"))\n    b = int(input(\"Enter second number: \"))",
+        "detail": "04.Data Structure and Algorithms.01.Recursion.05.gcd",
+        "documentation": {}
+    },
+    {
+        "label": "dec_to_binary",
+        "kind": 2,
+        "importPath": "04.Data Structure and Algorithms.01.Recursion.06.decimal_to_binary",
+        "description": "04.Data Structure and Algorithms.01.Recursion.06.decimal_to_binary",
+        "peekOfCode": "def dec_to_binary(n):\n    if n==0:\n        return 0\n    else:\n        return n % 2 + 10 * dec_to_binary(int(n / 2))\ntry:\n    num = int(input(\"Enter the decimal number: \"))\n    print(\"Binary =\",dec_to_binary(num))\nexcept ValueError:\n    print(\"Integer number only!!!\")",
+        "detail": "04.Data Structure and Algorithms.01.Recursion.06.decimal_to_binary",
+        "documentation": {}
     }
 ]
