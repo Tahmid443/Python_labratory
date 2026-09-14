@@ -344,6 +344,63 @@
         "documentation": {}
     },
     {
+        "label": "*",
+        "importPath": "array",
+        "description": "array",
+        "isExtraImport": true,
+        "detail": "array",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "array",
+        "description": "array",
+        "isExtraImport": true,
+        "detail": "array",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "array",
+        "description": "array",
+        "isExtraImport": true,
+        "detail": "array",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "array",
+        "description": "array",
+        "isExtraImport": true,
+        "detail": "array",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "array",
+        "description": "array",
+        "isExtraImport": true,
+        "detail": "array",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "array",
+        "description": "array",
+        "isExtraImport": true,
+        "detail": "array",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
         "label": "name",
         "kind": 5,
         "importPath": "01.Python basics.01.Basics.01.output_comment",
@@ -5966,6 +6023,204 @@
         "description": "04.Data Structure and Algorithms.01.Recursion.06.decimal_to_binary",
         "peekOfCode": "def dec_to_binary(n):\n    if n==0:\n        return 0\n    else:\n        return n % 2 + 10 * dec_to_binary(int(n / 2))\ntry:\n    num = int(input(\"Enter the decimal number: \"))\n    print(\"Binary =\",dec_to_binary(num))\nexcept ValueError:\n    print(\"Integer number only!!!\")",
         "detail": "04.Data Structure and Algorithms.01.Recursion.06.decimal_to_binary",
+        "documentation": {}
+    },
+    {
+        "label": "arr1",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.02.Array.1D_Array.01.array",
+        "description": "04.Data Structure and Algorithms.02.Array.1D_Array.01.array",
+        "peekOfCode": "arr1 = array('i',[1,2,3,4,5])\nprint(arr1)",
+        "detail": "04.Data Structure and Algorithms.02.Array.1D_Array.01.array",
+        "documentation": {}
+    },
+    {
+        "label": "arr1",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.02.Array.1D_Array.02.insertion",
+        "description": "04.Data Structure and Algorithms.02.Array.1D_Array.02.insertion",
+        "peekOfCode": "arr1 = array('i',[1,2,3,4,5,6])\narr2 = array('d',[1.3,1.5,1.6])\nprint(arr2)\narr1.insert(6,7)#inserting 7 in 6th index\nprint(arr1)\narr1.insert(0,10)#inserting 10 in first position and expand the size as well\nprint(arr1)",
+        "detail": "04.Data Structure and Algorithms.02.Array.1D_Array.02.insertion",
+        "documentation": {}
+    },
+    {
+        "label": "arr2",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.02.Array.1D_Array.02.insertion",
+        "description": "04.Data Structure and Algorithms.02.Array.1D_Array.02.insertion",
+        "peekOfCode": "arr2 = array('d',[1.3,1.5,1.6])\nprint(arr2)\narr1.insert(6,7)#inserting 7 in 6th index\nprint(arr1)\narr1.insert(0,10)#inserting 10 in first position and expand the size as well\nprint(arr1)",
+        "detail": "04.Data Structure and Algorithms.02.Array.1D_Array.02.insertion",
+        "documentation": {}
+    },
+    {
+        "label": "traverseArray",
+        "kind": 2,
+        "importPath": "04.Data Structure and Algorithms.02.Array.1D_Array.03.traversal",
+        "description": "04.Data Structure and Algorithms.02.Array.1D_Array.03.traversal",
+        "peekOfCode": "def traverseArray(array):\n    for i in array: #O(n)\n        print(i) #O(1)\ntraverseArray(arr1)",
+        "detail": "04.Data Structure and Algorithms.02.Array.1D_Array.03.traversal",
+        "documentation": {}
+    },
+    {
+        "label": "arr1",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.02.Array.1D_Array.03.traversal",
+        "description": "04.Data Structure and Algorithms.02.Array.1D_Array.03.traversal",
+        "peekOfCode": "arr1 = array(\"i\", [1, 2, 3, 4, 5, 6])\narr2 = array(\"d\", [1.3, 1.5, 1.6])\ndef traverseArray(array):\n    for i in array: #O(n)\n        print(i) #O(1)\ntraverseArray(arr1)",
+        "detail": "04.Data Structure and Algorithms.02.Array.1D_Array.03.traversal",
+        "documentation": {}
+    },
+    {
+        "label": "arr2",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.02.Array.1D_Array.03.traversal",
+        "description": "04.Data Structure and Algorithms.02.Array.1D_Array.03.traversal",
+        "peekOfCode": "arr2 = array(\"d\", [1.3, 1.5, 1.6])\ndef traverseArray(array):\n    for i in array: #O(n)\n        print(i) #O(1)\ntraverseArray(arr1)",
+        "detail": "04.Data Structure and Algorithms.02.Array.1D_Array.03.traversal",
+        "documentation": {}
+    },
+    {
+        "label": "accessElement",
+        "kind": 2,
+        "importPath": "04.Data Structure and Algorithms.02.Array.1D_Array.04.access_element",
+        "description": "04.Data Structure and Algorithms.02.Array.1D_Array.04.access_element",
+        "peekOfCode": "def accessElement(array, index):\n    if index >= len(array): #O(1)\n        print(\"There is not any element in this index\")  # O(1)\n    else: \n        print(array[index])  # O(1)\naccessElement(arr1, 60)",
+        "detail": "04.Data Structure and Algorithms.02.Array.1D_Array.04.access_element",
+        "documentation": {}
+    },
+    {
+        "label": "arr1",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.02.Array.1D_Array.04.access_element",
+        "description": "04.Data Structure and Algorithms.02.Array.1D_Array.04.access_element",
+        "peekOfCode": "arr1 = array(\"i\", [1, 2, 3, 4, 5, 6])\narr2 = array(\"d\", [1.3, 1.5, 1.6])\ndef accessElement(array, index):\n    if index >= len(array): #O(1)\n        print(\"There is not any element in this index\")  # O(1)\n    else: \n        print(array[index])  # O(1)\naccessElement(arr1, 60)",
+        "detail": "04.Data Structure and Algorithms.02.Array.1D_Array.04.access_element",
+        "documentation": {}
+    },
+    {
+        "label": "arr2",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.02.Array.1D_Array.04.access_element",
+        "description": "04.Data Structure and Algorithms.02.Array.1D_Array.04.access_element",
+        "peekOfCode": "arr2 = array(\"d\", [1.3, 1.5, 1.6])\ndef accessElement(array, index):\n    if index >= len(array): #O(1)\n        print(\"There is not any element in this index\")  # O(1)\n    else: \n        print(array[index])  # O(1)\naccessElement(arr1, 60)",
+        "detail": "04.Data Structure and Algorithms.02.Array.1D_Array.04.access_element",
+        "documentation": {}
+    },
+    {
+        "label": "searchArray",
+        "kind": 2,
+        "importPath": "04.Data Structure and Algorithms.02.Array.1D_Array.05.search",
+        "description": "04.Data Structure and Algorithms.02.Array.1D_Array.05.search",
+        "peekOfCode": "def searchArray(array, key):\n    for i in array: # O(n)\n        if i == key:  # O(1)\n            return array.index(key) # O(n)\n    return \"The element does not exist in this array\"  # O(n)\nprint(searchArray(arr1, 4))",
+        "detail": "04.Data Structure and Algorithms.02.Array.1D_Array.05.search",
+        "documentation": {}
+    },
+    {
+        "label": "arr1",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.02.Array.1D_Array.05.search",
+        "description": "04.Data Structure and Algorithms.02.Array.1D_Array.05.search",
+        "peekOfCode": "arr1 = array(\"i\", [1, 2, 3, 4, 5, 6])\narr2 = array(\"d\", [1.3, 1.5, 1.6])\ndef searchArray(array, key):\n    for i in array: # O(n)\n        if i == key:  # O(1)\n            return array.index(key) # O(n)\n    return \"The element does not exist in this array\"  # O(n)\nprint(searchArray(arr1, 4))",
+        "detail": "04.Data Structure and Algorithms.02.Array.1D_Array.05.search",
+        "documentation": {}
+    },
+    {
+        "label": "arr2",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.02.Array.1D_Array.05.search",
+        "description": "04.Data Structure and Algorithms.02.Array.1D_Array.05.search",
+        "peekOfCode": "arr2 = array(\"d\", [1.3, 1.5, 1.6])\ndef searchArray(array, key):\n    for i in array: # O(n)\n        if i == key:  # O(1)\n            return array.index(key) # O(n)\n    return \"The element does not exist in this array\"  # O(n)\nprint(searchArray(arr1, 4))",
+        "detail": "04.Data Structure and Algorithms.02.Array.1D_Array.05.search",
+        "documentation": {}
+    },
+    {
+        "label": "arr1",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.02.Array.1D_Array.06.deletionn",
+        "description": "04.Data Structure and Algorithms.02.Array.1D_Array.06.deletionn",
+        "peekOfCode": "arr1 = array(\"i\", [1, 2, 3, 4, 5, 6])\narr2 = array(\"d\", [1.3, 1.5, 1.6])\narr1.remove(1) #index, time complexity O(n)\nprint(arr1)",
+        "detail": "04.Data Structure and Algorithms.02.Array.1D_Array.06.deletionn",
+        "documentation": {}
+    },
+    {
+        "label": "arr2",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.02.Array.1D_Array.06.deletionn",
+        "description": "04.Data Structure and Algorithms.02.Array.1D_Array.06.deletionn",
+        "peekOfCode": "arr2 = array(\"d\", [1.3, 1.5, 1.6])\narr1.remove(1) #index, time complexity O(n)\nprint(arr1)",
+        "detail": "04.Data Structure and Algorithms.02.Array.1D_Array.06.deletionn",
+        "documentation": {}
+    },
+    {
+        "label": "twoDarr",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.02.Array.2D_Array.01.create_array",
+        "description": "04.Data Structure and Algorithms.02.Array.2D_Array.01.create_array",
+        "peekOfCode": "twoDarr = np.array([[11,15,10,6],[10,14,11,5],[12,17,12,8],[15,18,14,9]])\nprint(twoDarr)",
+        "detail": "04.Data Structure and Algorithms.02.Array.2D_Array.01.create_array",
+        "documentation": {}
+    },
+    {
+        "label": "twoDarr",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.02.Array.2D_Array.02.insertion",
+        "description": "04.Data Structure and Algorithms.02.Array.2D_Array.02.insertion",
+        "peekOfCode": "twoDarr = np.array([[11, 15, 10, 6], [10, 14, 11, 5], [12, 17, 12, 8], [15, 18, 14, 9]])\nprint(twoDarr)\nnewTwoDArr = np.insert(twoDarr, 1, [[1,2,3,4]], axis = 0) #insert(array, index, new array, axis = (if 0 insert in row, if 1 insert in column))\nprint(newTwoDArr)\nnewTwoDArr = np.append(twoDarr, [[1,2,3,4]], axis = 0) #append in the last row\nprint(newTwoDArr)",
+        "detail": "04.Data Structure and Algorithms.02.Array.2D_Array.02.insertion",
+        "documentation": {}
+    },
+    {
+        "label": "newTwoDArr",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.02.Array.2D_Array.02.insertion",
+        "description": "04.Data Structure and Algorithms.02.Array.2D_Array.02.insertion",
+        "peekOfCode": "newTwoDArr = np.insert(twoDarr, 1, [[1,2,3,4]], axis = 0) #insert(array, index, new array, axis = (if 0 insert in row, if 1 insert in column))\nprint(newTwoDArr)\nnewTwoDArr = np.append(twoDarr, [[1,2,3,4]], axis = 0) #append in the last row\nprint(newTwoDArr)",
+        "detail": "04.Data Structure and Algorithms.02.Array.2D_Array.02.insertion",
+        "documentation": {}
+    },
+    {
+        "label": "newTwoDArr",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.02.Array.2D_Array.02.insertion",
+        "description": "04.Data Structure and Algorithms.02.Array.2D_Array.02.insertion",
+        "peekOfCode": "newTwoDArr = np.append(twoDarr, [[1,2,3,4]], axis = 0) #append in the last row\nprint(newTwoDArr)",
+        "detail": "04.Data Structure and Algorithms.02.Array.2D_Array.02.insertion",
+        "documentation": {}
+    },
+    {
+        "label": "accessElement",
+        "kind": 2,
+        "importPath": "04.Data Structure and Algorithms.02.Array.2D_Array.03.access_element",
+        "description": "04.Data Structure and Algorithms.02.Array.2D_Array.03.access_element",
+        "peekOfCode": "def accessElement(array, rowIndex, colIndex):\n    if rowIndex >= len(array): # O(1)\n        print(\"Incorrect Index\")  # O(1)\n    else:\n        print(array[rowIndex][colIndex])  # O(1)\naccessElement(twoDarr,1,2)",
+        "detail": "04.Data Structure and Algorithms.02.Array.2D_Array.03.access_element",
+        "documentation": {}
+    },
+    {
+        "label": "twoDarr",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.02.Array.2D_Array.03.access_element",
+        "description": "04.Data Structure and Algorithms.02.Array.2D_Array.03.access_element",
+        "peekOfCode": "twoDarr = np.array([[11, 15, 10, 6], [10, 14, 11, 5], [12, 17, 12, 8], [15, 18, 14, 9]])\nprint(twoDarr)\ndef accessElement(array, rowIndex, colIndex):\n    if rowIndex >= len(array): # O(1)\n        print(\"Incorrect Index\")  # O(1)\n    else:\n        print(array[rowIndex][colIndex])  # O(1)\naccessElement(twoDarr,1,2)",
+        "detail": "04.Data Structure and Algorithms.02.Array.2D_Array.03.access_element",
+        "documentation": {}
+    },
+    {
+        "label": "traverseArray",
+        "kind": 2,
+        "importPath": "04.Data Structure and Algorithms.02.Array.2D_Array.04.traversal",
+        "description": "04.Data Structure and Algorithms.02.Array.2D_Array.04.traversal",
+        "peekOfCode": "def traverseArray(array):\n    for i in range(len(array)): #O(mn)\n        for j in range(len(array)): #O(n)\n            print(array[i][j]) #O(1)\ntraverseArray(twoDarr)",
+        "detail": "04.Data Structure and Algorithms.02.Array.2D_Array.04.traversal",
+        "documentation": {}
+    },
+    {
+        "label": "twoDarr",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.02.Array.2D_Array.04.traversal",
+        "description": "04.Data Structure and Algorithms.02.Array.2D_Array.04.traversal",
+        "peekOfCode": "twoDarr = np.array([[11, 15, 10, 6], [10, 14, 11, 5], [12, 17, 12, 8], [15, 18, 14, 9]])\nprint(twoDarr)\ndef traverseArray(array):\n    for i in range(len(array)): #O(mn)\n        for j in range(len(array)): #O(n)\n            print(array[i][j]) #O(1)\ntraverseArray(twoDarr)",
+        "detail": "04.Data Structure and Algorithms.02.Array.2D_Array.04.traversal",
         "documentation": {}
     }
 ]
