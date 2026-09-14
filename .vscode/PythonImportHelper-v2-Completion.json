@@ -6222,5 +6222,50 @@
         "peekOfCode": "twoDarr = np.array([[11, 15, 10, 6], [10, 14, 11, 5], [12, 17, 12, 8], [15, 18, 14, 9]])\nprint(twoDarr)\ndef traverseArray(array):\n    for i in range(len(array)): #O(mn)\n        for j in range(len(array)): #O(n)\n            print(array[i][j]) #O(1)\ntraverseArray(twoDarr)",
         "detail": "04.Data Structure and Algorithms.02.Array.2D_Array.04.traversal",
         "documentation": {}
+    },
+    {
+        "label": "searching",
+        "kind": 2,
+        "importPath": "04.Data Structure and Algorithms.02.Array.2D_Array.05.searching",
+        "description": "04.Data Structure and Algorithms.02.Array.2D_Array.05.searching",
+        "peekOfCode": "def searching(array, key):\n    for i in range(len(array)): #O(mn)\n        for j in range(len(array[0])): #O(m)\n            if array[i][j] == key: #O(1)\n                return \"The value is located at row \" + str(i) + \" column \" + str(j)\n    return \"The element is not found\"\nprint(searching(twoDarr, 12))",
+        "detail": "04.Data Structure and Algorithms.02.Array.2D_Array.05.searching",
+        "documentation": {}
+    },
+    {
+        "label": "twoDarr",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.02.Array.2D_Array.05.searching",
+        "description": "04.Data Structure and Algorithms.02.Array.2D_Array.05.searching",
+        "peekOfCode": "twoDarr = np.array([[11, 15, 10, 6], [10, 14, 11, 5], [12, 17, 12, 8], [15, 18, 14, 9]])\nprint(twoDarr)\ndef searching(array, key):\n    for i in range(len(array)): #O(mn)\n        for j in range(len(array[0])): #O(m)\n            if array[i][j] == key: #O(1)\n                return \"The value is located at row \" + str(i) + \" column \" + str(j)\n    return \"The element is not found\"\nprint(searching(twoDarr, 12))",
+        "detail": "04.Data Structure and Algorithms.02.Array.2D_Array.05.searching",
+        "documentation": {}
+    },
+    {
+        "label": "twoDarr",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.02.Array.2D_Array.06.deletion",
+        "description": "04.Data Structure and Algorithms.02.Array.2D_Array.06.deletion",
+        "peekOfCode": "twoDarr = np.array([[11, 15, 10, 6], [10, 14, 11, 5], [12, 17, 12, 8], [15, 18, 14, 9]])\nprint(twoDarr)\nprint(\" \")\n#Time complexity O(mn)\nnewArr = np.delete(twoDarr, 0, axis = 0) # 0 row delete\nnewArr = np.delete(twoDarr, 0, axis = 1) # 0 column delete\nprint(newArr)",
+        "detail": "04.Data Structure and Algorithms.02.Array.2D_Array.06.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "newArr",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.02.Array.2D_Array.06.deletion",
+        "description": "04.Data Structure and Algorithms.02.Array.2D_Array.06.deletion",
+        "peekOfCode": "newArr = np.delete(twoDarr, 0, axis = 0) # 0 row delete\nnewArr = np.delete(twoDarr, 0, axis = 1) # 0 column delete\nprint(newArr)",
+        "detail": "04.Data Structure and Algorithms.02.Array.2D_Array.06.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "newArr",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.02.Array.2D_Array.06.deletion",
+        "description": "04.Data Structure and Algorithms.02.Array.2D_Array.06.deletion",
+        "peekOfCode": "newArr = np.delete(twoDarr, 0, axis = 1) # 0 column delete\nprint(newArr)",
+        "detail": "04.Data Structure and Algorithms.02.Array.2D_Array.06.deletion",
+        "documentation": {}
     }
 ]
