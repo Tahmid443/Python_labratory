@@ -5909,6 +5909,51 @@
         "documentation": {}
     },
     {
+        "label": "Dog",
+        "kind": 6,
+        "importPath": "03.Object Oriented Programming.01.class_and_objects",
+        "description": "03.Object Oriented Programming.01.class_and_objects",
+        "peekOfCode": "class Dog:\n    def __init__(self, name, breed):\n        self.name = name\n        self.breed = breed\n    #method\n    def bark(self):\n        print(\"whoof whoof\")\ndog1 = Dog(\"Tommy\",\"Scottish terrier\") #creating a Dog object and assigning it in a variable called dog1\ndog1.bark() #accessing method from the object\nprint(dog1.name)",
+        "detail": "03.Object Oriented Programming.01.class_and_objects",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "03.Object Oriented Programming.01.class_and_objects",
+        "description": "03.Object Oriented Programming.01.class_and_objects",
+        "peekOfCode": "name = \"Tahmid\"\nage = 22\nprint(type(name.upper()))#str objects, upper() is the method of this object\nprint(type(age))#int objects\nclass Dog:\n    def __init__(self, name, breed):\n        self.name = name\n        self.breed = breed\n    #method\n    def bark(self):",
+        "detail": "03.Object Oriented Programming.01.class_and_objects",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "03.Object Oriented Programming.01.class_and_objects",
+        "description": "03.Object Oriented Programming.01.class_and_objects",
+        "peekOfCode": "age = 22\nprint(type(name.upper()))#str objects, upper() is the method of this object\nprint(type(age))#int objects\nclass Dog:\n    def __init__(self, name, breed):\n        self.name = name\n        self.breed = breed\n    #method\n    def bark(self):\n        print(\"whoof whoof\")",
+        "detail": "03.Object Oriented Programming.01.class_and_objects",
+        "documentation": {}
+    },
+    {
+        "label": "dog1",
+        "kind": 5,
+        "importPath": "03.Object Oriented Programming.01.class_and_objects",
+        "description": "03.Object Oriented Programming.01.class_and_objects",
+        "peekOfCode": "dog1 = Dog(\"Tommy\",\"Scottish terrier\") #creating a Dog object and assigning it in a variable called dog1\ndog1.bark() #accessing method from the object\nprint(dog1.name)\nprint(dog1.breed)\ndog2 = Dog(\"Bruce\",\"Greyhound\")\ndog2.bark()\nprint(dog2.name)\nprint(dog2.breed)",
+        "detail": "03.Object Oriented Programming.01.class_and_objects",
+        "documentation": {}
+    },
+    {
+        "label": "dog2",
+        "kind": 5,
+        "importPath": "03.Object Oriented Programming.01.class_and_objects",
+        "description": "03.Object Oriented Programming.01.class_and_objects",
+        "peekOfCode": "dog2 = Dog(\"Bruce\",\"Greyhound\")\ndog2.bark()\nprint(dog2.name)\nprint(dog2.breed)",
+        "detail": "03.Object Oriented Programming.01.class_and_objects",
+        "documentation": {}
+    },
+    {
         "label": "factorial",
         "kind": 2,
         "importPath": "04.Data Structure and Algorithms.01.Recursion.01.factorial",
@@ -6266,6 +6311,177 @@
         "description": "04.Data Structure and Algorithms.02.Array.2D_Array.06.deletion",
         "peekOfCode": "newArr = np.delete(twoDarr, 0, axis = 1) # 0 column delete\nprint(newArr)",
         "detail": "04.Data Structure and Algorithms.02.Array.2D_Array.06.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "Node",
+        "kind": 6,
+        "importPath": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.01.creation",
+        "description": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.01.creation",
+        "peekOfCode": "class Node:\n    def __init__(self , value = None):\n        self.value = value  # O(1)\n        self.next = None  # O(1)\nclass SLinkedList:\n    def __init__(self):\n        self.head = None #O(1)\n        self.tail = None #O(1)\nsinglyLinkedList = SLinkedList()\nnode1 = Node(1)",
+        "detail": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.01.creation",
+        "documentation": {}
+    },
+    {
+        "label": "SLinkedList",
+        "kind": 6,
+        "importPath": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.01.creation",
+        "description": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.01.creation",
+        "peekOfCode": "class SLinkedList:\n    def __init__(self):\n        self.head = None #O(1)\n        self.tail = None #O(1)\nsinglyLinkedList = SLinkedList()\nnode1 = Node(1)\nnode2 = Node(2)\nsinglyLinkedList.head = node1  # O(1)\nsinglyLinkedList.head.next = node2  # O(1)\nsinglyLinkedList.tail = node2  # O(1)",
+        "detail": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.01.creation",
+        "documentation": {}
+    },
+    {
+        "label": "singlyLinkedList",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.01.creation",
+        "description": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.01.creation",
+        "peekOfCode": "singlyLinkedList = SLinkedList()\nnode1 = Node(1)\nnode2 = Node(2)\nsinglyLinkedList.head = node1  # O(1)\nsinglyLinkedList.head.next = node2  # O(1)\nsinglyLinkedList.tail = node2  # O(1)",
+        "detail": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.01.creation",
+        "documentation": {}
+    },
+    {
+        "label": "node1",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.01.creation",
+        "description": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.01.creation",
+        "peekOfCode": "node1 = Node(1)\nnode2 = Node(2)\nsinglyLinkedList.head = node1  # O(1)\nsinglyLinkedList.head.next = node2  # O(1)\nsinglyLinkedList.tail = node2  # O(1)",
+        "detail": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.01.creation",
+        "documentation": {}
+    },
+    {
+        "label": "node2",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.01.creation",
+        "description": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.01.creation",
+        "peekOfCode": "node2 = Node(2)\nsinglyLinkedList.head = node1  # O(1)\nsinglyLinkedList.head.next = node2  # O(1)\nsinglyLinkedList.tail = node2  # O(1)",
+        "detail": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.01.creation",
+        "documentation": {}
+    },
+    {
+        "label": "singlyLinkedList.head",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.01.creation",
+        "description": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.01.creation",
+        "peekOfCode": "singlyLinkedList.head = node1  # O(1)\nsinglyLinkedList.head.next = node2  # O(1)\nsinglyLinkedList.tail = node2  # O(1)",
+        "detail": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.01.creation",
+        "documentation": {}
+    },
+    {
+        "label": "singlyLinkedList.head.next",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.01.creation",
+        "description": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.01.creation",
+        "peekOfCode": "singlyLinkedList.head.next = node2  # O(1)\nsinglyLinkedList.tail = node2  # O(1)",
+        "detail": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.01.creation",
+        "documentation": {}
+    },
+    {
+        "label": "singlyLinkedList.tail",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.01.creation",
+        "description": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.01.creation",
+        "peekOfCode": "singlyLinkedList.tail = node2  # O(1)",
+        "detail": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.01.creation",
+        "documentation": {}
+    },
+    {
+        "label": "Node",
+        "kind": 6,
+        "importPath": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.02.insertion",
+        "description": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.02.insertion",
+        "peekOfCode": "class Node:\n    def __init__(self, value=None):\n        self.value = value  # O(1)\n        self.next = None  # O(1)\nclass SLinkedList:\n    def __init__(self):\n        self.head = None  # O(1)\n        self.tail = None  # O(1)\nsinglyLinkedList = SLinkedList()\nnode1 = Node(1)",
+        "detail": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.02.insertion",
+        "documentation": {}
+    },
+    {
+        "label": "SLinkedList",
+        "kind": 6,
+        "importPath": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.02.insertion",
+        "description": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.02.insertion",
+        "peekOfCode": "class SLinkedList:\n    def __init__(self):\n        self.head = None  # O(1)\n        self.tail = None  # O(1)\nsinglyLinkedList = SLinkedList()\nnode1 = Node(1)\nnode2 = Node(2)\nsinglyLinkedList.head = node1  # O(1)\nsinglyLinkedList.head.next = node2  # O(1)\nsinglyLinkedList.tail = node2  # O(1)",
+        "detail": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.02.insertion",
+        "documentation": {}
+    },
+    {
+        "label": "singlyLinkedList",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.02.insertion",
+        "description": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.02.insertion",
+        "peekOfCode": "singlyLinkedList = SLinkedList()\nnode1 = Node(1)\nnode2 = Node(2)\nsinglyLinkedList.head = node1  # O(1)\nsinglyLinkedList.head.next = node2  # O(1)\nsinglyLinkedList.tail = node2  # O(1)",
+        "detail": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.02.insertion",
+        "documentation": {}
+    },
+    {
+        "label": "node1",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.02.insertion",
+        "description": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.02.insertion",
+        "peekOfCode": "node1 = Node(1)\nnode2 = Node(2)\nsinglyLinkedList.head = node1  # O(1)\nsinglyLinkedList.head.next = node2  # O(1)\nsinglyLinkedList.tail = node2  # O(1)",
+        "detail": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.02.insertion",
+        "documentation": {}
+    },
+    {
+        "label": "node2",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.02.insertion",
+        "description": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.02.insertion",
+        "peekOfCode": "node2 = Node(2)\nsinglyLinkedList.head = node1  # O(1)\nsinglyLinkedList.head.next = node2  # O(1)\nsinglyLinkedList.tail = node2  # O(1)",
+        "detail": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.02.insertion",
+        "documentation": {}
+    },
+    {
+        "label": "singlyLinkedList.head",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.02.insertion",
+        "description": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.02.insertion",
+        "peekOfCode": "singlyLinkedList.head = node1  # O(1)\nsinglyLinkedList.head.next = node2  # O(1)\nsinglyLinkedList.tail = node2  # O(1)",
+        "detail": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.02.insertion",
+        "documentation": {}
+    },
+    {
+        "label": "singlyLinkedList.head.next",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.02.insertion",
+        "description": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.02.insertion",
+        "peekOfCode": "singlyLinkedList.head.next = node2  # O(1)\nsinglyLinkedList.tail = node2  # O(1)",
+        "detail": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.02.insertion",
+        "documentation": {}
+    },
+    {
+        "label": "singlyLinkedList.tail",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.02.insertion",
+        "description": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.02.insertion",
+        "peekOfCode": "singlyLinkedList.tail = node2  # O(1)",
+        "detail": "04.Data Structure and Algorithms.03.Linked List.02.Singly Linked List.02.insertion",
+        "documentation": {}
+    },
+    {
+        "label": "Stack",
+        "kind": 6,
+        "importPath": "04.Data Structure and Algorithms.04.Stack.01.implementation",
+        "description": "04.Data Structure and Algorithms.04.Stack.01.implementation",
+        "peekOfCode": "class Stack:\n    def __init__(self,size):\n        self.stack = []\n        self.size = size\n    #If stack is full\n    def isFull(self):\n        if len(self.stack) >= self.size:\n            print(\"Stack is full!!!\")\n    #If stack is empty\n    def isEmpty(self):",
+        "detail": "04.Data Structure and Algorithms.04.Stack.01.implementation",
+        "documentation": {}
+    },
+    {
+        "label": "size",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.04.Stack.01.implementation",
+        "description": "04.Data Structure and Algorithms.04.Stack.01.implementation",
+        "peekOfCode": "size = int(input(\"Enter size of a stack: \"))\ns = Stack(size)\nwhile True:\n    print(\"======== Stack =======\\n\")\n    print(\"1.Push\")\n    print(\"2.Pop\")\n    print(\"3.Peek\")\n    print(\"4.Dsiplay\")\n    print(\"5.Delete\")\n    print(\"6.Exit\")",
+        "detail": "04.Data Structure and Algorithms.04.Stack.01.implementation",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "04.Data Structure and Algorithms.04.Stack.01.implementation",
+        "description": "04.Data Structure and Algorithms.04.Stack.01.implementation",
+        "peekOfCode": "s = Stack(size)\nwhile True:\n    print(\"======== Stack =======\\n\")\n    print(\"1.Push\")\n    print(\"2.Pop\")\n    print(\"3.Peek\")\n    print(\"4.Dsiplay\")\n    print(\"5.Delete\")\n    print(\"6.Exit\")\n    print(\"=====================\\n\")",
+        "detail": "04.Data Structure and Algorithms.04.Stack.01.implementation",
         "documentation": {}
     }
 ]
